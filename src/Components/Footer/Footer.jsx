@@ -2,7 +2,7 @@ import React from 'react';
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="relative w-full min-h-screen flex items-center justify-center py-10">
+        <footer className="relative w-full min-h-screen flex items-end justify-center pb-36">
             <img
                 src="./footer-bg.png"
                 alt="Background"
@@ -142,7 +142,9 @@ const Footer = () => {
                 </div>
                 <hr class="my-6 border-blueGray-300" />
                 <div class="flex flex-wrap items-center md:justify-between justify-center ">
+                    
                     <div class="w-full md:w-4/12 px-4 mx-auto text-center border">
+                        <h1 className="text-white ">Follow Us</h1>
                         <div class="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
                             <button class="h-10 w-10 items-center justify-center align-center mr-2" type="button">
                                 <img src="./icons/facebook.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
@@ -158,26 +160,43 @@ const Footer = () => {
                             </button>
                         </div>
                     </div>
-                    <div class="w-full md:w-4/12 px-4 mx-auto text-center border">
-                        <div class="text-sm text-white font-semibold py-1">
-                            <h1>fasfasf</h1>
+                    <div class="     border">
+                        <div class="text-sm text-white  font-semibold py-1">
+                            <img
+                                className=" w-56"
+                                src="./icons/eNOOL_Logo.svg"
+                                alt="Logo"
+                            />
                         </div>
                     </div>
+                    
                     <div class="w-full md:w-4/12 px-4 mx-auto text-center border">
-                        <div class="text-sm text-white font-semibold py-1">
-                            <h1>fasfasf</h1>
+                        <h1 className="text-white ">We Accept</h1>
+                        <div class="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
+                            <button class="h-10 w-10 items-center justify-center align-center mr-2" type="button">
+                                <img src="./icons/facebook.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                            </button>
+                            <button class="h-10 w-10 items-center justify-center align-center mr-2" type="button">
+                                <img src="./icons/youtube.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                            </button>
+                            <button class="h-10 w-10 items-center justify-center align-center mr-2" type="button">
+                                <img src="./icons/twitter.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                            </button>
+                            <button class="h-10 w-10 items-center justify-center align-center mr-2" type="button">
+                                <img src="./icons/instagram.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                            </button>
                         </div>
                     </div>
                 </div>
 
-
+                <hr class="my-6 border-blueGray-300" />
                 <div class="flex flex-wrap items-center md:justify-between justify-center">
                     <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div class="text-sm text-white font-semibold py-1">
-                            Copyright © <span id="get-current-year">2021</span><a href="https://www.creative-tim.com/product/notus-js"
-                                class="text-white hover:text-gray-800" target="_blank" /> Notus JS by
-                            <a href="https://www.creative-tim.com?ref=njs-profile" class="text-white hover:text-blueGray-800">Creative
-                                Tim</a>.
+                            Copyright © <span id="get-current-year">{currentYear}</span><a href="https://www.creative-tim.com/product/notus-js"
+                                class="text-white hover:text-gray-800" target="_blank" /> E-Nool |
+                            <a href="#" class="text-white hover:text-blueGray-800">Powered By E-Nool
+                            </a>.
                         </div>
                     </div>
                 </div>
