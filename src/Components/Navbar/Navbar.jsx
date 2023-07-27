@@ -1,14 +1,14 @@
 
 export default function Navbar() {
     return (
-        <nav className="bg-white shadow mx-2 md:mx-12">
+        <nav className="bg-white shadow w-full md:px-24">
             <div className="container px-4 md:px-14">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
                         <img
                             className="h-8 w-auto"
-                            src="./eNOOL_Logo.svg"
+                            src="./icons/eNOOL_Logo.svg"
                             alt="Logo"
                         />
                         <div className="w-px h-8 bg-gray-300 mx-4 hidden md:block"></div>
@@ -16,7 +16,7 @@ export default function Navbar() {
                         <div className="hidden md:flex space-x-4">
                             <a
                                 href="#"
-                                className="text-[#408080] hover:text-[#565656] px-3 py-2 rounded-md text-sm font-sans-[Rubik] font-extrabold"
+                                className="text-[#408080] hover:text-[#565656] px-3 py-2 rounded-md text-sm   font-extrabold"
                             >
                                 Browse
                             </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
                     {/* Search Bar & Buttons */}
                     <div className="hidden md:flex items-center space-x-4">
                         <div className="search-icon">
-                            <img src="./search.svg" alt="search" className="h-4 w-4" />
+                            <img src="./icons/search.svg" alt="search" className="h-4 w-4" />
                         </div>
                         <button
                             className="rounded-full text-[#565656] text-[12px] px-4 py-1 bg-opacity-0 border font-extrabold border-[#707070]"
