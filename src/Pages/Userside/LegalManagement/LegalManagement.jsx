@@ -8,17 +8,18 @@ import Ellipse from 'public/assets/Ellipse.png'
 import Lefe from 'public/assets/Lefe1.png'
 import Terms from 'public/assets/terms.png'
 import Lefe2 from 'public/assets/Lefe2.png'
+import Legal from 'public/assets/Legal Managementbg.png'
 
-const privacy = () => {
+const LegalManagement = () => {
     return (
         <div>
             <div className=' mb-10'>
                 <Image className='  h-[400px] top-[-83px]' src={Aboutbg} />
                 <div className=' flex justify-between top-48 absolute '>
                     <Image className=' ml-0  h-60 mt-[w-89px]' src={Leaf} alt='' />
-                    <div className=' ml-[200px]'>
-                        <Image className=' absolute top-20 w-[800px] left-[280px]' src={privacypolicy} />
-                        <h1 className=' text-[#015464] mt-52 text-3xl font-extrabold top-[351px]  h-[16px]'>Privacy Policy</h1>
+                    <div className=' ml-[150px]'>
+                        <Image className=' absolute top-32 w-[850px] left-[240px]' src={Legal} />
+                        <h1 className=' text-[#015464] mt-52 text-3xl font-extrabold top-[351px]  h-[16px]'>Legal Management</h1>
                     </div>
                     <div className=' ml-[200px] h-[180] '>
                         <Image className=' ml-[80px] top-[130px] w-[500px]' src={Terms} alt='' />
@@ -65,4 +66,4 @@ const privacy = () => {
     )
 }
 
-export default privacy
+export default LegalManagement

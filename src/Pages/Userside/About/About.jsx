@@ -1,27 +1,26 @@
 import Image from 'next/image'
 import React from 'react'
-import Aboutbg from 'public/aboutbg.png'
-import Leaf from 'public/Leaf.png'
-import about1 from 'public/about1.png'
-import about2 from 'public/about2.png'
-import LefeBg from 'public/Lefe Bg.png'
-import grp1 from 'public/grp1.png'
-import Ellipse from 'public/Ellipse.png'
-import img1 from 'public/img1.png'
-import Lefe2 from 'public/Lefe2.png'
-import grid from 'public/grid.png'
-import arrowicon from 'public/arrowicon.png'
-import img2 from 'public/img2.png'
-import img3 from 'public/img3.png'
-import img4 from 'public/img4.png'
-import Maskgroup5 from 'public/Mask Group 5.png'
-import group from 'public/group.png'
-import rectangle2 from 'public/rectangle2.png'
-import group2 from 'public/group2.png'
-import group3 from 'public/group3.png'
+import Aboutbg from 'public/assets/aboutbg.png'
+import Leaf from 'public/assets/Leaf.png'
+import about1 from 'public/assets/about1.png'
+import about2 from 'public/assets/about2.png'
+import LefeBg from 'public/assets/Lefe1.png'
+import grp1 from 'public/assets/grp1.png'
+import Ellipse from 'public/assets/Ellipse.png'
+import img1 from 'public/assets/img1.png'
+import Lefe2 from 'public/assets/Lefe2.png'
+import grid from 'public/assets/grid.png'
+import arrowicon from 'public/assets/arrowicon.png'
+import img2 from 'public/assets/img2.png'
+import img3 from 'public/assets/img3.png'
+import img4 from 'public/assets/img4.png'
+import Maskgroup5 from 'public/assets/Mask Group 5.png'
+import group from 'public/assets/group.png'
+import rectangle2 from 'public/assets/rectangle2.png'
+import group2 from 'public/assets/group2.png'
+import group3 from 'public/assets/group3.png'
 
-
-const About = () => {
+function About() {
     return (
         <div className=''>
             <Image className=' relative h-[600px]' src={Aboutbg} />
@@ -95,19 +94,19 @@ const About = () => {
                 </div>
                 <div className=' flex mt-20 justify-center'>
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]' ><Image className='  ' src={arrowicon} alt='' /></button>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-32 p-1 font-semibold'>Log In & Signup</h5>
                     </div>
                     <Image className=' mt-5 ml-20 h-20' src={img2} alt='' />
 
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]' ><Image className='  ' src={arrowicon} alt='' /></button>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-32 p-1 font-semibold'>Subscribe</h5>
                     </div>
                     <Image className=' ml-20 mt-5 h-20' src={img3} alt='' />
 
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]' ><Image className='  ' src={arrowicon} alt='' /></button>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-24 p-1 font-semibold'>Browse & Start Reading</h5>
                     </div>
                 </div>
@@ -147,25 +146,25 @@ const About = () => {
                 <div className=' flex justify-center'>
                     <div class="flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
-                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]' >Shalini</h4>
+                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
                     <div class="flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
-                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]' >Shalini</h4>
+                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
                     <div class="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
-                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]' >Shalini</h4>
+                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
                     <div class="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
-                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]' >Shalini</h4>
+                        <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
                 </div>

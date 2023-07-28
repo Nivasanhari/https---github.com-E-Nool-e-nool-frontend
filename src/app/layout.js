@@ -4,8 +4,9 @@ import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer"
 import About from '@/Pages/Userside/About/About';
 import FAQ from '@/Pages/Userside/FAQ/FAQ';
-import Privacy from '@/Pages/Userside/Terms-&-privacy/Privacy'
-import Page from '@/Pages/Userside/404pages/page';
+import Privacy from '../Pages/Userside/Terms-&-privacy/Privacy'
+import Page404 from '@/Pages/Userside/404pages/page404';
+import LegalManagement from '@/Pages/Userside/LegalManagement/LegalManagement';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,10 +20,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>{children}
         <div className="">       <Navbar />
+        <LegalManagement/>
         {/* <About /> */}
         {/* <FAQ /> */}
         {/* <Privacy/> */}
-        <Page/>
+        {/* <Page404/> */}
         {/* <Footer /> */}
         </div> 
         </body>

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import Leaf from 'public/Leaf.png'
-import Aboutbg from 'public/aboutbg.png'
-import Lefe from 'public/lefe1.png'
-import img from 'public/404img.png'
-import img1 from 'public/404.png'
+import Leaf from 'public/assets/Leaf.png'
+import Aboutbg from 'public/assets/aboutbg.png'
+import Lefe from 'public/assets/lefe1.png'
+import img from 'public/assets/404img.png'
+import img1 from 'public/assets/404.png'
 
 const page = () => {
   return (

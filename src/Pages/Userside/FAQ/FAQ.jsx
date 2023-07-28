@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import Leaf from 'public/Leaf.png'
-import fqa from 'public/fqa.png'
-import FQAbg from 'public/FAQbg.png'
-import Aboutbg from 'public/aboutbg.png'
-import img1 from 'public/img1.png'
-import Ellipse from 'public/Ellipse.png'
-import Lefe from 'public/Lefe2.png'
-import Leaf2 from 'public/Leaf2.png'
-import lefe1 from 'public/lefe1.png'
+import Leaf from 'public/assets/Leaf.png'
+import fqa from 'public/assets/fqa.png'
+import FQAbg from 'public/assets/FAQbg.png'
+import Aboutbg from 'public/assets/aboutbg.png'
+import img1 from 'public/assets/img1.png'
+import Ellipse from 'public/assets/Ellipse.png'
+import Lefe from 'public/assets/Lefe2.png'
+import Leaf2 from 'public/assets/Leaf2.png'
+import lefe1 from 'public/assets/lefe1.png'
 
 
 const FQA = () => {
