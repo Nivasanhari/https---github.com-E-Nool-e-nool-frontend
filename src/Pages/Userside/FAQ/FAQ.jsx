@@ -6,29 +6,31 @@ import FQAbg from 'public/FAQbg.png'
 import Aboutbg from 'public/aboutbg.png'
 import img1 from 'public/img1.png'
 import Ellipse from 'public/Ellipse.png'
-import Lefe from 'public/Lefe BG2.png'
+import Lefe from 'public/Lefe2.png'
 import Leaf2 from 'public/Leaf2.png'
+import lefe1 from 'public/lefe1.png'
 
 
 const FQA = () => {
     return (
         <div>
             <div className=' mb-10'>
-                <Image className='  h-[400px] top-[-83px]' src={Aboutbg} />
+                <Image className='  h-[400px] top-[83px]' src={Aboutbg} />
                 <div className=' flex justify-between top-48 absolute '>
-                    <Image className=' ml-0  h-60 mt-[-89px]' src={Leaf} alt='' />
-                    <div className=' ml-[250px]'>
+                    <Image className=' ml-0  h-60 ' src={Leaf} alt='' />
+                    <div className=' ml-[100px]'>
                         <Image className=' absolute w-[400px]' src={FQAbg} />
                         <h2 className=' text-[#015464] mt-44 text-3xl font-extrabold top-[351px]  h-[16px]'>Frequently Asked Questions </h2>
-                        <h1 className=' text-[#015464] font-extrabold text-xl mt-24'>Welcome to Enool!L</h1>
+                        <h1 className=' text-[#015464] font-extrabold text-xl mt-16'>Welcome to Enool!L</h1>
                         <p className=' text-[#015464] mt-10 text-sm font-medium left-[965px] w-[500px] h-[146px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
-                    <div className=' ml-[200px] h-[250]'>
-                        <Image className=' left- top-[130px] w-350px]' src={fqa} alt='' />
-                    </div>
+                    <div className=' ml-[50px] h-[250]'>
+                        <Image className=' top-[130px] w-[350px]' src={fqa} alt='' />
+                    </div> 
                 </div>
-                <div className=' mt-[200px] ml-[400px]'>
-                    <Image className=' ml-10 mt-48' src={Ellipse} alt='' />
+                    <Image className=' absolute left-[1100px] top-24 w-24 ' src={lefe1} alt=''/>
+                <div className=' mt-[180px] ml-[250px]'>
+                    <Image className=' absolute left-7 mt-40' src={Ellipse} alt='' />
                     <Image className=' absolute top-[450px] w-[400px] left-[-250px]' src={img1} />
                     <button className=' relative bg-[#015464] opacity-1 text-sm font-medium ml-[-50px] py-14 px-12 rounded-xl text-white '>General <hr className=' ' /></button>
                     <button className=' relative bg-[#408080] opacity-1 text-sm font-medium py-11 px-7 pb-9 pt-14 ml-10 w-[150px] rounded-xl text-white '>SUBSCRIPTION  & ACCOUNT</button>

@@ -8,7 +8,7 @@ import LefeBg from 'public/Lefe Bg.png'
 import grp1 from 'public/grp1.png'
 import Ellipse from 'public/Ellipse.png'
 import img1 from 'public/img1.png'
-import LefeBg2 from 'public/Lefe Bg2.png'
+import Lefe2 from 'public/Lefe2.png'
 import grid from 'public/grid.png'
 import arrowicon from 'public/arrowicon.png'
 import img2 from 'public/img2.png'
@@ -60,7 +60,7 @@ const About = () => {
             <div className=' relative bg-[#015464] h-[500px] object-fill'>
                 <div className='  m-0'>
                     <div className=' w-52'>
-                        <Image className=' absolute mt-36 left-10 w-28' src={LefeBg2} alt='' />
+                        <Image className=' absolute mt-36 left-10 w-28' src={Lefe2} alt='' />
                     </div>
                     <div className=' text-white text-center p-20'>
                         <h1 className=' font-extrabold text-3xl'>Why subscribe for Enool?</h1>
