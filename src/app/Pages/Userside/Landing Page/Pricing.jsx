@@ -35,7 +35,7 @@ export default function Pricing() {
 
                         <div className="w-5/6 m-auto">
                             <h2 className="text-center text-[#015464] text-2xl font-bold pt-6">Gold Plan</h2>
-                            <p className="text-center text-gray-500 pt-5 text-sm">lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            {/* <p className="text-center text-gray-500 pt-5 text-sm">lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s,</p> */}
                             <p className=" text-center text-7xl text-[#015464] font-bold"><span className="text-4xl mt-6">₹</span> 50</p>
                             <p className="text-center text-gray-500 pt-5 text-sm">PER MONTH</p>
                             <button className="lg:text-sm text-lg font-bold relative bottom-0 left-1/2 transform -translate-x-1/2 py-2 px-4  text-white rounded-xl">
