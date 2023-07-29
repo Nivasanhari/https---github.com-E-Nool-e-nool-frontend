@@ -2,11 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from "@/app/Components/Navbar/Navbar";
 import Footer from "@/app/Components/Footer/Footer"
-import About from '@/app/Pages/Userside/About/About';
-import FAQ from '@/app/Pages/Userside/FAQ/FAQ';
-import Privacy from '@/app/Pages/Userside/Terms-&-privacy/Privacy'
-import Page404 from '@/app/Pages/Userside/404pages/page404';
-import LegalManagement from '@/app/Pages/Userside/LegalManagement/LegalManagement';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,14 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
-        
-       
-        <div className="">       <Navbar />
-        <LegalManagement/>
-        
-        </div> 
-        </body>
+      <body className={inter.className}>
+        <Navbar />
+          {children}
+        <Footer />  
+      </body>
     </html>
   )
 }
