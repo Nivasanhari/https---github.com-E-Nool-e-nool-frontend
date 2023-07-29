@@ -1,12 +1,19 @@
 'use client'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
+import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import TrendingCurve from 'public/assets/LandingPage/Trending curve.png';
+import TrendingReads1 from 'public/assets/LandingPage/TrendingReads1.png';
+import eye from 'public/icons/eye.png';
+import heart from 'public/icons/heart.png';
+import moreOption from 'public/icons/more-options-dotted.png';
+
 
 export default function TrendingBooks() {
     return (
         <section className="  text-gray-600 body-font">
-            <img src="./Trending curve.png" alt="" className="absolute justify-end " />
+            <Image src={TrendingCurve} alt="" className="absolute justify-end " />
 
             <div className="w-full md-px-24 relative  container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap w-full mb-10">
@@ -23,7 +30,7 @@ export default function TrendingBooks() {
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./TrendingReads1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={TrendingReads1} alt="content" />
                             <h2 className="text-lg text-[#1A6270] font-bold   mb-1">King of Battle and Blood</h2>
                             <p className="tracking-widest text-[#1A6270] text-xs  mb-1  ">by Scarlett St.Clair</p>
                             <div className="flex flex-wrap">
@@ -45,15 +52,15 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <img src="./icons/eye.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/heart.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/more-options-dotted.png" className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt="" srcset="" />
+                                <Image src={heart} className="w-8" alt="" srcset="" />
+                                <Image src={moreOption} className="w-8" alt="" srcset="" />
                             </div>
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./TrendingReads1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={TrendingReads1} alt="content" />
                             <h2 className="text-lg text-[#1A6270] font-bold   mb-1">King of Battle and Blood</h2>
                             <p className="tracking-widest text-[#1A6270] text-xs  mb-1  ">by Scarlett St.Clair</p>
                             <div className="flex flex-wrap">
@@ -75,15 +82,15 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <img src="./icons/eye.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/heart.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/more-options-dotted.png" className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt="" srcset="" />
+                                <Image src={heart} className="w-8" alt="" srcset="" />
+                                <Image src={moreOption} className="w-8" alt="" srcset="" />
                             </div>
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./TrendingReads1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={TrendingReads1} alt="content" />
                             <h2 className="text-lg text-[#1A6270] font-bold   mb-1">King of Battle and Blood</h2>
                             <p className="tracking-widest text-[#1A6270] text-xs  mb-1  ">by Scarlett St.Clair</p>
                             <div className="flex flex-wrap">
@@ -105,15 +112,15 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <img src="./icons/eye.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/heart.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/more-options-dotted.png" className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt="" srcset="" />
+                                <Image src={heart} className="w-8" alt="" srcset="" />
+                                <Image src={moreOption} className="w-8" alt="" srcset="" />
                             </div>
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./TrendingReads1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={TrendingReads1} alt="content" />
                             <h2 className="text-lg text-[#1A6270] font-bold   mb-1">King of Battle and Blood</h2>
                             <p className="tracking-widest text-[#1A6270] text-xs  mb-1  ">by Scarlett St.Clair</p>
                             <div className="flex flex-wrap">
@@ -135,9 +142,9 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <img src="./icons/eye.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/heart.png" className="w-8" alt="" srcset="" />
-                                <img src="./icons/more-options-dotted.png" className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt="" srcset="" />
+                                <Image src={heart} className="w-8" alt="" srcset="" />
+                                <Image src={moreOption} className="w-8" alt="" srcset="" />
                             </div>
                         </div>
                     </div>

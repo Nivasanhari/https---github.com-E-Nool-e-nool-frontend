@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image';
+import trendingCurve from 'public/assets/LandingPage/Trending curve.png';
+import brand_1 from 'public/assets/LandingPage/brand_1.png';
 export default function FeaturedPublishers  ()  {
   return (
       <section class="  text-gray-600 body-font">
-          <img src="./Trending curve.png" alt="" className="absolute justify-end h-screen w-screen" />
+          <Image src={trendingCurve} alt="" className="absolute justify-end h-screen w-screen" />
 
           <div class="w-full md-px-24 relative  container px-5 py-24 mx-auto">
               <div class="flex flex-wrap w-full mb-10">
@@ -18,16 +20,16 @@ export default function FeaturedPublishers  ()  {
 
               <div class="flex flex-wrap -m-4">
                   <div class="xl:w-1/4 md:w-1/2 p-4 items-center">
-                          <img class=" rounded w-auto object-cover object-center mb-6" src="./brand_1.png" alt="content" />
+                      <Image class=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
                    </div>
                   <div class="xl:w-1/4 md:w-1/2 p-4">
-                      <img class=" rounded w-auto object-cover object-center mb-6" src="./brand_1.png" alt="content" />
+                      <Image class=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
                   </div>
                   <div class="xl:w-1/4 md:w-1/2 p-4">
-                      <img class=" rounded w-auto object-cover object-center mb-6" src="./brand_1.png" alt="content" />
+                      <Image class=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
                   </div>
                   <div class="xl:w-1/4 md:w-1/2 p-4">
-                      <img class=" rounded w-auto object-cover object-center mb-6" src="./brand_1.png" alt="content" />
+                      <Image class=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
                   </div>
                   
               </div>

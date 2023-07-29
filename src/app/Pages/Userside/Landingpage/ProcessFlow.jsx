@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from 'next/image'
+import gettingstarted from 'public/assets/LandingPage/gettingstarted.png'
 const ProcessFlow = () => {
     return (
         <section className="bg-[#015464] py-10">
@@ -62,7 +63,7 @@ const ProcessFlow = () => {
                         </div>
 
                     </div>
-                    <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="./gettingstarted.png" />
+                    <Image alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={gettingstarted} />
                 </div>
             </div>
         </section>

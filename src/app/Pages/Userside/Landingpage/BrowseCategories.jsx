@@ -1,7 +1,9 @@
 'use client'
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import browseCategories from 'public/assets/LandingPage/browse-categories1.png';
 
 export default function BrowseCategories() {
     return (
@@ -21,28 +23,28 @@ export default function BrowseCategories() {
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./browse-categories1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={browseCategories} alt="content" />
                             <h2 className="text-lg text-[#015464] font-bold   mb-1">Young Adult</h2>
 
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./browse-categories1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={browseCategories} alt="content" />
                             <h2 className="text-lg text-[#015464] font-bold   mb-1">Young Adult</h2>
 
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./browse-categories1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={browseCategories} alt="content" />
                             <h2 className="text-lg text-[#015464] font-bold   mb-1">Young Adult</h2>
 
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className=" p-6 rounded-lg ">
-                            <img className=" rounded w-auto object-cover object-center mb-6" src="./browse-categories1.png" alt="content" />
+                            <Image className=" rounded w-auto object-cover object-center mb-6" src={browseCategories} alt="content" />
                             <h2 className="text-lg text-[#015464] font-bold   mb-1">Young Adult</h2>
 
                         </div>

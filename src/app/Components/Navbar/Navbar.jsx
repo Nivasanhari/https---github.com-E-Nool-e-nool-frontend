@@ -1,5 +1,8 @@
 'use client'
 import React, { useState } from 'react';
+import Image from 'next/image';
+import logo from 'public/icons/eNOOL_Logo.svg';
+import searchbar from 'public/icons/search.svg'; 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
@@ -9,9 +12,9 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <img
+                        <Image
                             className="h-8 w-auto"
-                            src="./icons/eNOOL_Logo.svg"
+                            src={logo}
                             alt="Logo"
                         />
                         <div className="w-px h-8 bg-gray-300 mx-4 hidden md:block"></div>
@@ -57,7 +60,7 @@ export default function Navbar() {
                     {/* Search Bar & Buttons */}
                     <div className="hidden md:flex items-center space-x-4">
                         <div className="search-icon">
-                            <img src="./icons/search.svg" alt="search" className="h-4 w-4" />
+                            <Image src={searchbar} alt="search" className="h-4 w-4" />
                         </div>
                         <button
                             className="rounded-full text-[#565656] text-[12px] px-4 py-1 bg-opacity-0 border font-extrabold border-[#707070]"

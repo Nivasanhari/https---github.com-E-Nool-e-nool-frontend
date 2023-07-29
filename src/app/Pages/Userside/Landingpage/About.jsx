@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import aboutObject from 'public/about object.png'
-import about1 from 'public/about1.png'
-import about2 from 'public/about2.png'
-import LeafBg from 'public/Leaf-Bg.png'
+import aboutObject from 'public/assets/LandingPage/about object.png'
+import about1 from 'public/assets/LandingPage/about1.png'
+import about2 from 'public/assets/LandingPage/about2.png'
+import LeafBg from 'public/assets/LandingPage/Leaf-Bg.png'
 
 
 const About = () => {

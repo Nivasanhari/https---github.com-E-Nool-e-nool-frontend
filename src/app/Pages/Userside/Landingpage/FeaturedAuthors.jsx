@@ -1,9 +1,12 @@
 import React from 'react'
+import Image from 'next/image';
+import FeatureAuthor from 'public/assets/LandingPage/featured-author.png';
+
 
 export default function FeaturedPublishers() {
     return (
         <section className=" mt-10 text-gray-600 body-font">
-            {/* <img src="./Trending curve.png" alt="" className="absolute justify-end h-screen  w-screen" /> */}
+            {/* <Image src="./Trending curve.png" alt="" className="absolute justify-end h-screen  w-screen" /> */}
 
             <div className="w-full md-px-24 relative  container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap w-full mb-10">
@@ -18,19 +21,19 @@ export default function FeaturedPublishers() {
 
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4 items-center">
-                        <img className=" rounded w-auto object-cover object-center mb-6" src="./featured-author.png" alt="content" />
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <img className=" rounded w-auto object-cover object-center mb-6" src="./featured-author.png" alt="content" />
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <img className=" rounded w-auto object-cover object-center mb-6" src="./featured-author.png" alt="content" />
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <img className=" rounded w-auto object-cover object-center mb-6" src="./featured-author.png" alt="content" />
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
 

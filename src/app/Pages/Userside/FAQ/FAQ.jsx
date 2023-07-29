@@ -26,9 +26,9 @@ const FQA = () => {
                     </div>
                     <div className=' ml-[50px] h-[250]'>
                         <Image className=' top-[130px] w-[350px]' src={fqa} alt='' />
-                    </div> 
+                    </div>
                 </div>
-                    <Image className=' absolute left-[1100px] top-24 w-24 ' src={lefe1} alt=''/>
+                <Image className=' absolute left-[1100px] top-24 w-24 ' src={lefe1} alt='' />
                 <div className=' mt-[180px] ml-[250px]'>
                     <Image className=' absolute left-7 mt-40' src={Ellipse} alt='' />
                     <Image className=' absolute top-[450px] w-[400px] left-[-250px]' src={img1} />
@@ -167,9 +167,9 @@ const FQA = () => {
                         </div>
                     </div>
                 </div>
-                <Image className=' absolute top-[800px] left-[1520px] w-[120px]' src={Leaf2}/>
+                <Image className=' absolute top-[800px] left-[1520px] w-[120px]' src={Leaf2} />
                 <Image className=' absolute top-[900px] left-[1150px] w-[120px]' src={Lefe} alt='' />
-                <Image className=' absolute top-[1010px] left-[1300px] w-[350px]'  src={img1} alt=''/>
+                <Image className=' absolute top-[1010px] left-[1300px] w-[350px]' src={img1} alt='' />
             </div>
         </div>
     )

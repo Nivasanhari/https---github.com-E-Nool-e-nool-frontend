@@ -1,10 +1,17 @@
-import React from 'react';
+import React from 'react'; 
+import Image from 'next/image';
+import footerbg from 'public/assets/LandingPage/footer-bg.png';
+import facebook from 'public/icons/facebook.png';
+import youtube from 'public/icons/youtube.png';
+import instagram from 'public/icons/instagram.png';
+import twitter from 'public/icons/twitter.png';
+import logo from 'public/icons/eNOOL_Logo.svg';
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <footer className="absolute w-full min-h-screen flex items-end justify-center pb-20">
-            <img
-                src="./footer-bg.png"
+            <Image
+                src={footerbg}
                 alt="Background"
                 className="absolute inset-0 h-screen w-full  z-0"
             />
@@ -147,16 +154,16 @@ const Footer = () => {
                         <h1 className="text-white ">Follow Us</h1>
                         <div className="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/facebook.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/youtube.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/twitter.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/instagram.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
 
                         </div>
@@ -165,9 +172,9 @@ const Footer = () => {
 
                     <div className=" ">
                         <div className="text-sm text-white  font-semibold py-1">
-                            <img
+                            <Image
                                 className=" w-56"
-                                src="./icons/eNOOL_Logo.svg"
+                                src={logo}
                                 alt="Logo"
                             />
                         </div>
@@ -177,16 +184,16 @@ const Footer = () => {
                         <h1 className="text-white ">We Accept</h1>
                         <div className="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/facebook.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/youtube.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/twitter.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <img src="./icons/instagram.png " className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
                             </button>
                         </div>
                     </div>

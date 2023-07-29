@@ -1,12 +1,15 @@
 'use client'
 import { Carousel } from 'react-responsive-carousel';
+import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Leaf from 'public/assets/Leaf.png'
+import Hero from 'public/assets/LandingPage/hero.png'
 
 export default function Home() {
     return (
         <section className="">
           
-            <img className=" absolute top-20 w-16" src="./Leaf.png" />
+            <Image className=" absolute top-20 w-16" src={Leaf} />
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
@@ -34,7 +37,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                    <img className="object-cover object-center rounded" alt="hero" src="./hero.png" />
+                                    <Image className="object-cover object-center rounded" alt="hero" src={Hero} />
                                 </div>
                             </div>
                         </div>
@@ -52,7 +55,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                    <img className="object-cover object-center rounded" alt="hero" src="./hero.png" />
+                                    <Image className="object-cover object-center rounded" alt="hero" src={Hero} />
                                 </div>
                             </div>
                         </div>
@@ -70,7 +73,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                    <img className="object-cover object-center rounded" alt="hero" src="./hero.png" />
+                                    <Image className="object-cover object-center rounded" alt="hero" src={Hero} />
                                 </div>
                             </div>
                         </div>

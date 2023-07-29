@@ -58,7 +58,7 @@ const privacy = () => {
                     <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <Image className=' absolute top-[900px] left-[1000px] w-[100px]' src={Lefe2} alt='' />
-                <Image className=' absolute left-[1190px] top-[1350px] w-24' src={Ellipse}/>
+                <Image className=' absolute left-[1190px] top-[1350px] w-24' src={Ellipse} />
                 <Image className=' absolute top-[1010px] left-[1030px] w-[350px]' src={img1} alt='' />
             </div>
         </div>
