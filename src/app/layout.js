@@ -1,12 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer"
-import About from '@/Pages/Userside/About/About';
-import FAQ from '@/Pages/Userside/FAQ/FAQ';
-import Privacy from '../Pages/Userside/Terms-&-privacy/Privacy'
-import Page404 from '@/Pages/Userside/404pages/page404';
-import LegalManagement from '@/Pages/Userside/LegalManagement/LegalManagement';
+import Navbar from "@/app/Components/Navbar/Navbar";
+import Footer from "@/app/Components/Footer/Footer"
+import About from '@/app/Pages/Userside/About/About';
+import FAQ from '@/app/Pages/Userside/FAQ/FAQ';
+import Privacy from '@/app/Pages/Userside/Terms-&-privacy/Privacy'
+import Page404 from '@/app/Pages/Userside/404pages/page404';
+import LegalManagement from '@/app/Pages/Userside/LegalManagement/LegalManagement';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,11 +21,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}
         <div className="">       <Navbar />
         <LegalManagement/>
-        {/* <About /> */}
-        {/* <FAQ /> */}
-        {/* <Privacy/> */}
-        {/* <Page404/> */}
-        {/* <Footer /> */}
+        
         </div> 
         </body>
     </html>
