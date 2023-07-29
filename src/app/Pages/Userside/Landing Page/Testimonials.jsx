@@ -8,7 +8,7 @@ import LeafBg from 'public/assets/LandingPage/Leaf-Bg.png'
 export default function Testimonials () {
   return (
       <section className="  text-gray-600 body-font">
-          <Image src={LeafBg} alt="" srcset="" className='absolute'/>
+          <Image src={LeafBg} alt=""  className='absolute'/>
           <div className="w-full md-px-24 relative  container px-5 py-24 mx-auto">
               <div className="flex flex-wrap w-full mb-10">
                   <div className="lg:w-1/2 w-full my-6 lg:mb-0">

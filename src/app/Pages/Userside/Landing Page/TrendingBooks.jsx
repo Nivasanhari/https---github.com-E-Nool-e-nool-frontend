@@ -52,9 +52,9 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <Image src={eye} className="w-8" alt="" srcset="" />
-                                <Image src={heart} className="w-8" alt="" srcset="" />
-                                <Image src={moreOption} className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt=""  />
+                                <Image src={heart} className="w-8" alt=""  />
+                                <Image src={moreOption} className="w-8" alt=""  />
                             </div>
                         </div>
                     </div>
@@ -82,9 +82,9 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <Image src={eye} className="w-8" alt="" srcset="" />
-                                <Image src={heart} className="w-8" alt="" srcset="" />
-                                <Image src={moreOption} className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt=""  />
+                                <Image src={heart} className="w-8" alt=""  />
+                                <Image src={moreOption} className="w-8" alt=""  />
                             </div>
                         </div>
                     </div>
@@ -112,9 +112,9 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <Image src={eye} className="w-8" alt="" srcset="" />
-                                <Image src={heart} className="w-8" alt="" srcset="" />
-                                <Image src={moreOption} className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt=""  />
+                                <Image src={heart} className="w-8" alt=""  />
+                                <Image src={moreOption} className="w-8" alt=""  />
                             </div>
                         </div>
                     </div>
@@ -142,9 +142,9 @@ export default function TrendingBooks() {
                                 <p className="tracking-widest text-[#280c0c] text-xs  ">(27)</p>
                             </div>
                             <div className="flex flex-wrap space-x-4 pt-2">
-                                <Image src={eye} className="w-8" alt="" srcset="" />
-                                <Image src={heart} className="w-8" alt="" srcset="" />
-                                <Image src={moreOption} className="w-8" alt="" srcset="" />
+                                <Image src={eye} className="w-8" alt=""  />
+                                <Image src={heart} className="w-8" alt=""  />
+                                <Image src={moreOption} className="w-8" alt=""  />
                             </div>
                         </div>
                     </div>

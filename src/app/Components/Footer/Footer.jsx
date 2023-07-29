@@ -154,16 +154,16 @@ const Footer = () => {
                         <h1 className="text-white ">Follow Us</h1>
                         <div className="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
 
                         </div>
@@ -184,16 +184,16 @@ const Footer = () => {
                         <h1 className="text-white ">We Accept</h1>
                         <div className="flex text-sm text-white justify-center  font-semibold py-1 justify-space-between">
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={facebook} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={youtube} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={twitter} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                             <button className="h-10 w-10 items-center justify-center align-center mr-2" type="button">
-                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt="" srcset="" />
+                                <Image src={instagram} className="justify-center w-[44px] h-[44px]" alt=""  />
                             </button>
                         </div>
                     </div>
