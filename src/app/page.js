@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 import BrowseCategories from "@/Pages/Userside/Landing Page/BrowseCategories"
 import About from "../Pages/Userside/Landing Page/About"
@@ -37,5 +38,11 @@ export default function Home() {
       
   </div>
 
+=======
+export default function Home() {
+  return (
+    <div>
+    </div>
+>>>>>>> 62bb1a6712045e47f74de750390d421f4566ee7e
   )
 }
