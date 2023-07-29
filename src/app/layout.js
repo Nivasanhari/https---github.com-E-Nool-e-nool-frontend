@@ -19,14 +19,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}
-<<<<<<< HEAD
-        <div className="">
+        
        
-=======
         <div className="">       <Navbar />
         <LegalManagement/>
         
->>>>>>> 62bb1a6712045e47f74de750390d421f4566ee7e
         </div> 
         </body>
     </html>
