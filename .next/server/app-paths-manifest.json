@@ -1,0 +1,9 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/Pages/Userside/404page/page": "app/Pages/Userside/404page/page.js",
+  "/Pages/Userside/about/page": "app/Pages/Userside/about/page.js",
+  "/Pages/Userside/faq/page": "app/Pages/Userside/faq/page.js",
+  "/Pages/Userside/legalmanagement/page": "app/Pages/Userside/legalmanagement/page.js",
+  "/Pages/Userside/terms&privacy/page": "app/Pages/Userside/terms&privacy/page.js"
+}
