@@ -16,6 +16,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/Pages/Userside/404page/page.js"
+    ],
+    "/Pages/Userside/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Pages/Userside/about/page.js"
+    ],
+    "/Pages/Userside/subscription/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Pages/Userside/subscription/page.js"
     ]
   }
 }

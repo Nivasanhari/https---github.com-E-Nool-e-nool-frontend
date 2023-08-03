@@ -2,7 +2,7 @@ import React from 'react'
 import bg from "public/assets/bg.png"
 import Image from 'next/image'
 import lefe1 from 'public/assets/Lefe1.png'
-import Staricon from '@/app/Pages/Userside/Feedback/Staricon'
+import Staricon from '@/app/Pages/Userside/feedback/Staricon'
 
 
 const colors = {
