@@ -13,8 +13,8 @@ export default function Navbar() {
     };
 
     return (
-        
-        <nav className="absolute z-50 bg-white shadow w-screen md:px-24 px-4 ">
+        <header className='w-full  absolute z-50'>
+            <nav className=" mx-auto flex justify-between items-center sm:px-16 px-6 py-4   bg-white shadow   ">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
@@ -110,10 +110,12 @@ export default function Navbar() {
                         <button className="rounded-full text-white text-[12px] px-4 py-1 bg-[#075A68] font-extrabold hover:bg-[#04404a]">
                             SIGN UP
                         </button>
+                        
                     </div>
                 )}
             </div>
         </nav>
+        </header > 
 
     );
 }

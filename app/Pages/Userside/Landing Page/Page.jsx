@@ -8,25 +8,27 @@ import ProcessFlow from "@/app/Pages/Userside/Landing Page/ProcessFlow"
 import Pricing from "@/app/Pages/Userside/Landing Page/Pricing"
 
 import FeaturedPublishers from "@/app/Pages/Userside/Landing Page/FeaturedPublishers"
-import FeaturedAuthors from "@/app/Pages/Userside/Landing Page/FeaturedPublishers"
-
+import FeaturedAuthors from "@/app/Pages/Userside/Landing Page/FeaturedAuthors"
 import GetStarted from "@/app/Pages/Userside/Landing Page/GetStarted"
-
 export default function page() {
   return (
     // <About />
 
     <div className="">
       <Hero />
+      <TrendingBooks />
+      <TrendingBooks />
       <BrowseCategories />
       <Explore />
+      <TrendingBooks />
       <ProcessFlow />
+      <TrendingBooks />
       <FeaturedAuthors />
       <Testimonials />
       <FeaturedPublishers />
       <GetStarted />
       <About />
-      <Pricing /> 
+      <Pricing />
       </div>
 
   )
