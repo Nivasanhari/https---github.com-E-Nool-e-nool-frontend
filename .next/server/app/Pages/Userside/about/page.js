@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'about',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 531)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2804)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,33 +308,33 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6882:
+/***/ 3689:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7642));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8215));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4344));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3137));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4802));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4812));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6099));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2943));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 522));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6050));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7235));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4325));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7235));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7364))
 
 /***/ }),
 
-/***/ 531:
+/***/ 2804:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -546,13 +546,12 @@ function About() {
                                     className: " flex justify-center",
                                     children: [
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            class: "flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    className: " mt-5 m-auto",
+                                                    className: " h-20 m-6 ml-[60px]",
                                                     src: grid,
-                                                    alt: "",
-                                                    className: "h-20 m-6"
+                                                    alt: "gird-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -560,18 +559,17 @@ function About() {
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs font-thin p-2",
-                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
                                                 })
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            class: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    className: " mt-5 m-auto",
+                                                    className: " h-20 m-6 ml-[60px]",
                                                     src: grid,
-                                                    alt: "",
-                                                    className: "h-20 m-6"
+                                                    alt: "gird-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -579,18 +577,17 @@ function About() {
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs font-thin p-2",
-                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
                                                 })
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            class: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    className: " mt-5 m-auto",
+                                                    className: " h-20 m-6 ml-[60px]",
                                                     src: grid,
-                                                    alt: "",
-                                                    className: "h-20 m-6"
+                                                    alt: "gird-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -598,7 +595,7 @@ function About() {
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs font-thin p-2",
-                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                                                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
                                                 })
                                             ]
                                         }),
@@ -635,8 +632,12 @@ function About() {
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                        className: " absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28",
+                                        children: "01"
+                                    }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]",
+                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "  ",
                                             src: arrowicon,
@@ -656,8 +657,12 @@ function About() {
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                        className: " absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28",
+                                        children: "02"
+                                    }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]",
+                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "  ",
                                             src: arrowicon,
@@ -677,8 +682,12 @@ function About() {
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                        className: " absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28",
+                                        children: "03"
+                                    }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]",
+                                        className: " ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             className: "  ",
                                             src: arrowicon,
@@ -709,13 +718,13 @@ function About() {
                         className: " flex justify-center mt-10",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52",
+                                class: "flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " mt-5 ml-14 w-16",
+                                        className: " mt-8 ml-[70px] w-16",
                                         src: img4,
                                         alt: "",
-                                        className: "h-20 m-6"
+                                        class: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -728,13 +737,13 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " mt-5 ml-14 w-16",
+                                        className: " mt-8 ml-[70px] w-16",
                                         src: img4,
                                         alt: "",
-                                        className: "h-20 m-6"
+                                        class: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -747,13 +756,13 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " mt-5 ml-14 w-16",
+                                        className: " mt-8 ml-[70px] w-16",
                                         src: img4,
                                         alt: "",
-                                        className: "h-20 m-6"
+                                        class: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -793,7 +802,7 @@ function About() {
                         className: " flex justify-center",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -811,7 +820,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -829,7 +838,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -847,7 +856,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                class: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -991,7 +1000,7 @@ function About() {
                         className: " flex mt-20 ml-[400px]",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " text-center ",
+                                className: " text-center px-10 py-10 rounded-2xl border-white shadow-md",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-[#14adad] text-sm",
@@ -1004,7 +1013,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-52 text-center",
+                                className: " text-center ml-44 px-10 py-10 rounded-2xl border-white shadow-md",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-[#14adad] text-sm",
@@ -1017,7 +1026,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-52 text-center",
+                                className: " text-center ml-44 px-12 py-10 rounded-2xl border-white shadow-md",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-[#14adad] text-sm",
@@ -1282,7 +1291,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349,61], () => (__webpack_exec__(9320)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61], () => (__webpack_exec__(9320)));
 module.exports = __webpack_exports__;
 
 })();

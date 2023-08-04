@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -311,11 +311,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 9280:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7334))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3193))
 
 /***/ }),
 
-/***/ 7334:
+/***/ 3193:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -399,34 +399,10 @@ const page = ({ isVisivle })=>{
 
 // EXTERNAL MODULE: ./public/assets/bg1.png
 var bg1 = __webpack_require__(6315);
-;// CONCATENATED MODULE: ./public/assets/book.png
-/* harmony default export */ const book = ({"src":"/_next/static/media/book.5550b65e.png","height":325,"width":219,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAApklEQVR42gVATw+BUAD/vWS8JmvWlK3NheFi3WycXYzP7Ghz4OCCXFoaMtVKfxTvGZnPzJS2e5SKhNu3J2kheItD5UeJSuEkIAO9DskPJcF1AlQiC2y3wUgt4D4IIwD4WNcwbYQ4RR+sPXzF1WIJsAJdQwHPGeztGWJfb0JTa9gf7piYHbzsOgSZZbj6Jaq6AcsrIWeRIFyOXpYkHHKF8zguEeW19A/EPEZVrui5jQAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
-;// CONCATENATED MODULE: ./app/Components/staricon/Staricon.jsx
-// components/StarRating.js
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-const StarRating = ({ initialValue })=>{
-    const [rating, setRating] = (0,react_.useState)(initialValue);
-    const handleRatingChange = (newRating)=>{
-        setRating(newRating);
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: " text-xl ml-2 cursor-pointer",
-        children: [
-            1,
-            2,
-            3,
-            4,
-            5
-        ].map((index)=>/*#__PURE__*/ jsx_runtime_.jsx("span", {
-                className: `star ${rating >= index ? "filled" : ""}`,
-                onClick: ()=>handleRatingChange(index),
-                children: "★"
-            }, index))
-    });
-};
-/* harmony default export */ const Staricon = (StarRating);
-
+// EXTERNAL MODULE: ./public/assets/book.png
+var book = __webpack_require__(3985);
+// EXTERNAL MODULE: ./app/Components/staricon/Staricon.jsx
+var Staricon = __webpack_require__(2479);
 // EXTERNAL MODULE: ./public/assets/Lefe1.png
 var Lefe1 = __webpack_require__(2417);
 // EXTERNAL MODULE: ./public/assets/img1.png
@@ -453,7 +429,7 @@ const page_page = ()=>{
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: " absolute ml-[460px] w-[1200px]",
-                        src: bg1/* default */.Z,
+                        src: bg1["default"],
                         alt: "bgimg"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -498,14 +474,14 @@ const page_page = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-44",
-                                        src: book,
+                                        src: book["default"],
                                         alt: "book-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-sm mt-2 text-[#015464] font-bold",
                                         children: "King of Battle and Blood"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: " text-xs mt-2 text-[#14adad]",
                                         children: "by Scarlett St.Clair"
@@ -525,14 +501,14 @@ const page_page = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-44",
-                                        src: book,
+                                        src: book["default"],
                                         alt: "book-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-sm mt-2 text-[#015464] font-bold",
                                         children: "King of Battle and Blood"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: " text-xs mt-2 text-[#14adad]",
                                         children: "by Scarlett St.Clair"
@@ -552,14 +528,14 @@ const page_page = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-44",
-                                        src: book,
+                                        src: book["default"],
                                         alt: "book-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-sm mt-2 text-[#015464] font-bold",
                                         children: "King of Battle and Blood"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: " text-xs mt-2 text-[#14adad]",
                                         children: "by Scarlett St.Clair"
@@ -579,14 +555,14 @@ const page_page = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-44",
-                                        src: book,
+                                        src: book["default"],
                                         alt: "book-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-sm mt-2 text-[#015464] font-bold",
                                         children: "King of Battle and Blood"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: " text-xs mt-2 text-[#14adad]",
                                         children: "by Scarlett St.Clair"
@@ -606,14 +582,14 @@ const page_page = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-44",
-                                        src: book,
+                                        src: book["default"],
                                         alt: "book-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-sm mt-2 text-[#015464] font-bold",
                                         children: "King of Battle and Blood"
                                     }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                         className: " text-xs mt-2 text-[#14adad]",
                                         children: "by Scarlett St.Clair"
@@ -673,14 +649,14 @@ const page_page = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-44",
-                                                    src: book,
+                                                    src: book["default"],
                                                     alt: "book-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-sm mt-2 text-[#015464] font-bold",
                                                     children: "King of Battle and Blood"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs mt-2 text-[#14adad]",
                                                     children: "by Scarlett St.Clair"
@@ -692,14 +668,14 @@ const page_page = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-44",
-                                                    src: book,
+                                                    src: book["default"],
                                                     alt: "book-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-sm mt-2 text-[#015464] font-bold",
                                                     children: "King of Battle and Blood"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs mt-2 text-[#14adad]",
                                                     children: "by Scarlett St.Clair"
@@ -711,14 +687,14 @@ const page_page = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-44",
-                                                    src: book,
+                                                    src: book["default"],
                                                     alt: "book-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-sm mt-2 text-[#015464] font-bold",
                                                     children: "King of Battle and Blood"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs mt-2 text-[#14adad]",
                                                     children: "by Scarlett St.Clair"
@@ -730,14 +706,14 @@ const page_page = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-44",
-                                                    src: book,
+                                                    src: book["default"],
                                                     alt: "book-img"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-sm mt-2 text-[#015464] font-bold",
                                                     children: "King of Battle and Blood"
                                                 }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon, {}),
+                                                /*#__PURE__*/ jsx_runtime_.jsx(Staricon["default"], {}),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                     className: " text-xs mt-2 text-[#14adad]",
                                                     children: "by Scarlett St.Clair"
@@ -809,29 +785,6 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 2417:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
-/***/ }),
-
-/***/ 6315:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg1.3f5f09bf.png","height":1540,"width":1811,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAS1BMVEV+xbN/xLGAw7B/w7F/w7CAwq9/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAxLGAxLB/xLF/xLCAw7B/w7CAw7CAw7B5UEk+AAAAGXRSTlMAAAAAAAABAwkNEhMUFRcYGRoaGhoaGhscitjNAwAAADxJREFUeNoVyMkRgDAMBMEVh7lBMMhy/pFS9LN1pfMAmr3FS62yacvgRmbdmhAaSr804p9yJuEyjUeS+wdrhgMxyWywdQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":7});
-
-/***/ }),
-
 /***/ 4899:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -851,7 +804,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210], () => (__webpack_exec__(6131)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,33], () => (__webpack_exec__(6131)));
 module.exports = __webpack_exports__;
 
 })();

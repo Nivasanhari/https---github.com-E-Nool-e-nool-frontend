@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -362,7 +362,7 @@ const page = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mb-10",
+                className: " mb-[400px]",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: "  h-[400px] top-[-83px]",
@@ -372,15 +372,15 @@ const page = ()=>{
                         className: " flex justify-between top-48 absolute ",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " ml-0  h-[300px] mt-[w-89px]",
+                                className: "h-[300px] mt-[w-89px] left-[200px]",
                                 src: Leaf/* default */.Z,
                                 alt: ""
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[130px]",
+                                className: " ml-[200px]",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " absolute mt-18 w-[500px] left-[150px]",
+                                        className: " absolute mt-18 w-[500px]",
                                         src: _404
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
@@ -400,7 +400,7 @@ const page = ()=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: " ml-[200px] h-[150] ",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " ml-[30px] top-[130px] w-[450px]",
+                                    className: " ml-[160px] top-[130px] w-[450px]",
                                     src: _404img,
                                     alt: ""
                                 })
@@ -408,7 +408,7 @@ const page = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1200px] top-32 w-24 ",
+                        className: " absolute left-[1500px] top-32 w-24 ",
                         src: lefe1/* default */.Z,
                         alt: ""
                     })
@@ -476,7 +476,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349], () => (__webpack_exec__(6715)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349], () => (__webpack_exec__(6715)));
 module.exports = __webpack_exports__;
 
 })();

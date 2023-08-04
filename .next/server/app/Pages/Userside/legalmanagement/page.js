@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,16 +308,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1883:
+/***/ 4954:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7063));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7749))
 
@@ -358,12 +359,15 @@ var terms = __webpack_require__(7386);
 var Lefe2 = __webpack_require__(9995);
 ;// CONCATENATED MODULE: ./public/assets/Legal Managementbg.png
 /* harmony default export */ const Legal_Managementbg = ({"src":"/_next/static/media/Legal Managementbg.09a96c18.png","height":175,"width":1640,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAGUlEQVR4nGNk8EtiZQCD/0DMyAgkQAw4AAA4wQK3HgvT6QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":1});
+// EXTERNAL MODULE: ./public/assets/Leaf2.png
+var Leaf2 = __webpack_require__(5473);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/legalmanagement/page.jsx
 
 
 
 
 // import privacypolicy from 'public/assets/privacy policy.png'
+
 
 
 
@@ -390,10 +394,10 @@ const LegalManagement = ()=>{
                                 alt: ""
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[150px]",
+                                className: " ml-[300px]",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " absolute top-32 w-[850px] left-[240px]",
+                                        className: " absolute top-32 w-[850px] left-[300px]",
                                         src: Legal_Managementbg
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
@@ -405,7 +409,7 @@ const LegalManagement = ()=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: " ml-[200px] h-[180] ",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " ml-[80px] top-[130px] w-[500px]",
+                                    className: " ml-[200px] top-[130px] w-[500px]",
                                     src: terms/* default */.Z,
                                     alt: ""
                                 })
@@ -413,7 +417,7 @@ const LegalManagement = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1200px] top-24 w-24 ",
+                        className: " absolute left-[1480px] top-24 w-24 ",
                         src: Lefe1/* default */.Z,
                         alt: ""
                     })
@@ -429,7 +433,7 @@ const LegalManagement = ()=>{
                 src: img1/* default */.Z
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mt-38 mb-24",
+                className: " mt-40 mb-24 ml-[100px]",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " bg-white",
@@ -523,16 +527,20 @@ const LegalManagement = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[900px] left-[1000px] w-[100px]",
+                        className: " absolute top-[800px] left-[1550px] w-[120px]",
+                        src: Leaf2/* default */.Z
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " absolute top-[980px] left-[1238px] w-[100px]",
                         src: Lefe2/* default */.Z,
                         alt: ""
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1190px] top-[1350px] w-24",
+                        className: " absolute left-[1520px] top-[1350px] w-24",
                         src: Ellipse/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[1010px] left-[1030px] w-[350px]",
+                        className: " absolute top-[1010px] left-[1360px] w-[350px]",
                         src: img1/* default */.Z,
                         alt: ""
                     })
@@ -565,7 +573,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349,61,831], () => (__webpack_exec__(3056)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61,215,324], () => (__webpack_exec__(3056)));
 module.exports = __webpack_exports__;
 
 })();

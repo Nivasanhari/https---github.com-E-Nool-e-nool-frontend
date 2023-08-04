@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,16 +308,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9583:
+/***/ 9284:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7063));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 882))
 
@@ -356,9 +357,12 @@ var Ellipse = __webpack_require__(6385);
 var Lefe1 = __webpack_require__(2758);
 // EXTERNAL MODULE: ./public/assets/terms.png
 var terms = __webpack_require__(7386);
+// EXTERNAL MODULE: ./public/assets/Leaf2.png
+var Leaf2 = __webpack_require__(5473);
 // EXTERNAL MODULE: ./public/assets/Lefe2.png
 var Lefe2 = __webpack_require__(9995);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/terms&privacy/page.jsx
+
 
 
 
@@ -377,11 +381,11 @@ const privacy = ()=>{
                 className: " mb-10",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: "  h-[400px] top-[-83px]",
+                        className: "  h-[450px] top-[-83px]",
                         src: aboutbg/* default */.Z
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex justify-between top-48 absolute ",
+                        className: " flex justify-between top-48 mt-20 absolute ",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " ml-0  h-60 mt-[w-89px]",
@@ -389,14 +393,14 @@ const privacy = ()=>{
                                 alt: ""
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[200px]",
+                                className: " ml-[250px]",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " absolute top-20 w-[800px] left-[280px]",
                                         src: privacy_policy
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                        className: " text-[#015464] mt-52 text-3xl font-extrabold top-[351px]  h-[16px]",
+                                        className: " text-[#015464] mt-48 text-3xl font-extrabold top-[351px]  h-[16px]",
                                         children: "Privacy Policy"
                                     })
                                 ]
@@ -404,7 +408,7 @@ const privacy = ()=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: " ml-[200px] h-[180] ",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " ml-[80px] top-[130px] w-[500px]",
+                                    className: " ml-[400px] top-[130px] w-[500px]",
                                     src: terms/* default */.Z,
                                     alt: ""
                                 })
@@ -412,7 +416,7 @@ const privacy = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1200px] top-24 w-24 ",
+                        className: " absolute left-[1500px] top-24 w-24 ",
                         src: Lefe1/* default */.Z,
                         alt: ""
                     })
@@ -428,7 +432,7 @@ const privacy = ()=>{
                 src: img1/* default */.Z
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mt-38 mb-24",
+                className: " mt-40 ml-32 mb-24",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " bg-white",
@@ -522,16 +526,20 @@ const privacy = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[900px] left-[1000px] w-[100px]",
+                        className: " absolute top-[800px] left-[1550px] w-[120px]",
+                        src: Leaf2/* default */.Z
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " absolute top-[900px] left-[1250px] w-[100px]",
                         src: Lefe2/* default */.Z,
                         alt: ""
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1190px] top-[1350px] w-24",
+                        className: " absolute left-[1490px] top-[1437px] w-24",
                         src: Ellipse/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[1010px] left-[1030px] w-[350px]",
+                        className: " absolute top-[1100px] left-[1340px] w-[350px]",
                         src: img1/* default */.Z,
                         alt: ""
                     })
@@ -564,7 +572,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349,61,831], () => (__webpack_exec__(5391)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61,215,324], () => (__webpack_exec__(5391)));
 module.exports = __webpack_exports__;
 
 })();
