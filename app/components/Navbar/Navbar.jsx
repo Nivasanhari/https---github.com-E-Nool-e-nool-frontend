@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import SearchBar from '@/app/components/SearchBar/SearchBar'
 import logo from 'public/icons/eNOOL_Logo.svg';
-import searchbar from 'public/icons/searchbar.svg'; 
+import searchbar from 'public/icons/search.svg'; 
 
 
 export default function Navbar() {

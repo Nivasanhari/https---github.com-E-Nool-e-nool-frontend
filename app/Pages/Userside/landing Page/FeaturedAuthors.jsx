@@ -1,51 +1,41 @@
 import React from 'react'
 import Image from 'next/image';
-import FeatureAuthorimg from 'public/assets/LandingPage/featured-author.png';
+import FeatureAuthor from 'public/assets/LandingPage/featured-author.png';
 
 
-export default function FeaturedAuthors() {
+export default function FeaturedPublishers() {
     return (
-        <section className=" mt-10 text-gray-600">
+        <section className=" mt-10 text-gray-600 body-font">
             {/* <Image src="./Trending curve.png" alt="" className="absolute justify-end h-screen  w-screen" /> */}
 
-            <div className="w-full md-px-24 relative  container  py-24 mx-auto px-6 ">
-                <div className="flex flex-wrap w-full mb-10 lg:flex-row flex-col">
-                    <div className="lg:w-1/2 w-full mb-6 lg:mb-2">
-                        <h1 className="text-3xl font-bold title-font pb-4 text-[#015464] lg:w-[60%]">
-                            Featured Authors
-                        </h1>
+            <div className="w-full md-px-24 relative  container px-5 py-24 mx-auto">
+                <div className="flex flex-wrap w-full mb-10">
+                    <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                        <h1 className="sm:text-3xl text-2xlads font-bold title-font mb-2 text-[#015464]">Featured Publishers</h1>
                         <div className="h-1 w-48 bg-[#0FBF61] opacity-20 rounded"></div>
                     </div>
-                    <div className="lg:w-1/2 w-full mb-6 lg:mb-0 lg:flex md:justify-end items-center">
-                        <button className="text-white bg-[#015464] border-0 py-2 px-6 focus:outline-none w-28 h-10 rounded-[21px] text-sm">
-                            <h1 className="items-center">View all</h1>
-                        </button>
+                    <div className="lg:w-1/2 w-full mb-6 lg:mb-0 flex justify-end">
+                        <button className=" text-white bg-[#015464] border-0 py-2 px-6 focus:outline-none w-28 h-10 rounded-[21px] text-sm "><h1 className="items-center">View all</h1></button>
                     </div>
                 </div>
 
-
-                <div className="grid grid-cols-2   md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-3 ">
-                    <div className="p-4 flex flex-col items-center">
-                        <Image className="rounded w-auto object-cover object-center mb-6" src={FeatureAuthorimg} alt="content" />
+                <div className="flex flex-wrap -m-4">
+                    <div className="xl:w-1/4 md:w-1/2 p-4 items-center">
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
-                    <div className="p-4 flex flex-col items-center">
-                        <img className="rounded-xl w-auto object-cover object-center mb-6" src="https://i.pravatar.cc/99"  alt="content" />
-                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
-                    </div><div className="p-4 flex flex-col items-center">
-                        <Image className="rounded-xl w-auto object-cover object-center mb-6" src={FeatureAuthorimg}  alt="content" />
-                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
-                    </div><div className="p-4 flex flex-col items-center">
-                        <img className="rounded-xl w-auto object-cover object-center mb-6" src="https://i.pravatar.cc/99" alt="content" />
-                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
-                    </div><div className="p-4 flex flex-col items-center">
-                        <Image className="rounded-xl w-auto object-cover object-center mb-6" src={FeatureAuthorimg} alt="content" />
-                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
-                    </div><div className="p-4 flex flex-col items-center">
-                        <img className="rounded-xl w-auto object-cover object-center mb-6" src="https://i.pravatar.cc/99" alt="content" />
+                    <div className="xl:w-1/4 md:w-1/2 p-4">
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
                         <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
                     </div>
-                    
+                    <div className="xl:w-1/4 md:w-1/2 p-4">
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
+                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
+                    </div>
+                    <div className="xl:w-1/4 md:w-1/2 p-4">
+                        <Image className=" rounded w-auto object-cover object-center mb-6" src={FeatureAuthor} alt="content" />
+                        <p className="text-bold text-[#015464]">Arthur Gonzalez</p>
+                    </div>
 
 
                 </div>

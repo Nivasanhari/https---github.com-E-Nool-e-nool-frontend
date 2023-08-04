@@ -44,7 +44,7 @@ const page = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  class="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -80,7 +80,7 @@ const page = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  class="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -116,7 +116,7 @@ const page = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  class="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -145,7 +145,7 @@ const page = () => {
                 <Image src={net} alt="upi" />
                 <p className=" ml-2">Netbanking</p>
               </div>
-
+              
               <div className=" absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@ const page = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  class="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -210,7 +210,7 @@ const page = () => {
               </h2>
               <button
                 className=" cursor-pointer ml-48 bg-[#015464] text-white px-8 rounded-xl py-1"
-
+                
               >
                 Pay Now
               </button>

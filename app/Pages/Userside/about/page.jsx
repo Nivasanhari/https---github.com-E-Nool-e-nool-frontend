@@ -64,20 +64,20 @@ function About() {
                         <p className=' p-5 text-xs font-light'>Why subscribe for Enool?</p>
 
                         <div className=' flex justify-center'>
-                            <div className="flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
-                                <Image className=' mt-5 m-auto' src={grid} alt="" className="h-20 m-6" />
+                            <div class="flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
+                                <Image className=' h-20 m-6 ml-[60px]' src={grid} alt="gird-img" />
                                 <h3 className=' text-white mt-0 p-2 '>01.Learn</h3>
-                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
                             </div>
-                            <div className="flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
-                                <Image className=' mt-5 m-auto' src={grid} alt="" className="h-20 m-6" />
+                            <div class="flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
+                                <Image className=' h-20 m-6 ml-[60px]' src={grid} alt="gird-img" />
                                 <h3 className=' text-white mt-0 p-2 '>01.Learn</h3>
-                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
                             </div>
-                            <div className="flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
-                                <Image className=' mt-5 m-auto' src={grid} alt="" className="h-20 m-6" />
+                            <div class="flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52">
+                                <Image className=' h-20 m-6 ml-[60px]' src={grid} alt="gird-img" />
                                 <h3 className=' text-white mt-0 p-2 '>01.Learn</h3>
-                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
                             </div>
                             <Image className=' w-[563px] absolute top-[-190px] left-[1490px]' src={img1} alt='' />
                         </div>
@@ -91,19 +91,22 @@ function About() {
                 </div>
                 <div className=' flex mt-20 justify-center'>
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
+                        <h3 className=' absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28'>01</h3>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-32 p-1 font-semibold'>Log In & Signup</h5>
                     </div>
                     <Image className=' mt-5 ml-20 h-20' src={img2} alt='' />
 
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
+                        <h3 className=' absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28'>02</h3>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-32 p-1 font-semibold'>Subscribe</h5>
                     </div>
                     <Image className=' ml-20 mt-5 h-20' src={img3} alt='' />
 
                     <div>
-                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#14adad]'><Image className='  ' src={arrowicon} alt='' /></button>
+                        <h3 className=' absolute bg-[#015464] p-1 px-2 text-white rounded-full ml-28'>03</h3>
+                        <button className=' ml-28 py-8 px-8 rounded-[500px] bg-[#7CC9B5]'><Image className='  ' src={arrowicon} alt='' /></button>
                         <h5 className=' text-[#14adad] text-xs ml-24 p-1 font-semibold'>Browse & Start Reading</h5>
                     </div>
                 </div>
@@ -114,20 +117,20 @@ function About() {
                     <h1 className=' font-bold text-2xl'>Our Core Value</h1>
                 </div>
                 <div className=' flex justify-center mt-10'>
-                    <div className="flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52">
-                        <Image className=' mt-5 ml-14 w-16' src={img4} alt="" className="h-20 m-6" />
+                    <div class="flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52">
+                        <Image className=' mt-8 ml-[70px] w-16' src={img4} alt="" class="h-20 m-6" />
                         <h3 className=' text-black mt-0 p-2 font-semibold '>Our Mission</h3>
                         <p className=' text-black text-xs p-2 '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
 
-                    <div className="flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52">
-                        <Image className=' mt-5 ml-14 w-16' src={img4} alt="" className="h-20 m-6" />
+                    <div class="flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52">
+                        <Image className=' mt-8 ml-[70px] w-16' src={img4} alt="" class="h-20 m-6" />
                         <h3 className=' text-black mt-0 p-2 font-semibold '>Our Vission</h3>
                         <p className=' text-black text-xs p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
 
-                    <div className="flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
-                        <Image className=' mt-5 ml-14 w-16' src={img4} alt="" className="h-20 m-6" />
+                    <div class="flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
+                        <Image className=' mt-8 ml-[70px] w-16' src={img4} alt="" class="h-20 m-6" />
                         <h3 className=' text-black mt-0 p-2 font-semibold '>Our Passion</h3>
                         <p className=' text-black text-xs p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                     </div>
@@ -141,25 +144,25 @@ function About() {
                         "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
                 </div>
                 <div className=' flex justify-center'>
-                    <div className="flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
+                    <div class="flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
                         <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
-                    <div className="flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
+                    <div class="flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
                         <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
-                    <div className="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
+                    <div class="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
                         <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
                     </div>
 
-                    <div className="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
+                    <div class="flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52">
                         <Image className=' w-40 m-auto mt-5' src={Maskgroup5} alt="" />
                         <h4 className=' mb-1 text-center font-extrabold text-[#015464]'>Shalini</h4>
                         <p className=' text-sm text-[#14adad] text-center mb-5'>Director</p>
@@ -210,15 +213,15 @@ function About() {
                     <h1 className=' font-extrabold text-[#015464]'>Enool by the Numbers</h1>
                 </div>
                 <div className=' flex mt-20 ml-[400px]'>
-                    <div className=' text-center '>
+                    <div className=' text-center px-10 py-10 rounded-2xl border-white shadow-md'>
                         <h3 className=' text-[#14adad] text-sm'>Readers</h3>
                         <h1 className=' text-6xl font-bold text-[#015464] '>300k</h1>
                     </div>
-                    <div className=' ml-52 text-center'>
+                    <div className=' text-center ml-44 px-10 py-10 rounded-2xl border-white shadow-md'>
                         <h3 className=' text-[#14adad] text-sm'>Publisher</h3>
                         <h1 className=' text-6xl font-bold text-[#015464] '>700k</h1>
                     </div>
-                    <div className=' ml-52 text-center'>
+                    <div className=' text-center ml-44 px-12 py-10 rounded-2xl border-white shadow-md'>
                         <h3 className=' text-[#14adad] text-sm'>Books</h3>
                         <h1 className=' text-6xl font-bold text-[#015464] '>20k</h1>
                     </div>
