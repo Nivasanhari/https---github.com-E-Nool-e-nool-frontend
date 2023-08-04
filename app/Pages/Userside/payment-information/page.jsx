@@ -13,14 +13,14 @@ const page = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <Fragment>
-      <div className=" flex mt-28 mb-20">
+      <div className=" flex mb-20">
         {/* <Image className='absolute ml-[250px] mt-[-110px] w-[1100px]' src={bg} alt='bg-img' /> */}
         <Image
-          className=" absolute w-20 left-[1230px] mt-[-50px]"
+          className=" absolute w-28 left-[1530px] mt-52 "
           src={Lefe}
           alt="lefe-img"
         />
-        <div className=" bg-[#015464] text-white w-[500px] ml-24 rounded-3xl">
+        <div className=" bg-[#015464] text-white w-[500px] ml-56 mt-[250px] rounded-3xl">
           <div className=" ml-10 pt-10 pb-8 mt-2">
             <div className=" text-white">
               <h3 className=" font-bold ml-20">Selected Plan</h3>
@@ -37,7 +37,6 @@ const page = () => {
                 <Image src={upi} alt="upi" />
                 <p className=" ml-2">UPI</p>
               </div>
-              <hr />
               <div className=" absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +61,7 @@ const page = () => {
                   <span className=" mt-1 ml-3"> Add New UPI</span>
                 </div>
               </div>
+              <hr />
             </div>
 
             <div className=" relative w-[300px] overflow-hidden pb-3 ml-16">
@@ -73,7 +73,6 @@ const page = () => {
                 <Image src={credit} alt="upi" />
                 <p className=" ml-2">Credit Card / Debit Card</p>
               </div>
-              <hr />
               <div className=" absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,6 +97,7 @@ const page = () => {
                   <span className=" mt-1 ml-3">Credit Card / Debit Card</span>
                 </div>
               </div>
+              <hr />
             </div>
 
             <div className=" relative w-[300px] ml-16 overflow-hidden pb-3">
@@ -109,7 +109,6 @@ const page = () => {
                 <Image src={wallet} alt="upi" />
                 <p className=" ml-2">Wallets</p>
               </div>
-              <hr />
               <div className=" absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -134,6 +133,7 @@ const page = () => {
                   <span className=" mt-1 ml-3"> Wallets</span>
                 </div>
               </div>
+              <hr />
             </div>
 
             <div className=" relative w-[300px] ml-16 overflow-hidden pb-3">
@@ -145,7 +145,7 @@ const page = () => {
                 <Image src={net} alt="upi" />
                 <p className=" ml-2">Netbanking</p>
               </div>
-              <hr />
+              
               <div className=" absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -170,21 +170,20 @@ const page = () => {
                   <span className=" mt-1 ml-3">Netbanking</span>
                 </div>
               </div>
+              <hr />
             </div>
           </div>
         </div>
 
-        <div className=" ml-24">
+        <div className=" ml-60 mt-[230px]">
           <div className=" mt-5 ">
             <h2 className=" text-[#015464] font-semibold mb-3">
               Enter Coupon Code
             </h2>
-            <h3 className=" bg-[#7CC9B5] w-[420px] text-white p-2 rounded-xl">
-              Enter Coupon / Offer / Refferal Code
-              <span className=" bg-[#015464] p-2  pr-1 ml-[70px] rounded-lg">
-                Apply
-              </span>
-            </h3>
+            <div className=' flex'>
+              <h3 className=' bg-[#7CC9B5] w-80 text-white p-2 rounded-l-xl'>Enter Coupon / Offer / Refferal Code</h3>
+              <button className=' absolute ml-[300px] bg-[#015464] p-2 rounded-l-3xl text-white pr-3 pl-8 rounded-lg' onClick={() => setShowModal(true)}>Apply</button>
+            </div>
             <h3 className=" text-[#015464] mt-5 font-semibold">
               View Offer Code
             </h3>{" "}
@@ -209,6 +208,12 @@ const page = () => {
                 Total{" "}
                 <span className=" text-xl ml-2 mt-2 font-semibold">₹30</span>
               </h2>
+              <button
+                className=" cursor-pointer ml-48 bg-[#015464] text-white px-8 rounded-xl py-1"
+                
+              >
+                Pay Now
+              </button>
             </div>
             <p className=" text-[12px] ml-4 mt-5 text-[#015464]">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
@@ -219,12 +224,6 @@ const page = () => {
               illo.
             </p>
           </div>
-          <button
-            className=" cursor-pointer ml-40 bg-[#015464] text-white px-8 rounded-xl py-1"
-            onClick={() => setShowModal(true)}
-          >
-            Pay Now
-          </button>
         </div>
       </div>
       <Coupon isVisivle={showModal} />

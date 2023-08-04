@@ -14,15 +14,15 @@ import locationicon from 'public/icons/location.png'
 
 const page = () => {
     return (
-        <div className=' bg-white'>
+        <div className='  bg-white'>
             <Image className=' relative h-[400px]' src={Aboutbg} />
             <Image className=' absolute ml-0 top-[100px] w-[45px]' src={Leaf} alt='' />
             <div className=' flex justify-between top-48 absolute '>
-                <h1 className=' absolute ml-[500px] mt-14 text-[#015464] text-3xl font-extrabold'>Have Any Questions</h1>
-                <Image className=' ml-[300px] w-[650px]' src={imgbg} alt='imgbg' />
-                <Image className=' absolute ml-[1200px] w-24' src={Lefe} alt='' />
+                <h1 className=' absolute ml-[700px] mt-16 text-[#015464] text-3xl font-extrabold'>Have Any Questions</h1>
+                <Image className=' ml-[500px] w-[650px]' src={imgbg} alt='imgbg' />
+                <Image className=' absolute ml-[1500px] w-24' src={Lefe} alt='' />
             </div>
-            <div className=' top-20 ml-[350px] mb-24' >
+            <div className=' top-20 ml-[500px] mt-9 mb-24' >
                 <Image className=' absolute w-[350px] left-[-200px] mt-48' src={sideimg} alt='sideimg' />
                 <Image className=' absolute ml-0 left-24 w-28 mt-60' src={leaf2} alt='leaf2' />
                 <Image className=' absolute left-16 mt-[500px]' src={circle} alt='circle' />
@@ -40,7 +40,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div className=' mt-44 flex'>
+            <div className=' mt-44 ml-[150px] flex'>
                 <div className="w-72 h-96 mt-[50px] ml-48 lg:mt-16 max-w-sm">
                     <div className="bg-white shadow-2xl rounded-b-3xl pb-6 pr-8 justify-center flex">
                         <div className="w- m-auto flex">
@@ -54,7 +54,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className="w-72 h-96 mt-[50px] ml-9 lg:mt-16 max-w-sm">
+                <div className="w-72 h-96 mt-[50px] ml-14 lg:mt-16 max-w-sm">
                     <div className="bg-white shadow-2xl rounded-b-3xl pb-6 pr-8 justify-center flex">
                         <div className="w- m-auto flex">
                             <Image className=' bg-[#408080] rounded-md p-2' src={emailicon} alt='call-icon' />
@@ -66,7 +66,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-72 h-96 mt-[50px] ml-9 lg:mt-16 max-w-sm">
+                <div className="w-72 h-96 mt-[50px] ml-14 lg:mt-16 max-w-sm">
                     <div className="bg-white shadow-2xl rounded-b-3xl pb-6 pr-8 justify-center flex">
                         <div className="w- m-auto flex">
                             <Image className=' bg-[#7CC9B5] rounded-md p-2' src={locationicon} alt='call-icon' />
@@ -77,7 +77,7 @@ const page = () => {
                             <p className="text-center  text-[#14adad] font-bold">+91 1234567890</p>
                         </div>
                     </div>
-                    <Image className=' absolute ml-[1150px] top-[1070px] left-24 w-28 ' src={leaf2} alt='leaf2' />
+                    <Image className=' absolute ml-[1400px] top-[1070px] left-24 w-28 ' src={leaf2} alt='leaf2' />
                 </div>
             </div>
         </div>
