@@ -17,19 +17,19 @@ const FQA = () => {
             <div className=' mb-10'>
                 <Image className='  h-[400px] top-[83px]' src={Aboutbg} />
                 <div className=' flex justify-between top-48 absolute '>
-                    <Image className=' ml-  h-60 ' src={Leaf} alt='' />
-                    <div className=' ml-[250px]'>
+                    <Image className=' ml-0  h-60 ' src={Leaf} alt='' />
+                    <div className=' ml-[100px]'>
                         <Image className=' absolute w-[400px]' src={FQAbg} />
                         <h2 className=' text-[#015464] mt-44 text-3xl font-extrabold top-[351px]  h-[16px]'>Frequently Asked Questions </h2>
                         <h1 className=' text-[#015464] font-extrabold text-xl mt-16'>Welcome to Enool!L</h1>
                         <p className=' text-[#015464] mt-10 text-sm font-medium left-[965px] w-[500px] h-[146px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
-                    <div className=' ml-[200px] h-[250]'>
+                    <div className=' ml-[50px] h-[250]'>
                         <Image className=' top-[130px] w-[350px]' src={fqa} alt='' />
-                    </div>
+                    </div> 
                 </div>
-                <Image className=' absolute left-[1500px] mt-14 top-24 w-24 ' src={lefe1} alt='' />
-                <div className=' mt-[300px] ml-[600px]'>
+                    <Image className=' absolute left-[1100px] top-24 w-24 ' src={lefe1} alt=''/>
+                <div className=' mt-[180px] ml-[250px]'>
                     <Image className=' absolute left-7 mt-40' src={Ellipse} alt='' />
                     <Image className=' absolute top-[450px] w-[400px] left-[-250px]' src={img1} />
                     <button className=' relative bg-[#015464] opacity-1 text-sm font-medium ml-[-50px] py-14 px-12 rounded-xl text-white '>General <hr className=' ' /></button>
@@ -38,7 +38,7 @@ const FQA = () => {
                 </div>
             </div>
 
-            <div className=' ml-[500px] mt-28 '>
+            <div className=' ml-[300px] mt-28 '>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
                     <div className=' h-12 w-full flex items-center'>
@@ -54,7 +54,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -71,7 +70,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -88,7 +86,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -105,7 +102,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -122,7 +118,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -139,7 +134,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -156,7 +150,6 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
                 <div className=' relative w-[700px] overflow-hidden'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -173,12 +166,10 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
                 </div>
-                <Image className=' absolute top-[800px] left-[1550px] w-[120px]' src={Leaf2} />
-                <Image className=' absolute top-[900px] left-[1300px] w-[120px]' src={Lefe} alt='' />
-                <Image className=' absolute top-[1010px] left-[1380px] w-[350px]' src={img1} alt='' />
-                <Image className=' absolute w-24 left-[1550px] mt-[-60px]' src={Ellipse} alt='' />
+                <Image className=' absolute top-[800px] left-[1520px] w-[120px]' src={Leaf2}/>
+                <Image className=' absolute top-[900px] left-[1150px] w-[120px]' src={Lefe} alt='' />
+                <Image className=' absolute top-[1010px] left-[1300px] w-[350px]'  src={img1} alt=''/>
             </div>
         </div>
     )

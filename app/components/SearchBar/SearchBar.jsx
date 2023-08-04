@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import searchbar from 'public/icons/search.svg';
+import searchbar from 'public/icons/searchbar.svg';
 const SearchBar = () => {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
 
