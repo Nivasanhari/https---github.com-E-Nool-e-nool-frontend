@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,19 +308,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2000:
+/***/ 4088:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7234));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915))
 
 /***/ }),
 
@@ -388,12 +388,12 @@ const FQA = ()=>{
                         className: " flex justify-between top-48 absolute ",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " ml-0  h-60 ",
+                                className: " ml-  h-60 ",
                                 src: Leaf/* default */.Z,
                                 alt: ""
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[100px]",
+                                className: " ml-[250px]",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " absolute w-[400px]",
@@ -414,7 +414,7 @@ const FQA = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " ml-[50px] h-[250]",
+                                className: " ml-[200px] h-[250]",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                     className: " top-[130px] w-[350px]",
                                     src: fqa,
@@ -424,12 +424,12 @@ const FQA = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1100px] top-24 w-24 ",
+                        className: " absolute left-[1500px] mt-14 top-24 w-24 ",
                         src: lefe1/* default */.Z,
                         alt: ""
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " mt-[180px] ml-[250px]",
+                        className: " mt-[300px] ml-[600px]",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " absolute left-7 mt-40",
@@ -462,7 +462,7 @@ const FQA = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " ml-[300px] mt-28 ",
+                className: " ml-[500px] mt-28 ",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " relative w-[700px] overflow-hidden pb-3",
@@ -486,7 +486,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -500,6 +500,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -525,7 +528,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -539,6 +542,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -564,7 +570,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -578,6 +584,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -603,7 +612,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -617,6 +626,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -642,7 +654,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -656,6 +668,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -681,7 +696,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -695,6 +710,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -720,7 +738,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -734,6 +752,9 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
@@ -759,7 +780,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    className: "w-6 h-6",
+                                    class: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -773,21 +794,29 @@ const FQA = ()=>{
                                     className: " text-[#14adad] p-4",
                                     children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
                                 })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                className: " p-1"
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[800px] left-[1520px] w-[120px]",
+                        className: " absolute top-[800px] left-[1550px] w-[120px]",
                         src: Leaf2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[900px] left-[1150px] w-[120px]",
+                        className: " absolute top-[900px] left-[1300px] w-[120px]",
                         src: Lefe2/* default */.Z,
                         alt: ""
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[1010px] left-[1300px] w-[350px]",
+                        className: " absolute top-[1010px] left-[1380px] w-[350px]",
                         src: img1/* default */.Z,
+                        alt: ""
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " absolute w-24 left-[1550px] mt-[-60px]",
+                        src: Ellipse/* default */.Z,
                         alt: ""
                     })
                 ]
@@ -854,7 +883,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349,61,215], () => (__webpack_exec__(7079)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61,215], () => (__webpack_exec__(7079)));
 module.exports = __webpack_exports__;
 
 })();

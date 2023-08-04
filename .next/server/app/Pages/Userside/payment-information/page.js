@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -636,7 +636,7 @@ const page_page = ()=>{
                                                 viewBox: "0 0 24 24",
                                                 "stroke-width": "1.5",
                                                 stroke: "currentColor",
-                                                className: "w-6 h-6",
+                                                class: "w-6 h-6",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                     "stroke-linecap": "round",
                                                     "stroke-linejoin": "round",
@@ -694,7 +694,7 @@ const page_page = ()=>{
                                                 viewBox: "0 0 24 24",
                                                 "stroke-width": "1.5",
                                                 stroke: "currentColor",
-                                                className: "w-6 h-6",
+                                                class: "w-6 h-6",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                     "stroke-linecap": "round",
                                                     "stroke-linejoin": "round",
@@ -752,7 +752,7 @@ const page_page = ()=>{
                                                 viewBox: "0 0 24 24",
                                                 "stroke-width": "1.5",
                                                 stroke: "currentColor",
-                                                className: "w-6 h-6",
+                                                class: "w-6 h-6",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                     "stroke-linecap": "round",
                                                     "stroke-linejoin": "round",
@@ -810,7 +810,7 @@ const page_page = ()=>{
                                                 viewBox: "0 0 24 24",
                                                 "stroke-width": "1.5",
                                                 stroke: "currentColor",
-                                                className: "w-6 h-6",
+                                                class: "w-6 h-6",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                                     "stroke-linecap": "round",
                                                     "stroke-linejoin": "round",
@@ -1002,8 +1002,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/bg1.3f5f09bf.png","height":1540,"width":1811,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAMAAAACh/xsAAAAS1BMVEV+xbN/xLGAw7B/w7F/w7CAwq9/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLF/xLGAxLGAxLB/xLF/xLCAw7B/w7CAw7CAw7B5UEk+AAAAGXRSTlMAAAAAAAABAwkNEhMUFRcYGRoaGhoaGhscitjNAwAAADxJREFUeNoVyMkRgDAMBMEVh7lBMMhy/pFS9LN1pfMAmr3FS62yacvgRmbdmhAaSr804p9yJuEyjUeS+wdrhgMxyWywdQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":7});
 
@@ -1016,7 +1017,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210], () => (__webpack_exec__(6046)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638], () => (__webpack_exec__(6046)));
 module.exports = __webpack_exports__;
 
 })();

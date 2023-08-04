@@ -2,7 +2,7 @@
 import React from 'react';
 import  { useState } from 'react';
 
-const page = () => {
+const LoginPage = () => {
     const loginObject = '/assets/LoginPage/login-object.png'
     const logo = '/icons/eNOOL_Logo.svg'
    

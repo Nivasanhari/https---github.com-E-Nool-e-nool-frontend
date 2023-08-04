@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,21 +308,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9580:
+/***/ 7332:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4559));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8950));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3384));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9470));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4833))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9470))
 
 /***/ }),
 
@@ -699,7 +699,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,210,349,61], () => (__webpack_exec__(811)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61], () => (__webpack_exec__(811)));
 module.exports = __webpack_exports__;
 
 })();
