@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'about',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2804)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 531)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,33 +308,33 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9006:
+/***/ 8631:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8215));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4344));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7642));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3137));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8215));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4344));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4812));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4802));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3137));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6099));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 708));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2943));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4325));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 522));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4325));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6050));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7235));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7364))
 
 /***/ }),
 
-/***/ 2804:
+/***/ 531:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -546,13 +546,13 @@ function About() {
                                     className: " flex justify-center",
                                     children: [
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            class: "flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            className: "flex flex-col ml-32 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " mt-5 m-auto",
                                                     src: grid,
                                                     alt: "",
-                                                    class: "h-20 m-6"
+                                                    className: "h-20 m-6"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -565,13 +565,13 @@ function About() {
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            class: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            className: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " mt-5 m-auto",
                                                     src: grid,
                                                     alt: "",
-                                                    class: "h-20 m-6"
+                                                    className: "h-20 m-6"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -584,13 +584,13 @@ function About() {
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            class: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
+                                            className: "flex flex-col ml-24 h-[243px] rounded-lg border-black shadow-md w-[400px] outline  m-6 overflow-hidden sm:w-52",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " mt-5 m-auto",
                                                     src: grid,
                                                     alt: "",
-                                                    class: "h-20 m-6"
+                                                    className: "h-20 m-6"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                                     className: " text-white mt-0 p-2 ",
@@ -709,13 +709,13 @@ function About() {
                         className: " flex justify-center mt-10",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52",
+                                className: "flex  flex-col  ml-24 h-[270px] rounded-lg border-white  shadow-md m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " mt-5 ml-14 w-16",
                                         src: img4,
                                         alt: "",
-                                        class: "h-20 m-6"
+                                        className: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -728,13 +728,13 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col ml-24 h-[270px] rounded-lg border-white shadow-md w-[400px]   m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " mt-5 ml-14 w-16",
                                         src: img4,
                                         alt: "",
-                                        class: "h-20 m-6"
+                                        className: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -747,13 +747,13 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col ml-24 h-[270px]  rounded-lg border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " mt-5 ml-14 w-16",
                                         src: img4,
                                         alt: "",
-                                        class: "h-20 m-6"
+                                        className: "h-20 m-6"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                         className: " text-black mt-0 p-2 font-semibold ",
@@ -793,7 +793,7 @@ function About() {
                         className: " flex justify-center",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col ml-32 h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -811,7 +811,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col  h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -829,7 +829,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -847,7 +847,7 @@ function About() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
+                                className: "flex flex-col h-[270px]  rounded-3xl border-white shadow-md w-[400px] m-6 overflow-hidden sm:w-52",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                         className: " w-40 m-auto mt-5",
@@ -1084,7 +1084,18 @@ function About() {
 
 /***/ }),
 
-/***/ 2417:
+/***/ 9995:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe2.c0892c82.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAf0lEQVR42mMI3d3ByAAEvrtaONIOTJRjAIHg3e1CsXt7ypP3T8hhAIHIPV2Gifv6ZkTu6dZnAIHU/RP9E/b12TCAQObByXapByZaZRycLFN6ZDYLQ/nROWxhezpFkvb3l4Tv6WRmAAGgYfzpByY5MsBA0eGZooWHZ0gzMDAwAADC9iskupzWpgAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+
+/***/ }),
+
+/***/ 8702:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1092,7 +1103,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe2.c0892c82.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAf0lEQVR42mMI3d3ByAAEvrtaONIOTJRjAIHg3e1CsXt7ypP3T8hhAIHIPV2Gifv6ZkTu6dZnAIHU/RP9E/b12TCAQObByXapByZaZRycLFN6ZDYLQ/nROWxhezpFkvb3l4Tv6WRmAAGgYfzpByY5MsBA0eGZooWHZ0gzMDAwAADC9iskupzWpgAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
 
 /***/ }),
 
@@ -1204,7 +1215,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 708:
+/***/ 4812:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1259,7 +1270,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,131,916,301], () => (__webpack_exec__(9320)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,891,912,349,61], () => (__webpack_exec__(9320)));
 module.exports = __webpack_exports__;
 
 })();

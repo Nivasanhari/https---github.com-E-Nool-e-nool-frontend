@@ -50,7 +50,7 @@ var node_polyfill_headers = __webpack_require__(2394);
 var app_route_module = __webpack_require__(9692);
 var module_default = /*#__PURE__*/__webpack_require__.n(app_route_module);
 // EXTERNAL MODULE: ./node_modules/next/server.js
-var server = __webpack_require__(514);
+var server = __webpack_require__(6757);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Ffavicon.ico%2Froute&isDynamic=0!./app/favicon.ico?__next_metadata_route__
 
 
@@ -107,7 +107,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,218], () => (__webpack_exec__(1050)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,218], () => (__webpack_exec__(1050)));
 module.exports = __webpack_exports__;
 
 })();

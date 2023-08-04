@@ -14,7 +14,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4578:
+/***/ 8223:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -287,7 +287,7 @@ const _usereducerwithdevtools = __webpack_require__(7951);
 const _errorboundary = __webpack_require__(1232);
 const _createinitialrouterstate = __webpack_require__(1684);
 const _isbot = __webpack_require__(8735);
-const _addbasepath = __webpack_require__(4578);
+const _addbasepath = __webpack_require__(8223);
 const _approuterannouncer = __webpack_require__(3049);
 const _redirectboundary = __webpack_require__(1442);
 const _findheadincache = __webpack_require__(1333);
@@ -3865,7 +3865,7 @@ const _createrecordfromthenable = __webpack_require__(4621);
 const _readrecordvalue = __webpack_require__(2401);
 const _client = __webpack_require__(7897);
 const _routerreducertypes = __webpack_require__(2836);
-const _addbasepath = __webpack_require__(4578);
+const _addbasepath = __webpack_require__(8223);
 const _createhreffromurl = __webpack_require__(4331);
 const _redirect = __webpack_require__(2622);
 async function fetchServerAction(state, param) {
@@ -5181,7 +5181,7 @@ function createProxy(moduleId) {
 
 /***/ }),
 
-/***/ 4663:
+/***/ 8225:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -7811,7 +7811,7 @@ _export(exports, {
         return StaticGenerationSearchParamsBailoutProvider;
     }
 });
-const { default: AppRouter } = __webpack_require__(4663);
+const { default: AppRouter } = __webpack_require__(8225);
 const { default: LayoutRouter } = __webpack_require__(7149);
 const { default: RenderFromTemplateContext } = __webpack_require__(9278);
 const { staticGenerationAsyncStorage } = __webpack_require__(3539);

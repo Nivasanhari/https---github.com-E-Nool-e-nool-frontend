@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'faq',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4505)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5091)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9376)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -308,23 +308,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2399:
+/***/ 5614:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7234));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745))
 
 /***/ }),
 
-/***/ 4505:
+/***/ 5091:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -357,8 +357,8 @@ var img1 = __webpack_require__(1152);
 var Ellipse = __webpack_require__(6385);
 // EXTERNAL MODULE: ./public/assets/Lefe2.png
 var Lefe2 = __webpack_require__(9995);
-;// CONCATENATED MODULE: ./public/assets/Leaf2.png
-/* harmony default export */ const Leaf2 = ({"src":"/_next/static/media/Leaf2.a885d738.png","height":321,"width":181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAcklEQVR42mNABlZHpoq6MthzMVgdmMwIErA4M9vd8vj0ZLgKi4tz5SxPzZxofmW+LFgAqirY4uzsBLARh6cygwUtT89KBgqqgxVcmMvEYHFpHpPF6Vlh5pfns8K1AlVoAc3TA+s4MYMRLGh2aoYIAxoAAF/OJHg+aQpGAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
+// EXTERNAL MODULE: ./public/assets/Leaf2.png
+var Leaf2 = __webpack_require__(5473);
 // EXTERNAL MODULE: ./public/assets/lefe1.png
 var lefe1 = __webpack_require__(5363);
 ;// CONCATENATED MODULE: ./app/Pages/Userside/faq/page.jsx
@@ -486,7 +486,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -525,7 +525,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -564,7 +564,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -603,7 +603,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -642,7 +642,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -681,7 +681,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -720,7 +720,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -759,7 +759,7 @@ const FQA = ()=>{
                                     viewBox: "0 0 24 24",
                                     "stroke-width": "1.5",
                                     stroke: "currentColor",
-                                    class: "w-6 h-6",
+                                    className: "w-6 h-6",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
                                         "stroke-linecap": "round",
                                         "stroke-linejoin": "round",
@@ -778,7 +778,7 @@ const FQA = ()=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: " absolute top-[800px] left-[1520px] w-[120px]",
-                        src: Leaf2
+                        src: Leaf2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: " absolute top-[900px] left-[1150px] w-[120px]",
@@ -812,18 +812,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4745:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Leaf2.a885d738.png","height":321,"width":181,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAcklEQVR42mNABlZHpoq6MthzMVgdmMwIErA4M9vd8vj0ZLgKi4tz5SxPzZxofmW+LFgAqirY4uzsBLARh6cygwUtT89KBgqqgxVcmMvEYHFpHpPF6Vlh5pfns8K1AlVoAc3TA+s4MYMRLGh2aoYIAxoAAF/OJHg+aQpGAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
-
-/***/ }),
-
 /***/ 9925:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -834,29 +822,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/fqa.1432c5e2.png","height":616,"width":606,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+Adjd6DgMCQkfoK2uM7/V11a96ev4HQ0LseOilHjV2uP/AeXn8pTc4uJrP2d1AE9BNdwfEhHmkrjBPp5zatlJOzrSAfb//yG3pauB3ePjE2BscprW1tYbaX18lX9dVt49SVKYAfbP2Sux+d6uGA0QywztCcM1jZWIhTYaECw+KZo0FC1nAQC4igCK/B22FQ0SB7GfuSqw6/EYiV9Ds/gD+OfXA/BnAQD//AUAanqeUCobE+nx6tkA/wHY2Pr7H+/d7jdojk5jAUe4iOLz3P8Kyujudg7x8VYHCQkGDREGtgj+A3QZNxcHAUa0j6H83QERDPERqeHx4XkDAgb/GxMajfH/6EsKLgoFGKJ/VKVx17AAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 
-/***/ }),
-
-/***/ 5363:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
-/***/ }),
-
-/***/ 5915:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
-
 /***/ })
 
 };
@@ -866,7 +831,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,131,916,301], () => (__webpack_exec__(7079)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,891,349,61,215,524], () => (__webpack_exec__(7079)));
 module.exports = __webpack_exports__;
 
 })();
