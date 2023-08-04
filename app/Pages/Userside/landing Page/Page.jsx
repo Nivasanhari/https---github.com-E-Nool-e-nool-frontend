@@ -19,28 +19,19 @@ export default function page() {
     // <About />
 
     <div className="">
-      {/* <div className="hero_bg hero_bg_1 ">
+      <div className="hero_bg hero_bg_1 ">
       <Hero />
       <TrendingBooks />
       </div>
       <ProcessFlow />
-     
-    
-     
       <BrowseCategories/>
-      
       <FeaturedAuthors />
       <Testimonials />
       <FeaturedPublishers />
       <GetStarted />
       <About />
-     
-      <Pricing /> */}
-
-      
-      <Flipbook/>
-    
-     
+      <Pricing />
+      {/* <Flipbook/> */}
     </div>
 
   )
