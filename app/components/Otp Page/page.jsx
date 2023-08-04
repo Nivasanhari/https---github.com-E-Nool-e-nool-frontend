@@ -5,7 +5,7 @@ const Otp = () => {
     const otp = '/assets/LoginPage/Otp.svg'
 
     const correct = '/assets/LoginPage/correct.svg'
-   
+
     const [showPassword, setShowPassword] = useState(false);
 
     const handleTogglePassword = () => {
@@ -40,22 +40,22 @@ const Otp = () => {
                         </div>
                         <div className="mt-4 h-1 w-full bg-[#E0E7FF] opacity-20 rounded"></div>
                         <div className="mt-8">
-                            <form 
+                            <form
                             // onSubmit={handleSubmit}
-                            
+
                             >
-                                <div class="flex flex-row items-center justify-between mx-auto w-full max-w-xs">
-                                    <div class="w-16 h-16 ">
-                                        <input class="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
+                                <div className="flex flex-row items-center justify-between mx-auto w-full max-w-xs">
+                                    <div className="w-16 h-16 ">
+                                        <input className="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
                                     </div>
-                                    <div class="w-16 h-16 ">
-                                        <input class="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
+                                    <div className="w-16 h-16 ">
+                                        <input className="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
                                     </div>
-                                    <div class="w-16 h-16 ">
-                                        <input class="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
+                                    <div className="w-16 h-16 ">
+                                        <input className="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
                                     </div>
-                                    <div class="w-16 h-16 ">
-                                        <input class="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
+                                    <div className="w-16 h-16 ">
+                                        <input className="w-full h-full flex flex-col items-center justify-center text-center px-5 outline-none rounded-xl border border-gray-400 text-lg bg-white focus:bg-gray-50 focus:ring-1 ring-[#408080]" type="text" />
                                     </div>
                                 </div>
                                 <p className="mt-6 text-sm text-center text-gray-400">
@@ -74,7 +74,7 @@ const Otp = () => {
                                         Next
                                     </button>
                                 </div>
-                             </form>
+                            </form>
 
                             <p className="mt-6 text-sm text-center text-gray-400">
                                 Already Have An Enool Account{' '}
