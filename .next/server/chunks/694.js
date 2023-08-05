@@ -1,17 +1,28 @@
-exports.id = 431;
-exports.ids = [431];
+exports.id = 694;
+exports.ids = [694];
 exports.modules = {
 
-/***/ 8763:
+/***/ 4805:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8465));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8220));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4136));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8220));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3030));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 122));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7754))
+
+/***/ }),
+
+/***/ 7174:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23))
 
 /***/ }),
 
@@ -693,10 +704,16 @@ function RootLayout({ children }) {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
             className: (target_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter_default()).className,
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
-                children,
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "w-full relative footer_bg",
+                    className: "w-full m-0 p-0 relative",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {})
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "p-2",
+                    children: children
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "w-full relative footer_bg mt-2",
                     children: /*#__PURE__*/ jsx_runtime_.jsx(Footer_Footer, {})
                 })
             ]

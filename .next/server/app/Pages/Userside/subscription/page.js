@@ -308,21 +308,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3256:
+/***/ 4769:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4874));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5906));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1488));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 177));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 177))
 
 /***/ }),
 
@@ -741,6 +741,18 @@ const page = ()=>{
 
 /***/ }),
 
+/***/ 2417:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/Lefe1.7cd3c653.png","height":321,"width":164,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAYAAADeM14FAAAAfElEQVR42mNIOzBRzmdnCwcDEITu7mBkSN4/IS92b09Z8O52AQYQiNrbbZi4r29G5J4uPQYYSNjXZ5eyf6IfAwiUHJnFmnFgskzqgYnWmQcn2zLE7O1hSdrfXwI0UKjs6Gw2BhBIOzDJCSjIywADhYdnyBQdninCwMDAAAD7WCsf8H+m5wAAAABJRU5ErkJggg==","blurWidth":4,"blurHeight":8});
+
+/***/ }),
+
 /***/ 4874:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -796,7 +808,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,431,912,916,61,215], () => (__webpack_exec__(2553)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,916,61,215], () => (__webpack_exec__(2553)));
 module.exports = __webpack_exports__;
 
 })();

@@ -7,7 +7,7 @@ import Leaf2 from '@/public/assets/LandingPage/Leaf2.png';
 import FlipbookPlayer from "@/app/components/FlipbookPlayer/page.jsx"
 const Flipbook = () => {
     return (
-        <section className="p-12 m-10">
+        <section className="p-12 m-6  w-full">
             {/* <Image className=" absolute z-0 bottom-20 w-16 " src={Leaf1} alt="" />
         <div className="relative">
           
