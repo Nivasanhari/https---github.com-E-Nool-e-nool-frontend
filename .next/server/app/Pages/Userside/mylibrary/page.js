@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6131:
+/***/ 2764:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'mylibrary',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5376)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\mylibrary\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5376)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\mylibrary\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\mylibrary\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\mylibrary\\page.jsx"];
 
     
 
@@ -308,7 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9280:
+/***/ 5217:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3193))
@@ -771,7 +771,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Project\e-nool-frontend\app\Pages\Userside\mylibrary\page.jsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\NextJS\E-Nool - Copy\e-nool-frontend\app\Pages\Userside\mylibrary\page.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -804,7 +804,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,33], () => (__webpack_exec__(6131)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932,33], () => (__webpack_exec__(2764)));
 module.exports = __webpack_exports__;
 
 })();

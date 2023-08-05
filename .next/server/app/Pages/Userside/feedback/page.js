@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4436:
+/***/ 4673:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'feedback',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9128)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9128)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"];
 
     
 
@@ -308,7 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6659:
+/***/ 4090:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -385,7 +385,7 @@ var Lefe1 = __webpack_require__(2758);
 var module_proxy = __webpack_require__(1363);
 ;// CONCATENATED MODULE: ./app/components/staricon/Staricon.jsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Project\e-nool-frontend\app\components\staricon\Staricon.jsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`D:\NextJS\E-Nool - Copy\e-nool-frontend\app\components\staricon\Staricon.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -601,7 +601,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638], () => (__webpack_exec__(4436)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932], () => (__webpack_exec__(4673)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,4 +1,4 @@
-// File: C:\Project\e-nool-frontend\app\Pages\Userside\subscription\page.jsx
+// File: D:\NextJS\E-Nool - Copy\e-nool-frontend\app\Pages\Userside\subscription\page.jsx
 import * as entry from '../../../../../../app/Pages/Userside/subscription/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

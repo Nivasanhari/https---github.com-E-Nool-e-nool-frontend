@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1656:
+/***/ 9967:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -240,7 +240,7 @@ __webpack_require__.r(__webpack_exports__);
         'addBook',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6633)), "C:\\Project\\e-nool-frontend\\app\\components\\addBook\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6633)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\components\\addBook\\page.jsx"],
           
         }]
       },
@@ -263,7 +263,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -274,7 +274,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\components\\addBook\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\components\\addBook\\page.jsx"];
 
     
 
@@ -389,7 +389,7 @@ const page = ({ isVisivle })=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638], () => (__webpack_exec__(1656)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932], () => (__webpack_exec__(9967)));
 module.exports = __webpack_exports__;
 
 })();

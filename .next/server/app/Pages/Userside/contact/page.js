@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 811:
+/***/ 2870:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'contact',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 886)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 886)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"];
 
     
 
@@ -308,21 +308,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7332:
+/***/ 1850:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4559));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8950));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1189));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4559));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3384));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9470));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4833));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9470))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066))
 
 /***/ }),
 
@@ -347,8 +347,8 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 var react_shared_subset = __webpack_require__(2947);
 // EXTERNAL MODULE: ./public/assets/aboutbg.png
 var aboutbg = __webpack_require__(5632);
-// EXTERNAL MODULE: ./public/assets/Leaf.png
-var Leaf = __webpack_require__(7806);
+// EXTERNAL MODULE: ./public/assets/LandingPage/Leaf1.png
+var Leaf1 = __webpack_require__(17);
 ;// CONCATENATED MODULE: ./public/assets/contact-bg.png
 /* harmony default export */ const contact_bg = ({"src":"/_next/static/media/contact-bg.f4057895.png","height":200,"width":1083,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAF0lEQVR4nGNk8EtiZcAE/4GIkYGBkREAJLoCuC6AHNYAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":1});
 // EXTERNAL MODULE: ./public/assets/Lefe1.png
@@ -360,7 +360,7 @@ var Lefe1 = __webpack_require__(2758);
 // EXTERNAL MODULE: ./public/assets/img1.png
 var img1 = __webpack_require__(1152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
-var Ellipse = __webpack_require__(6385);
+var Ellipse = __webpack_require__(3133);
 ;// CONCATENATED MODULE: ./public/icons/call.png
 /* harmony default export */ const call = ({"src":"/_next/static/media/call.d1e45a79.png","height":50,"width":50,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAAYklEQVR42i3KsQ2CABRF0RdjgglDaCUaekex0EbRjh3Zgkk0lAd/YW53ciNeOtFrxSaeVpPGzdteYiz4OLkaitqI2WLnUHTXFzhazUVnjcRWXIoWX5MuitRltlZD/KkaPeQHXd5UKK6LkCAAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/icons/email.png
@@ -392,7 +392,7 @@ const page = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: " absolute ml-0 top-[100px] w-[45px]",
-                src: Leaf/* default */.Z,
+                src: Leaf1/* default */.Z,
                 alt: ""
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -699,7 +699,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349,61], () => (__webpack_exec__(811)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932,916,61], () => (__webpack_exec__(2870)));
 module.exports = __webpack_exports__;
 
 })();

@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6715:
+/***/ 5770:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         '404page',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6672)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\404page\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6672)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\404page\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\404page\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\404page\\page.jsx"];
 
     
 
@@ -308,15 +308,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6330:
+/***/ 3575:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5189));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8827));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7753))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7753));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066))
 
 /***/ }),
 
@@ -339,8 +339,8 @@ var next_image = __webpack_require__(4178);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
 var react_shared_subset = __webpack_require__(2947);
-// EXTERNAL MODULE: ./public/assets/Leaf.png
-var Leaf = __webpack_require__(7806);
+// EXTERNAL MODULE: ./public/assets/LandingPage/Leaf1.png
+var Leaf1 = __webpack_require__(17);
 // EXTERNAL MODULE: ./public/assets/aboutbg.png
 var aboutbg = __webpack_require__(5632);
 // EXTERNAL MODULE: ./public/assets/lefe1.png
@@ -373,7 +373,7 @@ const page = ()=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: "h-[300px] mt-[w-89px] left-[200px]",
-                                src: Leaf/* default */.Z,
+                                src: Leaf1/* default */.Z,
                                 alt: ""
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -476,7 +476,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,349], () => (__webpack_exec__(6715)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932,916], () => (__webpack_exec__(5770)));
 module.exports = __webpack_exports__;
 
 })();

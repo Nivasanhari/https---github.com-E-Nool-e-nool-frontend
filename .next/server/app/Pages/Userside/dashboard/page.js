@@ -204,7 +204,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 7884:
+/***/ 2191:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +243,7 @@ __webpack_require__.r(__webpack_exports__);
         'dashboard',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4598)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4598)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"],
           
         }]
       },
@@ -272,7 +272,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4001)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"];
 
     
 
@@ -308,7 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7280:
+/***/ 25:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -316,11 +316,11 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5096));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 423));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 715));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4635));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1396));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4255));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3985));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4255));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 715));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2479))
 
 /***/ }),
@@ -812,7 +812,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,638,33,769], () => (__webpack_exec__(7884)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,131,932,33,769], () => (__webpack_exec__(2191)));
 module.exports = __webpack_exports__;
 
 })();

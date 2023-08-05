@@ -19,7 +19,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 1050:
+/***/ 5362:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -50,7 +50,7 @@ var node_polyfill_headers = __webpack_require__(2394);
 var app_route_module = __webpack_require__(9692);
 var module_default = /*#__PURE__*/__webpack_require__.n(app_route_module);
 // EXTERNAL MODULE: ./node_modules/next/server.js
-var server = __webpack_require__(6757);
+var server = __webpack_require__(514);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Ffavicon.ico%2Froute&isDynamic=0!./app/favicon.ico?__next_metadata_route__
 
 
@@ -69,7 +69,7 @@ function GET() {
 
 const dynamic = 'force-static'
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=C%3A%5CProject%5Ce-nool-frontend%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=D%3A%5CNextJS%5CE-Nool%20-%20Copy%5Ce-nool-frontend%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -77,7 +77,7 @@ const dynamic = 'force-static'
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&isDynamic=0!C:\\Project\\e-nool-frontend\\app\\favicon.ico?__next_metadata_route__","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&isDynamic=0!D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\favicon.ico?__next_metadata_route__","nextConfigOutput":""}
     const routeModule = new (module_default())({
       ...options,
       userland: favicon_next_metadata_route_namespaceObject,
@@ -107,7 +107,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,218], () => (__webpack_exec__(1050)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,218], () => (__webpack_exec__(5362)));
 module.exports = __webpack_exports__;
 
 })();

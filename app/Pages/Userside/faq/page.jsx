@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Leaf from 'public/assets/Leaf.png'
+import Leaf from 'public/assets/LandingPage/Leaf1.png'
 import fqa from 'public/assets/fqa.png'
 import FQAbg from 'public/assets/FAQbg.png'
 import Aboutbg from 'public/assets/aboutbg.png'
@@ -54,7 +54,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -71,7 +71,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -88,7 +88,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -105,7 +105,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -122,7 +122,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -139,7 +139,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden pb-3'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -156,7 +156,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <div className=' relative w-[700px] overflow-hidden'>
                     <input className=' peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' type='checkbox' />
@@ -173,7 +173,7 @@ const FQA = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate.
                         </div>
                     </div>
-                    <hr className=' p-1'/>
+                    <hr className=' p-1' />
                 </div>
                 <Image className=' absolute top-[800px] left-[1550px] w-[120px]' src={Leaf2} />
                 <Image className=' absolute top-[900px] left-[1300px] w-[120px]' src={Lefe} alt='' />

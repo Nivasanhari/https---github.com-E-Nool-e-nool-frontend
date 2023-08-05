@@ -3,3 +3,56 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.flipbook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.process_bg {
+    background-image: url("/assets/LandingPage/processflow-bg.png");
+    padding: 1%;
+    background-repeat: no-repeat;
+
+}
+
+.hero_bg {
+    background-image: url("/assets/LandingPage/hero-bg.png");
+    background-repeat: no-repeat;
+}
+
+.footer_bg {
+    background-image: url("/assets/LandingPage/footer-bg.png");
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+}
+
+.pricing_bg {
+    background-image: url("/assets/LandingPage/hero-bg-1.png");
+    background-repeat: no-repeat;
+
+
+
+}
+
+.read_book_bg {
+    background-image: url("/assets/LandingPage/hero-bg-1.png");
+    background-repeat: no-repeat;
+}
