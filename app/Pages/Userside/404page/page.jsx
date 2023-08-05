@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Leaf from 'public/assets/Leaf.png'
+import Leaf from 'public/assets/LandingPage/Leaf1.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import Lefe from 'public/assets/lefe1.png'
 import img from 'public/assets/404img.png'

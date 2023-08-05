@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Aboutbg from 'public/assets/aboutbg.png'
-import Leaf from 'public/assets/Leaf.png'
+import Leaf from 'public/assets/LandingPage/Leaf1.png'
 import LefeBg from 'public/assets/Lefe1.png'
 import pricing from 'public/assets/Pricing.png'
 import pricingimg from 'public/assets/pricingimg.png'
@@ -117,10 +117,10 @@ const page = () => {
                             </div>
                         </div>
                     </div>
-                <Image className=' absolute top-[600px] left-[1550px] w-[120px]' src={Leaf2} />
-                <Image className=' absolute top-[700px] left-[1300px] w-[120px]' src={Lefe} alt='' />
-                <Image className=' absolute top-[800px] left-[1380px] w-[350px]' src={img1} alt='' />
-                <Image className=' absolute w-24 left-[1550px] mt-[600px]' src={Ellipse} alt='' />
+                    <Image className=' absolute top-[600px] left-[1550px] w-[120px]' src={Leaf2} />
+                    <Image className=' absolute top-[700px] left-[1300px] w-[120px]' src={Lefe} alt='' />
+                    <Image className=' absolute top-[800px] left-[1380px] w-[350px]' src={img1} alt='' />
+                    <Image className=' absolute w-24 left-[1550px] mt-[600px]' src={Ellipse} alt='' />
                 </div>
             </div>
 

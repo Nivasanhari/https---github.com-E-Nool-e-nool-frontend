@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Leaf from 'public/assets/Leaf.png'
+import Leaf from 'public/assets/LandingPage/Leaf1.png'
 // import privacypolicy from 'public/assets/privacy policy.png'
 import Aboutbg from 'public/assets/aboutbg.png'
 import img1 from 'public/assets/img1.png'
@@ -61,7 +61,7 @@ const LegalManagement = () => {
                 </div>
                 <Image className=' absolute top-[800px] left-[1550px] w-[120px]' src={Leaf2} />
                 <Image className=' absolute top-[980px] left-[1238px] w-[100px]' src={Lefe2} alt='' />
-                <Image className=' absolute left-[1520px] top-[1350px] w-24' src={Ellipse}/>
+                <Image className=' absolute left-[1520px] top-[1350px] w-24' src={Ellipse} />
                 <Image className=' absolute top-[1010px] left-[1360px] w-[350px]' src={img1} alt='' />
             </div>
         </div>
