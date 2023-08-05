@@ -38,7 +38,7 @@
 }
 
 .footer_bg {
-    background-image: url("/assets/LandingPage/footer-bg.png");
+    background-image: url("../public/assets/LandingPage/footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

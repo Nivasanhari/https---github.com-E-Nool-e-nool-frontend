@@ -9,7 +9,7 @@ import logo from "public/icons/eNOOL_Logo.svg";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-transparent m-5 ">
+    <footer className="bg-transparent  footer_bg">
       <div className="  items-end md-px-24 pt-72  relative -bottom-1 container lg:pt-96 mx-auto">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap md:text-left text-center order-first">

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <div className="w-full relative">
+        <div className="w-full relative footer_bg">
        <Footer/>
         </div>
       </body>
