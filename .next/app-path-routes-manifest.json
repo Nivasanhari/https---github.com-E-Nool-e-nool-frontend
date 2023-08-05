@@ -1,0 +1,23 @@
+{
+  "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
+  "/components/Coupon/page": "/components/Coupon",
+  "/components/FlipbookPlayer/page": "/components/FlipbookPlayer",
+  "/components/OtpPage/page": "/components/OtpPage",
+  "/components/Login/page": "/components/Login",
+  "/components/Otp Page/page": "/components/Otp Page",
+  "/components/Signup1/page": "/components/Signup1",
+  "/components/addBook/page": "/components/addBook",
+  "/Pages/Userside/404page/page": "/Pages/Userside/404page",
+  "/Pages/Userside/about/page": "/Pages/Userside/about",
+  "/Pages/Userside/contact/page": "/Pages/Userside/contact",
+  "/Pages/Userside/dashboard/page": "/Pages/Userside/dashboard",
+  "/Pages/Userside/faq/page": "/Pages/Userside/faq",
+  "/Pages/Userside/legalmanagement/page": "/Pages/Userside/legalmanagement",
+  "/Pages/Userside/myprofile/page": "/Pages/Userside/myprofile",
+  "/Pages/Userside/payment-information/page": "/Pages/Userside/payment-information",
+  "/Pages/Userside/mylibrary/page": "/Pages/Userside/mylibrary",
+  "/Pages/Userside/subscription/page": "/Pages/Userside/subscription",
+  "/Pages/Userside/terms&privacy/page": "/Pages/Userside/terms&privacy",
+  "/Pages/Userside/feedback/page": "/Pages/Userside/feedback"
+}
