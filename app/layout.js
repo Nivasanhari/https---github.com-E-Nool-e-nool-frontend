@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <div className="w-full relative">
-       <Footer/>
+            <Footer/>
         </div>
       </body>
     </html>
