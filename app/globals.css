@@ -40,8 +40,7 @@
 .footer_bg {
     background-image: url("/assets/LandingPage/footer-bg.png");
     background-repeat: no-repeat;
-    object-fit: contain;
-
+    background-size: cover;
 }
 
 .pricing_bg {
