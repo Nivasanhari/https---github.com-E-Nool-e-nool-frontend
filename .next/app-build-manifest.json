@@ -1,171 +1,21 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/448-31f32097274c43d4.js",
-      "static/chunks/735-5a232d2de0b1b0c6.js",
-      "static/css/8b74f3e07333c2f9.css",
-      "static/chunks/app/page-b53973740e2d363f.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/css/fbe7c74b178036e7.css",
-      "static/chunks/app/layout-d1cf2ca08240c585.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/components/Coupon/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/Coupon/page-4d0ccb95eab6c5a6.js"
-    ],
-    "/components/FlipbookPlayer/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/448-31f32097274c43d4.js",
-      "static/chunks/app/components/FlipbookPlayer/page-26441e3af5aa2a9b.js"
-    ],
-    "/components/OtpPage/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/OtpPage/page-b50869a5893cdeb4.js"
-    ],
-    "/components/Login/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/Login/page-6018c4a2ae259895.js"
-    ],
-    "/components/Otp Page/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/Otp Page/page-68b4878ead65afa9.js"
-    ],
-    "/components/Signup1/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/Signup1/page-91933d527ee32491.js"
-    ],
-    "/components/addBook/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/app/components/addBook/page-7ffd16e93235af87.js"
-    ],
-    "/Pages/Userside/404page/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/404page/page-98e063e55cc75b6a.js"
-    ],
-    "/Pages/Userside/about/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/about/page-06c2c49b886da1d7.js"
-    ],
-    "/Pages/Userside/contact/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/contact/page-4622933a5bfb64fd.js"
-    ],
-    "/Pages/Userside/dashboard/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/dashboard/page-909fe39a58017252.js"
-    ],
-    "/Pages/Userside/faq/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/faq/page-39b58abe9cc83232.js"
-    ],
-    "/Pages/Userside/legalmanagement/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/legalmanagement/page-e2085efd21228a58.js"
-    ],
-    "/Pages/Userside/myprofile/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/myprofile/page-34e20cea62db8091.js"
-    ],
-    "/Pages/Userside/payment-information/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/payment-information/page-a8db41542fc87be5.js"
-    ],
-    "/Pages/Userside/mylibrary/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/mylibrary/page-75c49211627f90b3.js"
-    ],
-    "/Pages/Userside/subscription/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/subscription/page-1343e82aee807f51.js"
-    ],
-    "/Pages/Userside/terms&privacy/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/terms&privacy/page-ed0613b39e624ace.js"
-    ],
-    "/Pages/Userside/feedback/page": [
-      "static/chunks/webpack-c00718f1658d1dd7.js",
-      "static/chunks/fd9d1056-5b37b0b0ad6e1ffe.js",
-      "static/chunks/596-f54c33dc713d6f6e.js",
-      "static/chunks/main-app-2af9825c54f89748.js",
-      "static/chunks/222-65df52efafcc0fb5.js",
-      "static/chunks/app/Pages/Userside/feedback/page-0c021f83b0e42081.js"
+    "/components/flipbook/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/components/flipbook/page.js"
     ]
   }
 }

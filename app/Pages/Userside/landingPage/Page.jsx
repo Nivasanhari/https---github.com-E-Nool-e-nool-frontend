@@ -32,17 +32,12 @@ export default function page() {
       <EnoolPicks/>
       <ProcessFlow />
       <StartSeries />
-    
       <FeaturedAuthors />
       <Testimonials />
       <FeaturedPublishers />
       <GetStarted />
       <About />
       <Pricing />
-
-   
-    
-     
     </div>
 
   )

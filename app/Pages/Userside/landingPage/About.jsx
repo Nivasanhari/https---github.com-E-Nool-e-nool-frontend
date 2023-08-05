@@ -12,11 +12,11 @@ const About = () => {
         <section className="relativew-full">
             {/* <Image className="   top-20 -right-10 w-16 " src={Leaf1} alt="" /> */}
             {/* <Image className=" absolute z-0 -top-[500px] -right-52 " src={HeroBg} alt="" /> */}
-            <div className="z-10  mx-auto  justify-between items-center sm:px-16  py-4 ">
+            <div className="z-10  mx-auto  justify-between items-center sm:px-16  py-1 ">
                 <div className="hidden md:block  ">
-                    <div className="md:container md:mx-auto flex  pt-24 md:flex-row flex-col items-center">
+                    <div className="md:container md:mx-auto flex  pt-10 md:flex-row flex-col items-center">
                         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:items-center  ">
-                            <Image className=' left-56 top-[130px] w-[90%]' src={about1} alt='' />
+                            <Image className=' left-56 top-[120px] w-[90%]' src={about1} alt='' />
                         </div>
                         <div className="  lg:w-full md:w-1/2 w-5/6 lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start   md:text-left sm:text-center ">
                             {/* <Image className=' absolute ml-[570px] w-28 mt-0' src={LeafBg} alt='' /> */}

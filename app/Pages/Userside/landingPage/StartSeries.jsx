@@ -114,10 +114,6 @@ export default function StartSeries() {
                     </Swiper>
 
 
-
-
-
-
                 </div>
             </div>
 

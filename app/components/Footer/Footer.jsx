@@ -257,23 +257,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap pt-18 items-center md:justify-between justify-center">
-          <div className="w-full  px-4 mx-auto text-center">
-            <div className="text-xs text-white font-semibold py-1 sm:space-y-3">
-              Copyright © <span id="get-current-year">{currentYear}</span>
-              <a
-                href="https://www.creative-tim.com/product/notus-js"
-                className="text-white hover:text-gray-800"
-                target="_blank"
-              />{" "}
-              E-Nool |
-              <a href="#" className="text-white hover:text-blueGray-800">
-                Powered By E-Nool
-              </a>
-              .
-            </div>
-          </div>
-        </div>
+        
       </div>
       <table className="md:visible border-collapse border border-slate-400 w-full table-fixed py-5">
         <tbody>

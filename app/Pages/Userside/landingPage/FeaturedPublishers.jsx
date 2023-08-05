@@ -5,9 +5,9 @@ import brand_1 from 'public/assets/LandingPage/brand-1.png';
 import brand_2 from 'public/assets/LandingPage/brand-2.png';
 export default function FeaturedPublishers  ()  {
   return (
-      <section className=" mt-10 ">
+      <section className=" ">
 
-          <div className="w-full md-px-24 relative  container  py-24 mx-auto px-6">
+          <div className="w-full md-px-24 relative  container  py-10 mx-auto px-1">
               <div className="flex flex-wrap w-full mb-10 lg:flex-row flex-col">
                   <div className="lg:w-1/2 w-full mb-6 lg:mb-2">
                       <h1 className="text-3xl font-bold title-font pb-4 text-[#015464] lg:w-[60%]">

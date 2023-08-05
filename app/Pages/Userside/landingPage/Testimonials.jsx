@@ -8,9 +8,9 @@ import cardObject from 'public/assets/LandingPage/testimonial-object.png'
 
 export default function Testimonials() {
     return (
-        <section className="mt-10  text-gray-600 relative">
+        <section className="  text-gray-600 relative">
             <Image src={Leaf2} alt="" className='absolute mt-96' />
-            <div className="w-full md-px-24 relative  container  py-24 mx-auto px-6">
+            <div className="w-full md-px-24 relative  container  py-10 mx-auto px-1">
                 <div className="flex flex-wrap w-full mb-10 lg:flex-row flex-col">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-2">
                         <h1 className="text-3xl font-bold title-font pb-4 text-[#015464] lg:w-[60%]">What Readers Says</h1>
