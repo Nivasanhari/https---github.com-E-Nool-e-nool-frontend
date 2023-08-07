@@ -1,4 +1,4 @@
-// File: C:\Project\e-nool-frontend\app\components\Coupon\page.jsx
+// File: D:\NextJS\E-Nool - Copy\e-nool-frontend\app\components\Coupon\page.jsx
 import * as entry from '../../../../../app/components/Coupon/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 7079:
+/***/ 3886:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'faq',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5091)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5091)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\faq\\page.jsx"];
 
     
 
@@ -308,18 +340,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6309:
+/***/ 7982:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5915));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7234));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9925));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745))
 
 /***/ }),
@@ -354,7 +386,7 @@ var aboutbg = __webpack_require__(5632);
 // EXTERNAL MODULE: ./public/assets/img1.png
 var img1 = __webpack_require__(1152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
-var Ellipse = __webpack_require__(6385);
+var Ellipse = __webpack_require__(3133);
 // EXTERNAL MODULE: ./public/assets/Lefe2.png
 var Lefe2 = __webpack_require__(9995);
 // EXTERNAL MODULE: ./public/assets/Leaf2.png
@@ -384,19 +416,19 @@ const FQA = ()=>{
                         className: "  h-[400px] top-[83px]",
                         src: aboutbg/* default */.Z
                     }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " absolute z-0 top-20 w-16 ",
+                        src: Leaf1/* default */.Z,
+                        alt: ""
+                    }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex justify-between top-48 absolute ",
+                        className: " container flex m-auto top-48 absolute",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " ml-  h-60 ",
-                                src: Leaf1/* default */.Z,
-                                alt: ""
-                            }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[250px]",
+                                className: " ml-[200px] w-auto ",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " absolute w-[400px]",
+                                        className: " absolute w-96",
                                         src: FAQbg
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
@@ -404,19 +436,19 @@ const FQA = ()=>{
                                         children: "Frequently Asked Questions "
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                        className: " text-[#015464] font-extrabold text-xl mt-16",
+                                        className: " text-[#015464] font-extrabold text-xl mt-12",
                                         children: "Welcome to Enool!L"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: " text-[#015464] mt-10 text-sm font-medium left-[965px] w-[500px] h-[146px]",
+                                        className: " text-[#015464] mt-8 text-[12px] font-medium left-[965px] w-[400px] h-[146px]",
                                         children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                                     })
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " ml-[200px] h-[250]",
+                                className: " m-auto h-[250]",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " top-[130px] w-[350px]",
+                                    className: " top-[130px] max-w-md lg:max-w-sm",
                                     src: fqa,
                                     alt: ""
                                 })
@@ -424,12 +456,12 @@ const FQA = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1500px] mt-14 top-24 w-24 ",
+                        className: " hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 ",
                         src: lefe1/* default */.Z,
                         alt: ""
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " mt-[300px] ml-[600px]",
+                        className: " container flex justify-center items-center mt-[300px] ",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " absolute left-7 mt-40",
@@ -437,7 +469,7 @@ const FQA = ()=>{
                                 alt: ""
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " absolute top-[450px] w-[400px] left-[-250px]",
+                                className: " absolute top-[450px] w-auto left-[-250px]",
                                 src: img1/* default */.Z
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
@@ -462,362 +494,363 @@ const FQA = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " ml-[500px] mt-28 ",
+                className: " container flex justify-center items-center mt-28 ",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "01. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "01. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "02. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "02. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "03. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "03. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "04. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "04. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "05. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "05. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "06. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "06. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden pb-3",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "07. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden pb-3",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "07. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
+                                ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " relative w-[700px] overflow-hidden",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                type: "checkbox"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " h-12 w-full flex items-center",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                    className: " text-lg font-semibold text-[#015464]",
-                                    children: "08. Welcome to Enool!"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    "stroke-width": "1.5",
-                                    stroke: "currentColor",
-                                    class: "w-6 h-6",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                        "stroke-linecap": "round",
-                                        "stroke-linejoin": "round",
-                                        d: "M12 4.5v15m7.5-7.5h-15"
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: " relative w-[700px] overflow-hidden",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                        type: "checkbox"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " h-12 w-full flex items-center",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                            className: " text-lg font-semibold text-[#015464]",
+                                            children: "08. Welcome to Enool!"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " absolute top-3 right-3 text-[#015464] peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            "stroke-width": "1.5",
+                                            stroke: "currentColor",
+                                            class: "w-6 h-6",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                "stroke-linecap": "round",
+                                                "stroke-linejoin": "round",
+                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                            })
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: " text-[#14adad] p-4",
+                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                        className: " p-1"
                                     })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " max-h-0 bg-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: " text-[#14adad] p-4",
-                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus impedit totam nulla, dolorum numquam recusandae facere modi mollitia? Eveniet sunt quas voluptas iure facere nesciunt dolor corporis illum voluptate."
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                className: " p-1"
+                                ]
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[800px] left-[1550px] w-[120px]",
+                        className: " hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 ",
                         src: Leaf2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[900px] left-[1300px] w-[120px]",
-                        src: Lefe2/* default */.Z,
-                        alt: ""
+                        className: " hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 ",
+                        src: Lefe2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[1010px] left-[1380px] w-[350px]",
-                        src: img1/* default */.Z,
-                        alt: ""
+                        className: " hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 ",
+                        src: img1/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute w-24 left-[1550px] mt-[-60px]",
-                        src: Ellipse/* default */.Z,
-                        alt: ""
+                        className: " hidden lg:block absolute top-[1380px] z-0 bottom-36 right-20 w-20 ",
+                        src: Ellipse/* default */.Z
                     })
                 ]
             })
@@ -883,7 +916,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,916,61,215], () => (__webpack_exec__(7079)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,5916,4061,4215], () => (__webpack_exec__(3886)));
 module.exports = __webpack_exports__;
 
 })();

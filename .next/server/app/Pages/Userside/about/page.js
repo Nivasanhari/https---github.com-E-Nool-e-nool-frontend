@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 535;
-exports.ids = [535];
+exports.id = 5535;
+exports.ids = [5535];
 exports.modules = {
 
 /***/ 8038:
@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 9320:
+/***/ 7232:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'about',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 531)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 531)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\about\\page.jsx"];
 
     
 
@@ -308,29 +340,29 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3957:
+/***/ 4930:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7642));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8215));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4344));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3137));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4802));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4812));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 522));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 708));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6099));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2943));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 522));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6050));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4325));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7235));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7364))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7364));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4325))
 
 /***/ }),
 
@@ -366,7 +398,7 @@ var Lefe1 = __webpack_require__(2758);
 ;// CONCATENATED MODULE: ./public/assets/grp1.png
 /* harmony default export */ const grp1 = ({"src":"/_next/static/media/grp1.fd7b4dbe.png","height":496,"width":975,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAgklEQVR42mP4+/gLy/9nN5mSU0qZbj66w8gABJsmVzIdW7CSgwEErq+ZysOABB5urWEC0V8OXeEsqmgxZJjVtTpv08wF1cFtM6UPv3/BDZKc0rhUuiIzQ2tRb4MTw4RJuzqWLNjwcfOkWZvOHbqy/PKJh1M3TuhbsmbOqhePZnUbAAAMeDk4Rj5vWQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":4});
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
-var Ellipse = __webpack_require__(6385);
+var Ellipse = __webpack_require__(3133);
 // EXTERNAL MODULE: ./public/assets/img1.png
 var img1 = __webpack_require__(1152);
 // EXTERNAL MODULE: ./public/assets/Lefe2.png
@@ -416,14 +448,19 @@ var Lefe2 = __webpack_require__(9995);
 
 function About() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "",
+        className: " m-auto",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: " relative h-[600px]",
                 src: aboutbg/* default */.Z
             }),
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
+                src: Lefe1/* default */.Z,
+                alt: ""
+            }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " flex justify-between top-48 absolute ",
+                className: " container flex justify-between top-48 absolute ",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: " absolute ml-0 w-[65px]",
@@ -438,19 +475,14 @@ function About() {
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: " ml-[350px] h-[200]",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " left-56 top-[130px] w-[350px]",
+                            className: " left-56 top-[130px] w-[600px]",
                             src: about1,
                             alt: ""
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " ml-52",
+                        className: " container ml-48",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " absolute ml-[570px] w-28 mt-0",
-                                src: Lefe1/* default */.Z,
-                                alt: ""
-                            }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: " text-[#015464] text-lg font-bold top-[251px] left-[965px] w-[143px] h-[16px]",
                                 children: "WHO WE ARE"
@@ -460,7 +492,7 @@ function About() {
                                 children: "About ENOOL"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " text-[#015464] mt-10 text-sm font-medium left-[965px] w-[500px] h-[146px]",
+                                className: " mb-4 text-[#015464] mt-7 text-sm font-medium w-[450px] h-[146px]",
                                 children: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
@@ -492,6 +524,7 @@ function About() {
                         className: " flex mt-20 p-0",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                                         className: " ml-20 font-extrabold text-3xl text-[#015464]",
@@ -501,15 +534,15 @@ function About() {
                                         className: " bg-[#14adad] w-[242px] ml-[80px] mt-3 p-0.5 opacity-0.7 rounded-sm"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: " font-medium text-[#015464] mt-8 w-[600px] text-ms h-[80px] ml-20",
+                                        className: " font-medium text-[#015464] mt-8 w-[450px] text-xs h-[80px] ml-20",
                                         children: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
                                     })
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " w-[650px] ",
+                                className: " w-auto",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " ml-28",
+                                    className: " ml",
                                     src: grp1,
                                     alt: ""
                                 })
@@ -519,7 +552,7 @@ function About() {
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: " relative bg-[#015464] h-[500px] object-fill",
+                className: " relative bg-[#015464] h-[500px] object-fill ",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "  m-0",
                     children: [
@@ -598,11 +631,6 @@ function About() {
                                                     children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
                                                 })
                                             ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            className: " w-[563px] absolute top-[-190px] left-[1490px]",
-                                            src: img1/* default */.Z,
-                                            alt: ""
                                         })
                                     ]
                                 })
@@ -906,14 +934,14 @@ function About() {
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " pl-32 ml-32 ",
+                        className: " pl-32  ",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 className: " absolute h-[399px] w-[423px] ",
                                 src: rectangle2
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " ml-32 absolute left-[725px] w-[490px] mt-[65px]",
+                                className: " w-[500px] absolute   mt-[65px]",
                                 src: group
                             })
                         ]
@@ -921,12 +949,12 @@ function About() {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " bg-white flex mt-20 mb-48 ",
+                className: " bg-white flex mt-20 mb-32 ",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: " pl-32 ml-32 ",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " relative h-[399px] w-[423px] ",
+                            className: " relative h-[399px] w-auto ",
                             src: group2
                         })
                     }),
@@ -954,14 +982,14 @@ function About() {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " bg-white flex mt-20 mb-32 pl-24",
+                className: " bg-white flex mt-20 mb-48 pl-24",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " mt-40 ml-32 pl-10",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                                 className: " text-[#015464] text-3xl text-start font-bold",
-                                children: "Become an Author."
+                                children: "Becom an Author"
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                 className: " text-[#14adad] text-xs text-start pt-3",
@@ -978,16 +1006,16 @@ function About() {
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: " pl-32 ml-32 ",
+                        className: " pl-32 ml-10 ",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " absolute h-[399px] w-[423px] ",
-                            src: group3
+                            src: group3,
+                            alt: "group3-img"
                         })
                     })
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " bg-white items-center mb-28",
+                className: " bg-white items-center m-auto xl:mx-auto",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: " text-center text-3xl",
@@ -997,7 +1025,7 @@ function About() {
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex mt-20 ml-[400px]",
+                        className: " flex mt-20 justify-center items-center",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 className: " text-center px-10 py-10 rounded-2xl border-white shadow-md",
@@ -1042,37 +1070,35 @@ function About() {
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mb-20 mt-32 bg-white font-medium",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " mt-9 text-center",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                className: " text-[#14adad] text-sm",
-                                children: "Newsletter"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                className: " text-[#015464] mt-4 font-extrabold text-3xl",
-                                children: " Do You wan to get splecial News?"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " ml-[650px]",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                className: " bg-gray-200 p-2 rounded px-4 ",
-                                type: "email",
-                                placeholder: "Drop your Email"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                className: " bg-[#14adad] opacity-1 items-start mt-8 ml-4 p-2 px-5 rounded-2xl text-white ",
-                                children: "Subsribe Now"
-                            })
-                        ]
-                    })
-                ]
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: " container m-auto mt-6 bg-white font-medium",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: " mt-9 text-center",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                            className: " text-[#14adad] text-sm",
+                            children: "Newsletter"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                            className: " text-[#015464] mt-4 font-extrabold text-3xl",
+                            children: " Do You wan to get splecial News?"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                    className: " bg-gray-200 p-2 rounded px-4 ",
+                                    type: "email",
+                                    placeholder: "Drop your Email"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                    className: " bg-[#14adad] opacity-1 items-start mt-8 ml-4 p-2 px-5 rounded-2xl text-white ",
+                                    children: "Subsribe Now"
+                                })
+                            ]
+                        })
+                    ]
+                })
             })
         ]
     });
@@ -1236,7 +1262,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4812:
+/***/ 708:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1291,7 +1317,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,916,61], () => (__webpack_exec__(9320)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,5916,4061], () => (__webpack_exec__(7232)));
 module.exports = __webpack_exports__;
 
 })();

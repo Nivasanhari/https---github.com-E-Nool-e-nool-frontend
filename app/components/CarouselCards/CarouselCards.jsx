@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 export default function CarouselCardItems() {
     return (<div >
-        <Image className=" rounded w-56 object-cover object-center mb-4 p-3" src={TrendingReads1} alt="content" />
+        <Image className=" rounded w-56 object-cover object-center mb-4   " src={TrendingReads1} alt="content" />
         <h2 className="text-[16px] text-[#1A6270] font-bold  mb-2">King of Battle and Blood</h2>
         <div className="flex flex-wrap mb-2 m-1">
             <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" fill="currentColor" viewBox="0 0 22 20">
@@ -35,7 +35,7 @@ export default function CarouselCardItems() {
         </div>
         <p className="text-[12px] tracking-widest text-[#1A6270] text-xs  mb-2  ">by Scarlett St.Clair</p>
 
-        <div className="flex flex-wrap space-x-4 pt-2 mb-1 text-center justify-center">
+        <div className="flex flex-wrap space-x-4 pt-2 mb-1 text-center ">
             <Image src={eye} className="w-8" alt="" />
             <Image src={heart} className="w-8" alt="" />
             <Image src={moreOption} className="w-8" alt="" />
@@ -46,7 +46,7 @@ export default function CarouselCardItems() {
 
 export const CarouselCards = () => {
     return (
-        <div className="grid grid-cols-2   md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-3">
+        <div className="grid grid-cols-2   md:grid-cols-3  xl:grid-cols-6 gap-4 lg:gap-3">
             <CarouselCardItems/>
             <CarouselCardItems/>
             <CarouselCardItems />

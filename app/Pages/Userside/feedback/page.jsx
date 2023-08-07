@@ -14,16 +14,16 @@ const page = () => {
 
   const star = Array(5).fill(0)
   return (
-    <div className=' mb-20'>
-      <div className=''>
+    <div className=' justify-center items-center'>
+      <div className=' m-auto'>
         {/* <Image className=' absolute rotate-12 mt-10 ml-60 h-[1578px] ' src={bg} alt='feedback-bg-img' /> */}
-        <div className=' relative left-44  flex'>
-          <h1 className=' ml-[500px] mt-60 text-3xl font-extrabold w-[480px] text-[#015464] '>Thank You For Subscribing! Write Your Feedback!</h1>
-          <Image className=' absolute w-28 left-[1300px] mt-40' src={lefe1} alt='lefe1-img' />
+        <div className=' relative justify-center mb-20 flex'>
+          <h1 className=' mt-60 text-3xl font-extrabold w-[480px] text-[#015464] '>Thank You For Subscribing! Write Your Feedback!</h1>
+            <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={lefe1} alt="" />
         </div>
-        <div className=' bg-[#7CC9B5] rounded-2xl h-[500px] ml-[460px] mt-20  w-[800px]'>
+        <div className=' bg-[#7CC9B5] rounded-3xl h-[500px] m-auto w-[800px]'>
           <div className=' ml-12 text-white '>
-            <h3 className=' mb-4 mt-3'>Your email address will not be published. Required fields are marked <span className=' text-red-500'>*</span> </h3>
+            <h3 className=' mb-4 '>Your email address will not be published. Required fields are marked <span className=' text-red-500'>*</span> </h3>
             <div className=' flex gap-2'>
               <h3 className=' mb-5'>your rating <span className=' text-red-500'>*</span> </h3>
               <Staricon />
@@ -50,8 +50,13 @@ const page = () => {
             </div>
             <button className=' text-sm p-1 rounded-xl bg-[#015464] px-5'>Submit</button>
           </div>
+          
         </div>
+        <div className=' mt-10 flex justify-center items-center'>
+            <button className='  p-3 text-white rounded-xl bg-[#7CC9B5]'>Back to Home</button>
+          </div>
       </div>
+
     </div>
   );
 };

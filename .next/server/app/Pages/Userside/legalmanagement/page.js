@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3056:
+/***/ 4338:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'legalmanagement',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8022)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\legalmanagement\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8022)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\legalmanagement\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\legalmanagement\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\legalmanagement\\page.jsx"];
 
     
 
@@ -308,15 +340,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9327:
+/***/ 5294:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8702));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4745));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7063));
@@ -350,7 +382,7 @@ var aboutbg = __webpack_require__(5632);
 // EXTERNAL MODULE: ./public/assets/img1.png
 var img1 = __webpack_require__(1152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
-var Ellipse = __webpack_require__(6385);
+var Ellipse = __webpack_require__(3133);
 // EXTERNAL MODULE: ./public/assets/Lefe1.png
 var Lefe1 = __webpack_require__(2758);
 // EXTERNAL MODULE: ./public/assets/terms.png
@@ -385,65 +417,61 @@ const LegalManagement = ()=>{
                         className: "  h-[400px] top-[-83px]",
                         src: aboutbg/* default */.Z
                     }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " absolute z-0 top-24 w-16 ",
+                        src: Leaf1/* default */.Z,
+                        alt: ""
+                    }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex justify-between top-48 absolute ",
+                        className: "  justify-center items-center flex top-40 z-0 absolute ",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " ml-0  h-60 mt-[w-89px]",
-                                src: Leaf1/* default */.Z,
-                                alt: ""
-                            }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " ml-[300px]",
+                                className: " max-w-3xl ml-48",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " absolute top-32 w-[850px] left-[300px]",
-                                        src: Legal_Managementbg
+                                        src: Legal_Managementbg,
+                                        alt: "lega1-img"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                        className: " text-[#015464] mt-52 text-3xl font-extrabold top-[351px]  h-[16px]",
+                                        className: " text-[#015464] font-extrabold text-5xl",
                                         children: "Legal Management"
                                     })
                                 ]
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: " ml-[200px] h-[180] ",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                    className: " ml-[200px] top-[130px] w-[500px]",
-                                    src: terms/* default */.Z,
-                                    alt: ""
-                                })
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " max-w-md",
+                                src: terms/* default */.Z,
+                                alt: "Terms"
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1480px] top-24 w-24 ",
+                        className: " hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 ",
                         src: Lefe1/* default */.Z,
                         alt: ""
                     })
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                className: " absolute left-7 mt-[330px] w-24",
-                src: Ellipse/* default */.Z,
-                alt: ""
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                className: " absolute top-[450px] w-[400px] left-[-200px]",
+                className: " hidden lg:block absolute top-[650px] z-0 bottom-36 -left-28 w-72 ",
                 src: img1/* default */.Z
             }),
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                className: " hidden lg:block absolute top-[898px] z-0 bottom-36 left-10 w-28 ",
+                src: Ellipse/* default */.Z
+            }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mt-40 mb-24 ml-[100px]",
+                className: " mt-40 mb-24 justify-center items-center flex flex-col m-auto ",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -452,11 +480,11 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -465,11 +493,11 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -478,11 +506,11 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -491,11 +519,11 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -504,11 +532,11 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
@@ -517,32 +545,30 @@ const LegalManagement = ()=>{
                         className: " mt-9 bg-white",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: " ml-[290px] text-[#015464] font-semibold text-2xl pb-5",
+                                className: " text-[#015464] font-semibold text-2xl pb-5",
                                 children: "As of April 07th,2023"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: " ml-[290px] w-[700px] text-[#14adad] text-xs",
+                                className: " w-[700px] text-[#14adad] text-xs",
                                 children: "Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се."
                             })
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[800px] left-[1550px] w-[120px]",
+                        className: " hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 ",
                         src: Leaf2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[980px] left-[1238px] w-[100px]",
-                        src: Lefe2/* default */.Z,
-                        alt: ""
+                        className: " hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 ",
+                        src: Lefe2/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-[1520px] top-[1350px] w-24",
+                        className: " hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 ",
+                        src: img1/* default */.Z
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: " hidden lg:block absolute top-[1380px] z-0 bottom-36 right-20 w-20 ",
                         src: Ellipse/* default */.Z
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute top-[1010px] left-[1360px] w-[350px]",
-                        src: img1/* default */.Z,
-                        alt: ""
                     })
                 ]
             })
@@ -573,7 +599,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,916,61,215,324], () => (__webpack_exec__(3056)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,5916,4061,4215,2324], () => (__webpack_exec__(4338)));
 module.exports = __webpack_exports__;
 
 })();

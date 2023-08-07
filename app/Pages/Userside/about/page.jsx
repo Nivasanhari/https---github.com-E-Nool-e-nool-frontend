@@ -22,19 +22,19 @@ import group3 from 'public/assets/group3.png'
 
 function About() {
     return (
-        <div className=''>
+        <div className=' m-auto'>
             <Image className=' relative h-[600px]' src={Aboutbg} />
-            <div className=' flex justify-between top-48 absolute '>
+        <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={LefeBg} alt="" />
+            <div className=' container flex justify-between top-48 absolute '>
                 <Image className=' absolute ml-0 w-[65px]' src={Leaf} alt='' />
                 <Image className=' absolute top-14 left-[300px] w-[90px] h-[102px]' src={about2} alt='' />
                 <div className=' ml-[350px] h-[200]'>
-                    <Image className=' left-56 top-[130px] w-[350px]' src={about1} alt='' />
+                    <Image className=' left-56 top-[130px] w-[600px]' src={about1} alt='' />
                 </div>
-                <div className=' ml-52'>
-                    <Image className=' absolute ml-[570px] w-28 mt-0' src={LefeBg} alt='' />
+                <div className=' container ml-48'>
                     <h2 className=' text-[#015464] text-lg font-bold top-[251px] left-[965px] w-[143px] h-[16px]'>WHO WE ARE</h2>
                     <h1 className=' text-[#015464] font-extrabold text-4xl mt-8'>About ENOOL</h1>
-                    <p className=' text-[#015464] mt-10 text-sm font-medium left-[965px] w-[500px] h-[146px]'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                    <p className=' mb-4 text-[#015464] mt-7 text-sm font-medium w-[450px] h-[146px]'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
                     <button className=' bg-[#14adad] opacity-1 mt-8 p-2 px-5 rounded-3xl text-white '>Get Started</button>
                 </div>
             </div>
@@ -44,17 +44,17 @@ function About() {
                     <Image className=' ml-10 mt-48' src={Ellipse} alt='' />
                 </div>
                 <div className=' flex mt-20 p-0'>
-                    <div>
+                    <div className=''>
                         <h1 className=' ml-20 font-extrabold text-3xl text-[#015464]'>Our Story</h1>
                         <hr className=' bg-[#14adad] w-[242px] ml-[80px] mt-3 p-0.5 opacity-0.7 rounded-sm' />
-                        <p className=' font-medium text-[#015464] mt-8 w-[600px] text-ms h-[80px] ml-20'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                        <p className=' font-medium text-[#015464] mt-8 w-[450px] text-xs h-[80px] ml-20'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
                     </div>
-                    <div className=' w-[650px] '>
-                        <Image className=' ml-28' src={grp1} alt='' />
+                    <div className=' w-auto'>
+                        <Image className=' ml' src={grp1} alt='' />
                     </div>
                 </div>
             </div>
-            <div className=' relative bg-[#015464] h-[500px] object-fill'>
+            <div className=' relative bg-[#015464] h-[500px] object-fill '>
                 <div className='  m-0'>
                     <div className=' w-52'>
                         <Image className=' absolute mt-36 left-10 w-28' src={Lefe2} alt='' />
@@ -79,7 +79,6 @@ function About() {
                                 <h3 className=' text-white mt-0 p-2 '>01.Learn</h3>
                                 <p className=' text-xs font-thin p-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
                             </div>
-                            <Image className=' w-[563px] absolute top-[-190px] left-[1490px]' src={img1} alt='' />
                         </div>
                     </div>
                 </div>
@@ -177,16 +176,16 @@ function About() {
                         "There is no one who loves pain itself, who seeks after it and wants</p>
                     <button className=' bg-[#015464] opacity-1 items-start mt-8 p-2 px-5 rounded text-white '>Subsribe Now</button>
                 </div>
-                <div className=' pl-32 ml-32 '>
+                <div className=' pl-32  '>
                     <Image className=' absolute h-[399px] w-[423px] ' src={rectangle2} />
-                    <Image className=' ml-32 absolute left-[725px] w-[490px] mt-[65px]' src={group} />
+                    <Image className=' w-[500px] absolute   mt-[65px]' src={group} />
                 </div>
             </div>
 
 
-            <div className=' bg-white flex mt-20 mb-48 '>
+            <div className=' bg-white flex mt-20 mb-32 '>
                 <div className=' pl-32 ml-32 '>
-                    <Image className=' relative h-[399px] w-[423px] ' src={group2} />
+                    <Image className=' relative h-[399px] w-auto ' src={group2} />
                 </div>
                 <div className=' pl-32 ml-20 items-start'>
                     <h1 className=' text-[#015464] font-extrabold text-3xl ml-4 mt-28'>Become an Publisher</h1>
@@ -196,23 +195,25 @@ function About() {
                 </div>
             </div>
 
-            <div className=' bg-white flex mt-20 mb-32 pl-24'>
+            <div className=' bg-white flex mt-20 mb-48 pl-24'>
                 <div className=' mt-40 ml-32 pl-10'>
-                    <h1 className=' text-[#015464] text-3xl text-start font-bold'>Become an Author.</h1>
+                    <h1 className=' text-[#015464] text-3xl text-start font-bold'>Becom an Author</h1>
                     <p className=' text-[#14adad] text-xs text-start pt-3'>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br />
                         "There is no one who loves pain itself, who seeks after it and wants</p>
                     <button className=' bg-[#015464] opacity-1 items-start mt-8 p-2 px-5 rounded text-white '>Subsribe Now</button>
                 </div>
-                <div className=' pl-32 ml-32 '>
-                    <Image className=' absolute h-[399px] w-[423px] ' src={group3} />
+                <div className=' pl-32 ml-10 '>
+                    <Image src={group3} alt='group3-img' />
                 </div>
             </div>
+           
+            
 
-            <div className=' bg-white items-center mb-28'>
+            <div className=' bg-white items-center m-auto xl:mx-auto'>
                 <div className=' text-center text-3xl'>
                     <h1 className=' font-extrabold text-[#015464]'>Enool by the Numbers</h1>
                 </div>
-                <div className=' flex mt-20 ml-[400px]'>
+                <div className=' flex mt-20 justify-center items-center'>
                     <div className=' text-center px-10 py-10 rounded-2xl border-white shadow-md'>
                         <h3 className=' text-[#14adad] text-sm'>Readers</h3>
                         <h1 className=' text-6xl font-bold text-[#015464] '>300k</h1>
@@ -228,14 +229,15 @@ function About() {
                 </div>
             </div>
 
-            <div className=' mb-20 mt-32 bg-white font-medium'>
+            <div className=' container m-auto mt-6 bg-white font-medium'>
                 <div className=' mt-9 text-center'>
                     <h3 className=' text-[#14adad] text-sm'>Newsletter</h3>
                     <h2 className=' text-[#015464] mt-4 font-extrabold text-3xl'> Do You wan to get splecial News?</h2>
-                </div>
-                <div className=' ml-[650px]'>
-                    <input className=' bg-gray-200 p-2 rounded px-4 ' type="email" placeholder='Drop your Email' />
-                    <button className=' bg-[#14adad] opacity-1 items-start mt-8 ml-4 p-2 px-5 rounded-2xl text-white '>Subsribe Now</button>
+
+                    <div className=''>
+                        <input className=' bg-gray-200 p-2 rounded px-4 ' type="email" placeholder='Drop your Email' />
+                        <button className=' bg-[#14adad] opacity-1 items-start mt-8 ml-4 p-2 px-5 rounded-2xl text-white '>Subsribe Now</button>
+                    </div>
                 </div>
             </div>
 

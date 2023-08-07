@@ -14,56 +14,55 @@ const privacy = () => {
     return (
         <div>
             <div className=' mb-10'>
-                <Image className='  h-[450px] top-[-83px]' src={Aboutbg} />
-                <div className=' flex justify-between top-48 mt-20 absolute '>
-                    <Image className=' ml-0  h-60 mt-[w-89px]' src={Leaf} alt='' />
-                    <div className=' ml-[250px]'>
-                        <Image className=' absolute top-20 w-[800px] left-[280px]' src={privacypolicy} />
-                        <h1 className=' text-[#015464] mt-48 text-3xl font-extrabold top-[351px]  h-[16px]'>Privacy Policy</h1>
+                <Image className='  h-[400px] top-[-83px]' src={Aboutbg} />
+                    <Image className=" absolute z-0 top-24 w-16 " src={Leaf} alt="" />
+                <div className='  justify-center items-center flex top-40 z-0 absolute '>
+                    <div className=' max-w-3xl ml-48'>
+                        <Image src={privacypolicy} alt='privacypolicy-img'/>
+                        <h1 className=' text-[#015464] font-extrabold text-5xl'>Legal Management</h1>
                     </div>
-                    <div className=' ml-[200px] h-[180] '>
-                        <Image className=' ml-[400px] top-[130px] w-[500px]' src={Terms} alt='' />
-                    </div>
+                        <Image className=' max-w-md' src={Terms} alt='Terms'/>
                 </div>
-                <Image className=' absolute left-[1500px] top-24 w-24 ' src={Lefe} alt='' />
+                <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 " src={Lefe} alt="" />
             </div>
-            <Image className=' absolute left-7 mt-[330px] w-24' src={Ellipse} alt='' />
-            <Image className=' absolute top-[450px] w-[400px] left-[-200px]' src={img1} />
-            <div className=' mt-40 ml-32 mb-24'>
+                <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 -left-28 w-72 " src={img1} />
+                <Image className=" hidden lg:block absolute top-[898px] z-0 bottom-36 left-10 w-28 " src={Ellipse} />
+            <div className=' mt-40 mb-24 justify-center items-center flex flex-col m-auto '>
                 <div className=' bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
                 <div className=' mt-9 bg-white'>
-                    <h1 className=' ml-[290px] text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
-                    <p className=' ml-[290px] w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
+                    <h1 className=' text-[#015464] font-semibold text-2xl pb-5'>As of April 07th,2023</h1>
+                    <p className=' w-[700px] text-[#14adad] text-xs'>Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се.</p>
                 </div>
-                <Image className=' absolute top-[800px] left-[1550px] w-[120px]' src={Leaf2} />
-                <Image className=' absolute top-[900px] left-[1250px] w-[100px]' src={Lefe2} alt='' />
-                <Image className=' absolute left-[1490px] top-[1437px] w-24' src={Ellipse} />
-                <Image className=' absolute top-[1100px] left-[1340px] w-[350px]' src={img1} alt='' />
+                <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 " src={Leaf2} />
+                <Image className=" hidden lg:block absolute top-[850px] z-0 bottom-36 right-48 w-28 " src={Lefe2} />
+                <Image className=" hidden lg:block absolute top-[1100px] z-0 bottom-36 right-0 w-72 " src={img1} />
+                <Image className=" hidden lg:block absolute top-[1380px] z-0 bottom-36 right-20 w-20 " src={Ellipse} />
             </div>
         </div>
+
     )
 }
 

@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 811:
+/***/ 2870:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'contact',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 886)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 886)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\contact\\page.jsx"];
 
     
 
@@ -308,18 +340,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8106:
+/***/ 253:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1066));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 565));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8950));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2417));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4559));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1189));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3384));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4833));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9470))
@@ -360,7 +392,7 @@ var Lefe1 = __webpack_require__(2758);
 // EXTERNAL MODULE: ./public/assets/img1.png
 var img1 = __webpack_require__(1152);
 // EXTERNAL MODULE: ./public/assets/Ellipse.png
-var Ellipse = __webpack_require__(6385);
+var Ellipse = __webpack_require__(3133);
 ;// CONCATENATED MODULE: ./public/icons/call.png
 /* harmony default export */ const call = ({"src":"/_next/static/media/call.d1e45a79.png","height":50,"width":50,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAQAAABuBnYAAAAAYklEQVR42i3KsQ2CABRF0RdjgglDaCUaekex0EbRjh3Zgkk0lAd/YW53ciNeOtFrxSaeVpPGzdteYiz4OLkaitqI2WLnUHTXFzhazUVnjcRWXIoWX5MuitRltlZD/KkaPeQHXd5UKK6LkCAAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/icons/email.png
@@ -396,41 +428,38 @@ const page = ()=>{
                 alt: ""
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " flex justify-between top-48 absolute ",
+                className: " container justify-center flex items-center mx-auto left-1/4 max-w-xl top-48 absolute ",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        className: " absolute ml-[700px] mt-16 text-[#015464] text-3xl font-extrabold",
+                        className: " absolute   mt-16 text-[#015464] text-3xl font-extrabold",
                         children: "Have Any Questions"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " ml-[500px] w-[650px]",
+                        className: "",
                         src: contact_bg,
                         alt: "imgbg"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute ml-[1500px] w-24",
-                        src: Lefe1/* default */.Z,
-                        alt: ""
                     })
                 ]
             }),
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                className: " hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 ",
+                src: Lefe1/* default */.Z,
+                alt: ""
+            }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " top-20 ml-[500px] mt-9 mb-24",
+                className: " container justify-center items-center flex top-20 mt-9 mb-24 lg:m-auto lg:w-auto",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute w-[350px] left-[-200px] mt-48",
-                        src: img1/* default */.Z,
-                        alt: "sideimg"
+                        className: " hidden lg:block absolute top-[650px] z-0 bottom-36 -left-28 w-72 ",
+                        src: img1/* default */.Z
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute ml-0 left-24 w-28 mt-60",
-                        src: leaf2,
-                        alt: "leaf2"
+                        className: " hidden lg:block absolute top-[650px] z-0 bottom-36 left-28 w-32 ",
+                        src: leaf2
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute left-16 mt-[500px]",
-                        src: Ellipse/* default */.Z,
-                        alt: "circle"
+                        className: " hidden lg:block absolute top-[898px] z-0 bottom-36 left-10 w-28 ",
+                        src: Ellipse/* default */.Z
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " bg-[#015464] flex rounded-3xl h-[450px] w-[700px]",
@@ -479,10 +508,10 @@ const page = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mt-44 ml-[150px] flex",
+                className: " conatiner justify-center items-center mt-44 m-auto flex",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "w-72 h-96 mt-[50px] ml-48 lg:mt-16 max-w-sm",
+                        className: "w-72 h-96 mt-[50px] lg:mt-16 max-w-sm",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "bg-white shadow-2xl rounded-b-3xl pb-6 pr-8 justify-center flex",
                             children: [
@@ -532,7 +561,7 @@ const page = ()=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                             className: " text-[#015464] text-2xl font-bold pt-6",
-                                            children: "Call Us"
+                                            children: "Email Us"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                             className: "text-center  text-[#14adad] font-bold",
@@ -566,7 +595,7 @@ const page = ()=>{
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                                 className: " text-[#015464] text-2xl font-bold pt-6",
-                                                children: "Call Us"
+                                                children: "Find Us"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                                 className: "text-center  text-[#14adad] font-bold",
@@ -581,9 +610,8 @@ const page = ()=>{
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                className: " absolute ml-[1400px] top-[1070px] left-24 w-28 ",
-                                src: leaf2,
-                                alt: "leaf2"
+                                className: " hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 ",
+                                src: leaf2
                             })
                         ]
                     })
@@ -699,7 +727,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,916,61], () => (__webpack_exec__(811)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,5916,4061], () => (__webpack_exec__(2870)));
 module.exports = __webpack_exports__;
 
 })();

@@ -5,9 +5,12 @@ import brand_1 from 'public/assets/LandingPage/brand-1.png';
 import brand_2 from 'public/assets/LandingPage/brand-2.png';
 export default function FeaturedPublishers  ()  {
   return (
-      <section className=" ">
+      <section className=" w-full mt-10">
 
-          <div className="w-full md-px-24 relative  container  py-10 mx-auto px-1">
+
+
+          <div className=" m-auto flex justify-between items-center sm:px-16 px-6 py-4 " >
+              <div className="  md-px-24 relative  container pt-24 mx-auto">
               <div className="flex flex-wrap w-full mb-10 lg:flex-row flex-col">
                   <div className="lg:w-1/2 w-full mb-6 lg:mb-2">
                       <h1 className="text-3xl font-bold title-font pb-4 text-[#015464] lg:w-[60%]">
@@ -24,26 +27,26 @@ export default function FeaturedPublishers  ()  {
 
               <div className="grid grid-cols-2   md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-3 ">
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_1} alt="content" />
                    </div>
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_2} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_2} alt="content" />
                   </div>
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_1} alt="content" />
                   </div>
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_2} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_2} alt="content" />
                   </div>
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_1} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_1} alt="content" />
                   </div>
                   <div className="p-4 flex flex-col items-center">
-                      <Image className=" rounded w-auto object-cover object-center mb-6" src={brand_2} alt="content" />
+                      <Image className=" rounded w-96 object-cover object-center mb-6" src={brand_2} alt="content" />
                   </div>
 
                   
-                  
+                </div> 
               </div>
 
 

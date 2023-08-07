@@ -18,7 +18,7 @@ import 'swiper/css/navigation';
 
 
 export default function Hero() {
-
+    //for slides open
     const slidesData = [
         {
             title: 'The Easiest Way to Find Any Book.',
@@ -40,74 +40,77 @@ export default function Hero() {
             swiperRef.current.swiper.autoplay.stop();
         }
     };
+    //for slides close
+ 
+
     return (
         <section className="w-full ">
             <Image className=" absolute z-0 top-20 w-16 " src={Leaf1} alt="" />
-            <Image className=" hidden lg:block absolute z-0 bottom-36 left-[30%] w-36 " src={Leaf2} alt="" />
-            
+            <Image className=" hidden lg:block  absolute z-0 bottom-36 left-[30%] w-36 " src={Leaf2} alt="" />
+
 
             <div className="z-10  mx-auto  justify-between items-center sm:px-16  py-4 ">
 
 
 
                 {/* Slider 1 */}
-                <div className="hidden md:block  ">
+                <div className="hidden md:block   ">
 
-                <Swiper
-                    ref={swiperRef}
-                    spaceBetween={3}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    <Swiper
+                        ref={swiperRef}
+                        spaceBetween={3}
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         loop={true}
-                    pagination={{
-                        el: '.swiper-pagination-right',
-                        clickable: true,
-                        renderBullet: (index, className) => {
-                            return `<span class="${className}" style="background-color: #015464;"></span>`;
-                        },
-                    }}
+                        pagination={{
+                            el: '.swiper-pagination-right',
+                            clickable: true,
+                            renderBullet: (index, className) => {
+                                return `<span className="${className}" style="background-color: #015464;"></span>`;
+                            },
+                        }}
 
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
-                >
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper"
+                    >
 
-                    <SwiperSlide>
-                        <div className="md:container md:mx-auto flex  pt-24 md:flex-row flex-col items-center">
+                        <SwiperSlide>
+                            <div className="md:container md:mx-auto flex  pt-24 md:flex-row flex-col items-center font-graphik ">
 
-                            <div className="  lg:w-full md:w-1/2 w-5/6 lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start   md:text-left sm:text-center ">
-                                <h1 className="text-4xl md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-bold">Easiest Way</span> to <br />Find Any
-                                    <span className=" font-bold text-[#015464]">Book.</span></h1>
-                                <p className=" text-[#408080] mt-8 font-medium">Unlimited reading for the world: millions of books in the browser, accessible to billions of people.
-                                </p>
+                                <div className="  lg:w-full md:w-1/2 w-5/6 lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start   md:text-left sm:text-center ">
+                                    <h1 className="text-4xl   md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-graphikBold ">Easiest Way</span> to <br />Find Any
+                                        <span className=" font-graphik text-[#015464]">Book.</span></h1>
+                                    <p className=" text-[#408080] mt-8 font-medium font-graphikItalic">Unlimited reading for the world: millions of books in the browser, accessible to billions of people.
+                                    </p>
 
-                                <div className="flex justify-center  pt-10">
-                                    <button className="inline-flex text-white bg-[#7CC9B5] border-0 py-2 px-6 focus:outline-none hover:bg-[#447466] rounded-[23px] text-lg">Get Started</button>
+                                    <div className="flex justify-center  pt-10">
+                                        <button className="inline-flex text-white bg-[#7CC9B5] border-0 py-2 px-6 focus:outline-none hover:bg-[#447466] rounded-[23px] text-lg">Get Started</button>
 
+                                    </div>
+                                    <div className="flex justify-center mt-28">
+
+
+                                    </div>
                                 </div>
-                                <div className="flex justify-center mt-28">
 
-
+                                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:items-center  ">
+                                    <Image className="object-cover object-center rounded" alt="hero" src={Herosection} />
                                 </div>
+
                             </div>
 
-                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:items-center  ">
-                                <Image className="object-cover object-center rounded" alt="hero" src={Herosection} />
-                            </div>
-
-                        </div>
-
-                    </SwiperSlide >
-                    {/* Slider 2 */}
+                        </SwiperSlide >
+                        {/* Slider 2 */}
 
                         <SwiperSlide>
                             <div className="md:container md:mx-auto flex  pt-24 md:flex-row flex-col items-center">
 
                                 <div className="  lg:w-full md:w-1/2 w-5/6 lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:  mb-16 md:mb-0  md:text-left sm:text-center ">
-                                    <h1 className="text-4xl md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-bold">Easiest Way</span> to <br />Find Any
-                                        <span className=" font-bold text-[#015464]">Book.</span></h1>
+                                    <h1 className="text-4xl  font-normal md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-graphikBold    font-graphik">Easiest Way</span> to <br />Find Any
+                                        <span className=" font-graphik text-[#015464]">Book.</span></h1>
                                     <p className=" text-[#408080] mt-8 font-medium">Unlimited reading for the world: millions of books in the browser, accessible to billions of people.
                                     </p>
 
@@ -129,7 +132,7 @@ export default function Hero() {
 
                         </SwiperSlide >
 
-                </Swiper>
+                    </Swiper>
                 </div>
                 <div className="hidden md:container md:mx-auto md:flex   md:flex-row flex-col items-center">
 
@@ -144,13 +147,13 @@ export default function Hero() {
                         <div className="swiper-pagination-right mt-2 space-x-1"></div>
                     </div>
                 </div>
-              
+
                 {/* Slider For Medium screen */}
                 <div className="md:hidden md:container md:mx-auto   flex  lg:px-5 pt-24 md:flex-row flex-col items-center ">
 
                     <div className=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start  mb-16 md:mb-0  md:text-left text-center ">
-                        <h1 className="text-4xl md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-bold">Easiest Way</span> to <br />Find Any
-                            <span className=" font-bold text-[#015464]">Book.</span></h1>
+                        <h1 className="text-4xl  font-normal md:mt-36  text-[#015464]">The <span className=" text-[#105464] font-graphikBold    font-graphik">Easiest Way</span> to <br />Find Any
+                            <span className=" font-graphik text-[#015464]">Book.</span></h1>
                         <p className=" text-[#408080] mt-8 font-medium">Unlimited reading for the world: millions of books in the browser, accessible to billions of people.
                         </p>
 
@@ -165,7 +168,7 @@ export default function Hero() {
                     </div>
 
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[44%] md:items-center  ">
-                       
+
                     </div>
 
                 </div>

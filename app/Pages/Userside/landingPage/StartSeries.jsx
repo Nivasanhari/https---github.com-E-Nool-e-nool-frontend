@@ -33,11 +33,11 @@ export default function StartSeries() {
         author: 'Scarlett St.Clair',
     };
     return (
-        <section className=" w-full">
+        <section className=" w-full mt-10">
        
 
 
-            <div className=" m-auto flex justify-between items-center sm:px-16 px-6 py-4" >
+            <div className=" m-auto flex justify-between items-center sm:px-16 px-6 py-4 " >
                 <div className="  md-px-24 relative  container pt-24 mx-auto">
                     <div className="flex flex-wrap w-full mb-10">
                         <div className="lg:w-1/2 w-full mb-6 lg:mb-0 ">
@@ -50,21 +50,38 @@ export default function StartSeries() {
                         </div>
                     </div>
                     <Swiper
-
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                            },
+                            1028: {
+                                slidesPerView: 6,
+                            },
+                        }}
                         slidesPerView={6}
                         spaceBetween={1}
                         freeMode={true}
                         navigation={{
                             nextEl: '.swiper-button-next',
                             prevEl: '.swiper-button-prev',
+                            hiddenClass:'swiper-button-hidden',
                         }}
                         modules={[FreeMode, Pagination, Navigation]}
                         className="mySwiper"
+                        
                     >
-                        <div className="justify-center m-auto ">
-                            <Image className="swiper-button-prev  " src={leftarrow} />
-                            <Image className="swiper-button-next" src={rightarrow} />
+                        <div className="flex items-center w-full h-full">
+                            <Image src={leftarrow} className="swiper-button-prev absolute " />
+                            <Image src={rightarrow} className="swiper-button-next absolute" />
+
                         </div>
+                       
 
                         <SwiperSlide>
 

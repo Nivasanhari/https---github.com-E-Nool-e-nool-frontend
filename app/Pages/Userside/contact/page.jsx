@@ -17,15 +17,15 @@ const page = () => {
         <div className='  bg-white'>
             <Image className=' relative h-[400px]' src={Aboutbg} />
             <Image className=' absolute ml-0 top-[100px] w-[45px]' src={Leaf} alt='' />
-            <div className=' flex justify-between top-48 absolute '>
-                <h1 className=' absolute ml-[700px] mt-16 text-[#015464] text-3xl font-extrabold'>Have Any Questions</h1>
-                <Image className=' ml-[500px] w-[650px]' src={imgbg} alt='imgbg' />
-                <Image className=' absolute ml-[1500px] w-24' src={Lefe} alt='' />
+            <div className=' container justify-center flex items-center mx-auto left-1/4 max-w-xl top-48 absolute '>
+                <h1 className=' absolute   mt-16 text-[#015464] text-3xl font-extrabold'>Have Any Questions</h1>
+                <Image className='' src={imgbg} alt='imgbg' />
             </div>
-            <div className=' top-20 ml-[500px] mt-9 mb-24' >
-                <Image className=' absolute w-[350px] left-[-200px] mt-48' src={sideimg} alt='sideimg' />
-                <Image className=' absolute ml-0 left-24 w-28 mt-60' src={leaf2} alt='leaf2' />
-                <Image className=' absolute left-16 mt-[500px]' src={circle} alt='circle' />
+            <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-14 w-28 " src={Lefe} alt="" />
+            <div className=' container justify-center items-center flex top-20 mt-9 mb-24 lg:m-auto lg:w-auto' >
+                <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 -left-28 w-72 " src={sideimg} />
+                <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 left-28 w-32 " src={leaf2} />
+                <Image className=" hidden lg:block absolute top-[898px] z-0 bottom-36 left-10 w-28 " src={circle} />
                 <div className=' bg-[#015464] flex rounded-3xl h-[450px] w-[700px]'>
                     <div className=''>
                         <Image className=' mt-20 ml-20 w-[300px]' src={contactimg} alt='contactimg' />
@@ -40,8 +40,8 @@ const page = () => {
                 </div>
             </div>
 
-            <div className=' mt-44 ml-[150px] flex'>
-                <div className="w-72 h-96 mt-[50px] ml-48 lg:mt-16 max-w-sm">
+            <div className=' conatiner justify-center items-center mt-44 m-auto flex'>
+                <div className="w-72 h-96 mt-[50px] lg:mt-16 max-w-sm">
                     <div className="bg-white shadow-2xl rounded-b-3xl pb-6 pr-8 justify-center flex">
                         <div className="w- m-auto flex">
                             <Image className=' bg-[#015464] rounded-md p-2' src={call} alt='call-icon' />
@@ -60,7 +60,7 @@ const page = () => {
                             <Image className=' bg-[#408080] rounded-md p-2' src={emailicon} alt='call-icon' />
                         </div>
                         <div className=' text-start'>
-                            <h2 className=" text-[#015464] text-2xl font-bold pt-6">Call Us</h2>
+                            <h2 className=" text-[#015464] text-2xl font-bold pt-6">Email Us</h2>
                             <p className="text-center  text-[#14adad] font-bold">+91 1234567890</p>
                             <p className="text-center  text-[#14adad] font-bold">+91 1234567890</p>
                         </div>
@@ -72,12 +72,12 @@ const page = () => {
                             <Image className=' bg-[#7CC9B5] rounded-md p-2' src={locationicon} alt='call-icon' />
                         </div>
                         <div className=' text-start'>
-                            <h2 className=" text-[#015464] text-2xl font-bold pt-6">Call Us</h2>
+                            <h2 className=" text-[#015464] text-2xl font-bold pt-6">Find Us</h2>
                             <p className="text-center  text-[#14adad] font-bold">+91 1234567890</p>
                             <p className="text-center  text-[#14adad] font-bold">+91 1234567890</p>
                         </div>
                     </div>
-                    <Image className=' absolute ml-[1400px] top-[1070px] left-24 w-28 ' src={leaf2} alt='leaf2' />
+                <Image className=" hidden lg:block absolute top-[650px] z-0 bottom-36 right-0 w-28 " src={leaf2} />
                 </div>
             </div>
         </div>

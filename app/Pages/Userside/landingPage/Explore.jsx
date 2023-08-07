@@ -2,7 +2,7 @@ import React from 'react'
 
 const Explore = () => {
     return (
-        <section className="relative text-gray-600 body-font">
+        <section className="relative text-gray-600 body-font ">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col items-center w-full mb-20">
                     <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-[#015464]">100 + Books Genre for Readers</h1>

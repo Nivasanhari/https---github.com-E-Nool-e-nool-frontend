@@ -3,19 +3,69 @@ import React from 'react'
 import { useState } from 'react';
 const CategoriesButton = () => {
     const dropdown = '/icons/dropdown.svg'
-    const menuItems = [
+    const menuItems1 = [
+        { label: 'Antiques & Collectibles', href: '#' },
+        { label: 'Architecture', href: '#' },
+        { label: 'Art', href: '#' },
+        { label: 'Bibles', href: '#' },
+        { label: 'Biography & Autobiography', href: '#' },
+        { label: 'Business & Economics', href: '#' },
+        { label: 'Computers', href: '#' },
+        { label: 'Cooking', href: '#' },
         { label: 'Online Stores', href: '#' },
-        { label: 'Segmentation', href: '#' },
-        { label: 'Marketing CRM', href: '#' },
+        { label: 'Crafts & Hobbies', href: '#' },
+        { label: 'Design', href: '#' },
         { label: 'Online Stores', href: '#' },
+        { label: 'Drama', href: '#' },
+        { label: 'Education', href: '#' },
+    ]; 
+    const menuItems2 = [
+        { label: 'Family & Relationships', href: '#' },
+        { label: 'Fiction', href: '#' },
+        { label: 'Foreign Language Study', href: '#' },
+        { label: 'Games & Activities', href: '#' },
+        { label: 'Gardening', href: '#' },
+        { label: 'Health & Fitness', href: '#' },
+        { label: 'History', href: '#' },
+        { label: 'House & Home', href: '#' },
+        { label: 'Humor', href: '#' },
+        { label: 'Juvenile Fiction', href: '#' },
+        { label: 'Juvenile Nonfiction', href: '#' },
+        { label: 'Language Arts & Disciplines', href: '#' },
+        { label: ' Law', href: '#' },
+        { label: 'Literary Collections', href: '#' },
     ];
-
-    
-    const additionalLinks = [
-        { label: 'Our Blog', href: '#' },
-        { label: 'Terms & Conditions', href: '#' },
-        { label: 'License', href: '#' },
-        { label: 'Resources', href: '#' },
+    const menuItems3 = [
+        { label: 'Family & Relationships', href: '#' },
+        { label: 'Fiction', href: '#' },
+        { label: 'Foreign Language Study', href: '#' },
+        { label: 'Games & Activities', href: '#' },
+        { label: 'Gardening', href: '#' },
+        { label: 'Health & Fitness', href: '#' },
+        { label: 'History', href: '#' },
+        { label: 'House & Home', href: '#' },
+        { label: 'Humor', href: '#' },
+        { label: 'Juvenile Fiction', href: '#' },
+        { label: 'Juvenile Nonfiction', href: '#' },
+        { label: 'Language Arts & Disciplines', href: '#' },
+        { label: ' Law', href: '#' },
+        { label: 'Literary Collections', href: '#' },
+    ];
+    const menuItems4 = [
+        { label: 'Family & Relationships', href: '#' },
+        { label: 'Fiction', href: '#' },
+        { label: 'Foreign Language Study', href: '#' },
+        { label: 'Games & Activities', href: '#' },
+        { label: 'Gardening', href: '#' },
+        { label: 'Health & Fitness', href: '#' },
+        { label: 'History', href: '#' },
+        { label: 'House & Home', href: '#' },
+        { label: 'Humor', href: '#' },
+        { label: 'Juvenile Fiction', href: '#' },
+        { label: 'Juvenile Nonfiction', href: '#' },
+        { label: 'Language Arts & Disciplines', href: '#' },
+        { label: ' Law', href: '#' },
+        { label: 'Literary Collections', href: '#' },
     ];
     const [isDropdownOpen, setDropdownOpen] = useState(false);
 
@@ -25,56 +75,78 @@ const CategoriesButton = () => {
     };
 
   return (
-      <div className="relative">
-          <button
-              type="button"
-              onClick={handleDropdownToggle}
-              className="flex items-center justify-between w-80 px-4 py-2 bg-[#7CC9B5] text-white rounded-3xl hover:bg-[#7CC9B5]/90 focus:outline-none space-x-2 flex-row"
-          >
-              <span className="pl-5">Browse By Subject</span>
-              <img src={dropdown} alt="Dropdown" className="w-3 h-3" />
-          </button>
+      <div className="absolute  w-full lg:w-3/4  z-50 bg-white font-graphik">
+       
 
-          {isDropdownOpen && (
-              <div className="absolute top-12 left-0 w-64 bg-white border border-gray-300 rounded-lg shadow-lg">
-                  <div className="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
+      
+              <div className="absolute top-12 left-0 w-full bg-[#7CC9B5]  rounded-lg shadow-lg">
+                  <div className="grid max-w-screen-xl px-4 py-5 mx-auto text-sm text-white  lg:grid-cols-5 grid-cols-3 md:px-6">
                       <ul className="hidden mb-4 space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
                           {/* Map over the menuItems array to generate list items */}
-                          {menuItems.map((item, index) => (
+                          {menuItems1.map((item, index) => (
                               <li key={index}>
-                                  <a href={item.href} className="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                                      {item.label}
+                                  <a
+                                      href={item.href}
+                                      className="inline-block px-4  rounded hover:bg-[#015464] hover:text-white hover:font-semibold transition-colors duration-300"
+                                  >                                      {item.label}
                                   </a>
                               </li>
                           ))}
                       </ul>
                       <ul className="mb-4 space-y-4 md:mb-0">
                           {/* Map over the additionalLinks array to generate list items */}
-                          {additionalLinks.map((item, index) => (
+                          {menuItems2.map((item, index) => (
                               <li key={index}>
-                                  <a href={item.href} className="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                                      {item.label}
+                                  <a
+                                      href={item.href}
+                                      className="inline-block px-4  rounded hover:bg-[#015464] hover:text-white hover:font-semibold transition-colors duration-300"
+                                  >                                      {item.label}
                                   </a>
                               </li>
                           ))}
                       </ul>
-                      <a href="#" className="p-8 text-left bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken">
-                          <p className="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">
-                              Preview the new Flowbite dashboard navigation.
+                      <ul className="mb-4 space-y-4 md:mb-0">
+                          {/* Map over the additionalLinks array to generate list items */}
+                          {menuItems3.map((item, index) => (
+                              <li key={index}>
+                                  <a
+                                      href={item.href}
+                                      className="inline-block px-4  rounded hover:bg-[#015464] hover:text-white hover:font-semibold transition-colors duration-300"
+                                  >                                      {item.label}
+                                  </a>
+                              </li>
+                          ))}
+                      </ul>
+                      <ul className="mb-4 space-y-4 md:mb-0">
+                          {/* Map over the additionalLinks array to generate list items */}
+                          {menuItems4.map((item, index) => (
+                              <li key={index}>
+                                  <a
+                                      href={item.href}
+                                      className="inline-block px-4  rounded hover:bg-[#015464] hover:text-white hover:font-semibold transition-colors duration-300"
+                                  >                                      {item.label}
+                                  </a>
+                              </li>
+                          ))}
+                      </ul>
+                      <div  className="p-8 md:mt-10 md:h-1/2 
+                      w-full text-left bg-local bg-[#015464] bg-center bg-no-repeat bg-cover rounded-lg  ">
+                          <p className="max-w-xl mb-5 font-extrabold leading-tight text-xl tracking-tight text-white">
+                              Join More Than <br/>
+                              <span className="text-[#7CC9B5]">12000+ Book Lovers</span><br />
+                              Worldwide
                           </p>
                           <button
                               type="button"
-                              className="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700"
+                              className="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center bg-[#7CC9B5] text-white    rounded-lg  hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700"
                           >
-                              Get started
-                              <svg className="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                              </svg>
+                              <h1 className="font-graphik font-semibold">Start Reading Now</h1>
+                        
                           </button>
-                      </a>
+                      </div>
                   </div>
               </div>
-          )}
+         
       </div>
   )
 }

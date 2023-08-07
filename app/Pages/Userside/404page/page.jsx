@@ -8,26 +8,20 @@ import img1 from 'public/assets/404.png'
 
 const page = () => {
   return (
-    <div>
-      <div>
-        <div className=' mb-[400px]'>
-          <Image className='  h-[400px] top-[-83px]' src={Aboutbg} />
-          <div className=' flex justify-between top-48 absolute '>
-            <Image className='h-[300px] mt-[w-89px] left-[200px]' src={Leaf} alt='' />
-            <div className=' ml-[200px]'>
-              <Image className=' absolute mt-18 w-[500px]' src={img1} />
-              <h1 className=' text-[#015464] mt-40 text-7xl font-extrabold top-[351px] h-[16px]'>Oooops!</h1>
-              <h3 className=' ml-3 mt-24 w-[260px] font-semibold text-lg'>We can't seem to find a page you are looking  for</h3>
-              <button className=' bg-[#7CC9B5] text-white ml-3 rounded-md p-4 mt-5'>Back to Home</button>
-            </div>
-            <div className=' ml-[200px] h-[150] '>
-              <Image className=' ml-[160px] top-[130px] w-[450px]' src={img} alt='' />
-            </div>
-          </div>
-          <Image className=' absolute left-[1500px] top-32 w-24 ' src={Lefe} alt='' />
+    <section class=" ">
+      <Image className=' absolute h-[600px] top-[-83px]' src={Aboutbg} />
+      <Image className=" absolute z-0 top-20 w-16 " src={Leaf} alt="" />
+      <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
+        <div className=' ml-36 '>
+          <Image className=' relative  mt-44 w-auto' src={img1} />
+          <h1 className=' text-[#015464] text-6xl font-extrabold h-[16px]'>Oooops!</h1>
+          <h3 className=' ml-3 mt-24 w-[260px] font-semibold text-lg'>We can't seem to find a page you are looking  for</h3>
+          <button className=' bg-[#7CC9B5] text-white ml-3 rounded-md p-4 mt-5'>Back to Home</button>
         </div>
+        <Image className=' relative right-5 w-auto m-auto ' src={img} alt='img1-img' />
+        <Image className=" hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 " src={Lefe} alt="" />
       </div>
-    </div>
+    </section>
   )
 }
 

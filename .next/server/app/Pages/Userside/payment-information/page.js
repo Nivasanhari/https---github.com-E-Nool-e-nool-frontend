@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 697;
-exports.ids = [697];
+exports.id = 3697;
+exports.ids = [3697];
 exports.modules = {
 
 /***/ 8038:
@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6046:
+/***/ 4601:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'payment-information',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7529)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\payment-information\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7529)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\payment-information\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\payment-information\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\payment-information\\page.jsx"];
 
     
 
@@ -308,7 +340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2344:
+/***/ 4486:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7335))
@@ -578,374 +610,381 @@ const page_page = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " flex mb-20",
+                className: " relative container m-auto justify-center items-center flex ",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        className: " absolute w-28 left-[1530px] mt-52 ",
+                        className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
                         src: Lefe1["default"],
-                        alt: "lefe-img"
+                        alt: ""
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: " bg-[#015464] text-white w-[500px] ml-56 mt-[250px] rounded-3xl",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: " ml-10 pt-10 pb-8 mt-2",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " text-white",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " font-bold ml-20",
-                                            children: "Selected Plan"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                            className: " bg-white text-[#408080] w-[300px] ml-20 p-2 mt-6 rounded-md text-sm",
-                                            children: [
-                                                "Silver Plan 1-1 Months ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    children: "₹ 5.00"
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " relative w-[300px] overflow-hidden pb-3 mt-4 ml-16 ",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                            type: "checkbox"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " h-12 w-full flex items-center",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    src: upi,
-                                                    alt: "upi"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " ml-2",
-                                                    children: "UPI"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                "stroke-width": "1.5",
-                                                stroke: "currentColor",
-                                                class: "w-6 h-6",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "stroke-linecap": "round",
-                                                    "stroke-linejoin": "round",
-                                                    d: "M12 4.5v15m7.5-7.5h-15"
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                className: " text-white p-4 flex",
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "grid grid-cols-2 grid-rows-2 gap-4",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: " container bg-[#015464] text-white w-[500px] m-auto ml-40 mt-64  rounded-3xl",
+                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        className: " ml-10 mr-20 pt-10 pb-8 mt-2",
+                                        children: [
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: " text-white",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                                        className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
-                                                        children: [
-                                                            "+",
-                                                            " "
-                                                        ]
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                                        className: " font-bold ml-20",
+                                                        children: "Selected Plan"
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        className: " mt-1 ml-3",
-                                                        children: " Add New UPI"
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                        className: " bg-white text-[#408080] w-[300px] ml-20 p-2 mt-6 rounded-md text-sm",
+                                                        children: [
+                                                            "Silver Plan 1-1 Months ",
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                children: "₹ 5.00"
+                                                            })
+                                                        ]
                                                     })
                                                 ]
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " relative w-[300px] overflow-hidden pb-3 ml-16",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                            type: "checkbox"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " h-12 w-full flex items-center",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    src: credit,
-                                                    alt: "upi"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " ml-2",
-                                                    children: "Credit Card / Debit Card"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                "stroke-width": "1.5",
-                                                stroke: "currentColor",
-                                                class: "w-6 h-6",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "stroke-linecap": "round",
-                                                    "stroke-linejoin": "round",
-                                                    d: "M12 4.5v15m7.5-7.5h-15"
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                className: " text-white p-4 flex",
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: " relative w-[300px] overflow-hidden pb-3 mt-4 ml-16 ",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                                        className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                                        type: "checkbox"
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        className: " h-12 w-full flex items-center",
                                                         children: [
-                                                            "+",
-                                                            " "
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                src: upi,
+                                                                alt: "upi"
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: " ml-2",
+                                                                children: "UPI"
+                                                            })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        className: " mt-1 ml-3",
-                                                        children: "Credit Card / Debit Card"
-                                                    })
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                            fill: "none",
+                                                            viewBox: "0 0 24 24",
+                                                            "stroke-width": "1.5",
+                                                            stroke: "currentColor",
+                                                            class: "w-6 h-6",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                                "stroke-linecap": "round",
+                                                                "stroke-linejoin": "round",
+                                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                                            })
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                            className: " text-white p-4 flex",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                                    className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                                    children: [
+                                                                        "+",
+                                                                        " "
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: " mt-1 ml-3",
+                                                                    children: " Add New UPI"
+                                                                })
+                                                            ]
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
                                                 ]
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " relative w-[300px] ml-16 overflow-hidden pb-3",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                            type: "checkbox"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " h-12 w-full flex items-center",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    src: wallets,
-                                                    alt: "upi"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " ml-2",
-                                                    children: "Wallets"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                "stroke-width": "1.5",
-                                                stroke: "currentColor",
-                                                class: "w-6 h-6",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "stroke-linecap": "round",
-                                                    "stroke-linejoin": "round",
-                                                    d: "M12 4.5v15m7.5-7.5h-15"
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                className: " text-white p-4 flex",
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: " relative w-[300px] overflow-hidden pb-3 ml-16",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                                        className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                                        type: "checkbox"
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        className: " h-12 w-full flex items-center",
                                                         children: [
-                                                            "+",
-                                                            " "
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                src: credit,
+                                                                alt: "upi"
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: " ml-2",
+                                                                children: "Credit Card / Debit Card"
+                                                            })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        className: " mt-1 ml-3",
-                                                        children: " Wallets"
-                                                    })
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                            fill: "none",
+                                                            viewBox: "0 0 24 24",
+                                                            "stroke-width": "1.5",
+                                                            stroke: "currentColor",
+                                                            class: "w-6 h-6",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                                "stroke-linecap": "round",
+                                                                "stroke-linejoin": "round",
+                                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                                            })
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                            className: " text-white p-4 flex",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                                    className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                                    children: [
+                                                                        "+",
+                                                                        " "
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: " mt-1 ml-3",
+                                                                    children: "Credit Card / Debit Card"
+                                                                })
+                                                            ]
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
                                                 ]
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " relative w-[300px] ml-16 overflow-hidden pb-3",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
-                                            type: "checkbox"
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " h-12 w-full flex items-center",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                    src: netbanking,
-                                                    alt: "upi"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: " ml-2",
-                                                    children: "Netbanking"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                "stroke-width": "1.5",
-                                                stroke: "currentColor",
-                                                class: "w-6 h-6",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "stroke-linecap": "round",
-                                                    "stroke-linejoin": "round",
-                                                    d: "M12 4.5v15m7.5-7.5h-15"
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "  rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                className: " text-white p-4 flex",
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: " relative w-[300px] ml-16 overflow-hidden pb-3",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                                        className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                                        type: "checkbox"
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        className: " h-12 w-full flex items-center",
                                                         children: [
-                                                            "+",
-                                                            " "
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                src: wallets,
+                                                                alt: "upi"
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: " ml-2",
+                                                                children: "Wallets"
+                                                            })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                        className: " mt-1 ml-3",
-                                                        children: "Netbanking"
-                                                    })
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                            fill: "none",
+                                                            viewBox: "0 0 24 24",
+                                                            "stroke-width": "1.5",
+                                                            stroke: "currentColor",
+                                                            class: "w-6 h-6",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                                "stroke-linecap": "round",
+                                                                "stroke-linejoin": "round",
+                                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                                            })
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                            className: " text-white p-4 flex",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                                    className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                                    children: [
+                                                                        "+",
+                                                                        " "
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: " mt-1 ml-3",
+                                                                    children: " Wallets"
+                                                                })
+                                                            ]
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
+                                                ]
+                                            }),
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                className: " relative w-[300px] ml-16 overflow-hidden pb-3",
+                                                children: [
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                        className: " peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer",
+                                                        type: "checkbox"
+                                                    }),
+                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                        className: " h-12 w-full flex items-center",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                                                src: netbanking,
+                                                                alt: "upi"
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                className: " ml-2",
+                                                                children: "Netbanking"
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: " absolute top-3 right-3 peer-checked:rotate-45 transition-transform duration-500 rotate-0",
+                                                        children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                                            xmlns: "http://www.w3.org/2000/svg",
+                                                            fill: "none",
+                                                            viewBox: "0 0 24 24",
+                                                            "stroke-width": "1.5",
+                                                            stroke: "currentColor",
+                                                            class: "w-6 h-6",
+                                                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                                "stroke-linecap": "round",
+                                                                "stroke-linejoin": "round",
+                                                                d: "M12 4.5v15m7.5-7.5h-15"
+                                                            })
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                        className: "  rounded-xl max-h-0 bg-[#7CC9B5] text-white overflow-hidden transition-all duration-500 peer-checked:max-h-40",
+                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                            className: " text-white p-4 flex",
+                                                            children: [
+                                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                                    className: " bg-[#015464] w-8 text-center text-3xl rounded-xl",
+                                                                    children: [
+                                                                        "+",
+                                                                        " "
+                                                                    ]
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                                    className: " mt-1 ml-3",
+                                                                    children: "Netbanking"
+                                                                })
+                                                            ]
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
                                                 ]
                                             })
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {})
-                                    ]
+                                        ]
+                                    })
                                 })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: " ml-60 mt-[230px]",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: " mt-5 ",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: " text-[#015464] font-semibold mb-3",
-                                    children: "Enter Coupon Code"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " flex",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                            className: " bg-[#7CC9B5] w-80 text-white p-2 rounded-l-xl",
-                                            children: "Enter Coupon / Offer / Refferal Code"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            className: " absolute ml-[300px] bg-[#015464] p-2 rounded-l-3xl text-white pr-3 pl-8 rounded-lg",
-                                            onClick: ()=>setShowModal(true),
-                                            children: "Apply"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    className: " text-[#015464] mt-5 font-semibold",
-                                    children: "View Offer Code"
-                                }),
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                                    className: " w-32 rounded-xl bg-[#015464] p-[01px]"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " mt-10",
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: " container flex justify-center items-center mt-[230px] grid-flow-col",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: " mt-5 ",
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                            className: " text-[#015464] font-medium",
-                                            children: "Payment Details"
+                                            className: " text-[#015464] font-semibold mb-3",
+                                            children: "Enter Coupon Code"
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                            className: " mt-4 text-sm text-[#015464]",
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            className: " flex",
                                             children: [
-                                                "Subscription Charges",
-                                                " ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: " ml-56 font-bold",
-                                                    children: "₹5.00"
+                                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                                    className: " bg-[#7CC9B5] w-80 text-white p-2 rounded-l-xl",
+                                                    children: "Enter Coupon / Offer / Refferal Code"
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                                    className: " absolute ml-[300px] bg-[#015464] p-2 rounded-l-3xl text-white pr-3 pl-8 rounded-lg",
+                                                    onClick: ()=>setShowModal(true),
+                                                    children: "Apply"
                                                 })
                                             ]
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                            className: " mt-3 text-sm text-[#015464]",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                            className: " text-[#015464] mt-5 font-semibold",
+                                            children: "View Offer Code"
+                                        }),
+                                        " ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                                            className: " w-32 rounded-xl bg-[#015464] p-[01px]"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            className: " mt-10",
                                             children: [
-                                                "Bag Subtotal",
-                                                " ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: " ml-[282px] font-bold",
-                                                    children: "₹5.00"
+                                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                                    className: " text-[#015464] font-medium",
+                                                    children: "Payment Details"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                    className: " mt-4 text-sm text-[#015464]",
+                                                    children: [
+                                                        "Subscription Charges",
+                                                        " ",
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            className: " ml-56 font-bold",
+                                                            children: "₹5.00"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                    className: " mt-3 text-sm text-[#015464]",
+                                                    children: [
+                                                        "Bag Subtotal",
+                                                        " ",
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            className: " ml-[282px] font-bold",
+                                                            children: "₹5.00"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                                    className: " mt-3 text-sm text-[#015464]",
+                                                    children: [
+                                                        "Total Payable",
+                                                        " ",
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            className: " ml-[280px] font-bold",
+                                                            children: "₹5.00"
+                                                        })
+                                                    ]
                                                 })
                                             ]
                                         }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                            className: " mt-3 text-sm text-[#015464]",
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            className: " flex mt-8",
                                             children: [
-                                                "Total Payable",
-                                                " ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: " ml-[280px] font-bold",
-                                                    children: "₹5.00"
+                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                                    className: " text-[#015464] text-[14px]",
+                                                    children: [
+                                                        "Total",
+                                                        " ",
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                            className: " text-xl ml-2 mt-2 font-semibold",
+                                                            children: "₹30"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                                    className: " cursor-pointer ml-48 bg-[#015464] text-white px-8 rounded-xl py-1",
+                                                    children: "Pay Now"
                                                 })
                                             ]
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            className: " text-[12px] ml-4 mt-5 text-[#015464]",
+                                            children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus illo."
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            className: " text-[12px] ml-4 text-[#015464]",
+                                            children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus illo."
                                         })
                                     ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " flex mt-8",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
-                                            className: " text-[#015464] text-[14px]",
-                                            children: [
-                                                "Total",
-                                                " ",
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    className: " text-xl ml-2 mt-2 font-semibold",
-                                                    children: "₹30"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            className: " cursor-pointer ml-48 bg-[#015464] text-white px-8 rounded-xl py-1",
-                                            children: "Pay Now"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: " text-[12px] ml-4 mt-5 text-[#015464]",
-                                    children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus illo."
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: " text-[12px] ml-4 text-[#015464]",
-                                    children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus illo."
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             }),
@@ -972,7 +1011,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Project\e-nool-frontend\app\Pages\Userside\payment-information\page.jsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\NextJS\E-Nool - Copy\e-nool-frontend\app\Pages\Userside\payment-information\page.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1017,7 +1056,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694], () => (__webpack_exec__(6046)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694], () => (__webpack_exec__(4601)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import gettingstarted from 'public/assets/LandingPage/gettingstarted.png'
 import Leaf1 from '@/public/assets/LandingPage/Leaf1.png'
@@ -9,11 +10,11 @@ import processflowbg1 from 'public/assets/LandingPage/processflow-bg1.png'
 
 const ProcessFlow = () => {
     return (
-        <section className="w-full bg-[#015464] process_bg">
+        <section className="w-full bg-[#015464] process_bg mt-10 ">
             <Image className=" hidden lg:block absolute z-0 left-2 w-16 h-auto mt-28 rotate-180 transform -scale-x-100 " src={Leaf1} alt="" />
             <Image className=" hidden lg:block absolute z-0  right-1 md:w-28 mt-28" src={Leaf2} alt="" />
 
-            <h1 className="font-bold text-[#F1F1F6] text-2xl text-center pt-28">Our Simple Process</h1>
+            <h1 className="font-bold text-[#F1F1F6] text-2xl text-center pt-28 mb-10">Our Simple Process</h1>
 
             <Image className="object-cover object-center rounded m-auto" alt="processflow" src={processflow} />
             <div className=" "></div>
@@ -35,9 +36,11 @@ const ProcessFlow = () => {
                         </p>
 
                         <div className="flex justify-center  pt-10">
+                            <Link href='/Pages/Userside/subscription'>
                             <button
-                                className="inline-flex text-white bg-[#7CC9B5] border-0 py-2 px-6 focus:outline-none hover:bg-[#447466] rounded-[23px] text-lg">Get
+                                className="inline-flex text-white bg-[#7CC9B5] border-0 py-2 px-6 focus:outline-none hover:bg-[#015464] rounded-[23px] text-lg">Get
                                 Started</button>
+                            </Link>
 
                         </div>
                         <div className="flex justify-center mt-28">

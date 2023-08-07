@@ -1,30 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-.flipbook-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+
+.custom-pageflip-container {
+    width: 100%;
+    /* Adjust to your desired width */
+    height: 100%;
+    /* Adjust to your desired height */
 }
 
-.page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    font-size: 24px;
-    text-align: center;
+.custom-pageflip {
+    width: 100%;
+    height: 100%;
 }
-
-
 .process_bg {
     background-image: url("/assets/LandingPage/processflow-bg.png");
     padding: 1%;
@@ -43,15 +32,32 @@
     background-size: cover;
 }
 
-.pricing_bg {
-    background-image: url("/assets/LandingPage/hero-bg-1.png");
-    background-repeat: no-repeat;
 
-
-
-}
 
 .read_book_bg {
     background-image: url("/assets/LandingPage/hero-bg-1.png");
     background-repeat: no-repeat;
 }
+
+
+@font-face {
+    font-family: "Graphik";
+    src: url('../public/fonts/Graphik/GraphikRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Graphik Bold";
+    src: url('../public/fonts/Graphik/GraphikBold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: "Graphik Italic";
+    src: url('../public/fonts/Graphik/GraphikRegularItalic.otf');
+    font-weight: italic;
+    font-style: italic;
+}
+
+
+

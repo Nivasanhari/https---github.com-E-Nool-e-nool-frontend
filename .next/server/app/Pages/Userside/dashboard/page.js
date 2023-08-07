@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 605;
-exports.ids = [605];
+exports.id = 5605;
+exports.ids = [5605];
 exports.modules = {
 
 /***/ 8038:
@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 7884:
+/***/ 2191:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'dashboard',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4598)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4598)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\dashboard\\page.jsx"];
 
     
 
@@ -308,7 +340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1376:
+/***/ 6629:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -316,11 +348,11 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6315));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5096));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 423));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4635));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 715));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4635));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1396));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4255));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3985));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4255));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2479))
 
 /***/ }),
@@ -406,98 +438,89 @@ const page = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "grid grid-cols-3 grid-rows-2 gap-16  justify-center items-start ml-40",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex",
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[250px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] absolute p-3 w-20 rounded-xl",
-                                        src: dashimg,
-                                        alt: "dash1-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-16 p-7 rounded-xl font-bold px-10",
-                                        children: "My Library"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover py-3 px-2 w-auto rounded-xl",
+                                src: dashimg,
+                                alt: "dash1-img"
                             }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[100px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] ml-7 absolute p-3 w-[70px] rounded-xl",
-                                        src: dashimg1,
-                                        alt: "dash2-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-20 rounded-xl font-bold px-7",
-                                        children: "Purchase History"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[100px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] absolute p-4 w-24 pt-4 pb-5 mt-[-1px] rounded-xl",
-                                        src: dashimg2,
-                                        alt: "dash3-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-20 p-7 font-bold rounded-xl px-10",
-                                        children: "Paymeny Info"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "My Library"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: " flex mt-20",
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl",
                         children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[240px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] absolute p-3 w-[70px] ml-3 mt-[-1px] rounded-xl",
-                                        src: dashimg3,
-                                        alt: "dash1-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-16 p-7 rounded-xl text-sm font-bold px-10",
-                                        children: "Terms of Service"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover py-[18px] px-3 w-auto rounded-xl",
+                                src: dashimg1,
+                                alt: "dash1-img"
                             }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[100px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] ml-3 absolute p-3 w-[74px] rounded-xl",
-                                        src: dashimg4,
-                                        alt: "dash2-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-16 p-7 rounded-xl font-bold px-12",
-                                        children: "Edit Profile"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "Purchase History"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover w-auto py-7 px-2 rounded-xl",
+                                src: dashimg2,
+                                alt: "dash1-img"
                             }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " flex ml-[108px] text-white",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        className: " bg-[#015464] absolute p-4 w-[63px] pt-4 pb-5 mt-[-1px] rounded-xl",
-                                        src: dashimg5,
-                                        alt: "dash3-img"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: " bg-[#7CC9B5] ml-12 px-14 font-bold rounded-xl",
-                                        children: "Subscription"
-                                    })
-                                ]
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "Payment Info"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover w-auto py-[18px] px-3 rounded-xl",
+                                src: dashimg3,
+                                alt: "dash1-img"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "Terms of Service"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover w-auto py-4 px-3 rounded-xl",
+                                src: dashimg4,
+                                alt: "dash1-img"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "Edit Profile"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: " flex  items-center bg-[#7CC9B5] w-56 rounded-xl ml-0",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                className: " bg-[#015464] bg-cover w-auto py-4 px-3 rounded-xl",
+                                src: dashimg5,
+                                alt: "dash1-img"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: " text-white p-6 rounded-xl font-bold",
+                                children: "Subscription"
                             })
                         ]
                     })
@@ -516,8 +539,9 @@ const page = ()=>{
                         children: "Activities"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: " bg-white shadow-xl rounded-2xl p-10 mr-40",
+                        className: " bg-white shadow-lg  rounded-2xl p-10 mr-40",
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "",
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                     className: " flex mt-8 gap-5 ",
@@ -537,7 +561,7 @@ const page = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " flex gap-20",
+                                    className: " flex ",
                                     children: [
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                             className: " flex",
@@ -571,7 +595,7 @@ const page = ()=>{
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
+                                            className: " flex ml-14",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-40 mt-10",
@@ -604,7 +628,7 @@ const page = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " flex gap-20",
+                                    className: " flex ",
                                     children: [
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                             className: " flex",
@@ -638,7 +662,7 @@ const page = ()=>{
                                             ]
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: " flex",
+                                            className: " flex ml-14",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                                     className: " w-40 mt-10",
@@ -703,7 +727,7 @@ const page = ()=>{
                                         children: "by Scarlett St. Clair"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: " text-[13px] mt-3 text-[#145464] font-bold w-[700px]",
+                                        className: " text-[13px] mt-3 text-[#145464] font-bold max-w-md",
                                         children: "Describes what being a foster mom is really like, the effects of foster care on the whole family, and how the foster care system fails severely abused children."
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -812,7 +836,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,33,769], () => (__webpack_exec__(7884)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,3033,8769], () => (__webpack_exec__(2191)));
 module.exports = __webpack_exports__;
 
 })();

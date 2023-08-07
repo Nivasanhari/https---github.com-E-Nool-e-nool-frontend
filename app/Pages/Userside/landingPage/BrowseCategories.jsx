@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Leaf2 from "@/public/assets/LandingPage/Leaf2.png";
+import Link from 'next/link'
 
 import browseCategories1 from "public/assets/LandingPage/browse-categories1.png";
 import browseCategories2 from "public/assets/LandingPage/browse-categories2.png";
@@ -11,7 +12,7 @@ import browseCategories5 from "public/assets/LandingPage/browse-categories5.png"
 
 export default function BrowseCategories() {
   return (
-    <section className="w-full">
+    <section className="w-full ">
       <Image
         className=" hidden lg:block absolute z-0   md:w-28 mt-18"
         src={Leaf2}
@@ -32,9 +33,13 @@ export default function BrowseCategories() {
               </p>
             </div>
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0 flex lg:justify-end ">
+              <Link href='/components/categories'>  
+
               <button className=" text-white bg-[#015464] border-0 py-2 px-6 focus:outline-none w-28 h-10 rounded-[21px] text-sm ">
                 <h1 className="items-center">View all</h1>
+              
               </button>
+              </Link>
             </div>
           </div>
 

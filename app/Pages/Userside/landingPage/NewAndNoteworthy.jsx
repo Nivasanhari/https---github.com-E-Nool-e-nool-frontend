@@ -33,7 +33,7 @@ export default function NewAndNoteworthy() {
         author: 'Scarlett St.Clair',
     };
     return (
-        <section className=" w-full">
+        <section className=" w-full ">
 
 
             <div className=" mx-auto flex justify-between items-center sm:px-16 px-6 py-4" >
@@ -49,7 +49,20 @@ export default function NewAndNoteworthy() {
                         </div>
                     </div>
                     <Swiper
-
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                            },
+                            1028: {
+                                slidesPerView: 6,
+                            },
+                        }}
                         slidesPerView={6}
                         spaceBetween={1}
                         freeMode={true}
@@ -59,59 +72,63 @@ export default function NewAndNoteworthy() {
                         }}
                         modules={[FreeMode, Pagination, Navigation]}
                         className="mySwiper"
+
                     >
-                        <div className="justify-center m-auto ">
-                            <Image className="swiper-button-prev  " src={leftarrow} />
-                            <Image className="swiper-button-next" src={rightarrow} />
+                        <div className="flex items-center w-full h-full">
+                            <Image src={leftarrow} className="swiper-button-prev absolute " />
+                            <Image src={rightarrow} className="swiper-button-next absolute" />
+
+                        </div>
+                        <div className="mx-2">
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
+                            <SwiperSlide>
+
+                                <CarouselCardItems1 />
+                            </SwiperSlide>
                         </div>
 
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
-                        <SwiperSlide>
-
-                            <CarouselCardItems1 />
-                        </SwiperSlide>
                     </Swiper>
-
 
 
 

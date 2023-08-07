@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4436:
+/***/ 4673:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'feedback',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9128)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9128)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\feedback\\page.jsx"];
 
     
 
@@ -308,7 +340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6659:
+/***/ 4090:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -385,7 +417,7 @@ var Lefe1 = __webpack_require__(2758);
 var module_proxy = __webpack_require__(1363);
 ;// CONCATENATED MODULE: ./app/components/staricon/Staricon.jsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Project\e-nool-frontend\app\components\staricon\Staricon.jsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`D:\NextJS\E-Nool - Copy\e-nool-frontend\app\components\staricon\Staricon.jsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -410,31 +442,31 @@ const colors = {
 const page = ()=>{
     const star = Array(5).fill(0);
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: " mb-20",
+        className: " justify-center items-center",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "",
+            className: " m-auto",
             children: [
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: " relative left-44  flex",
+                    className: " relative justify-center mb-20 flex",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                            className: " ml-[500px] mt-60 text-3xl font-extrabold w-[480px] text-[#015464] ",
+                            className: " mt-60 text-3xl font-extrabold w-[480px] text-[#015464] ",
                             children: "Thank You For Subscribing! Write Your Feedback!"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " absolute w-28 left-[1300px] mt-40",
+                            className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
                             src: Lefe1/* default */.Z,
-                            alt: "lefe1-img"
+                            alt: ""
                         })
                     ]
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: " bg-[#7CC9B5] rounded-2xl h-[500px] ml-[460px] mt-20  w-[800px]",
+                    className: " bg-[#7CC9B5] rounded-3xl h-[500px] m-auto w-[800px]",
                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: " ml-12 text-white ",
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
-                                className: " mb-4 mt-3",
+                                className: " mb-4 ",
                                 children: [
                                     "Your email address will not be published. Required fields are marked ",
                                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -549,6 +581,13 @@ const page = ()=>{
                             })
                         ]
                     })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: " mt-10 flex justify-center items-center",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        className: "  p-3 text-white rounded-xl bg-[#7CC9B5]",
+                        children: "Back to Home"
+                    })
                 })
             ]
         })
@@ -601,7 +640,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694], () => (__webpack_exec__(4436)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694], () => (__webpack_exec__(4673)));
 module.exports = __webpack_exports__;
 
 })();

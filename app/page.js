@@ -1,8 +1,8 @@
-import Page from "./Pages/Userside/landingPage/Page"
+import Page from "./Pages/Userside/landingPage/page"
 export default function Home() {
   return (
     <div>
-      <Page/>
+    <Page/> 
     </div>
 
   )

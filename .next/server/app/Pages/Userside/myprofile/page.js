@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
-exports.id = 881;
-exports.ids = [881];
+exports.id = 5881;
+exports.ids = [5881];
 exports.modules = {
 
 /***/ 8038:
@@ -140,6 +140,14 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
+/***/ 2336:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url");
+
+/***/ }),
+
 /***/ 7887:
 /***/ ((module) => {
 
@@ -153,6 +161,14 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/is-bot");
+
+/***/ }),
+
+/***/ 120:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
@@ -172,11 +188,27 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
+/***/ 982:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
+
+/***/ }),
+
 /***/ 9618:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/server-inserted-html");
+
+/***/ }),
+
+/***/ 8423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
@@ -204,7 +236,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1741:
+/***/ 1231:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -243,7 +275,7 @@ __webpack_require__.r(__webpack_exports__);
         'myprofile',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8000)), "C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\myprofile\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8000)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\myprofile\\page.jsx"],
           
         }]
       },
@@ -272,7 +304,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3679)), "C:\\Project\\e-nool-frontend\\app\\layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9058)), "D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7481))).default(props))],
     apple: [],
@@ -283,7 +315,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Project\\e-nool-frontend\\app\\Pages\\Userside\\myprofile\\page.jsx"];
+    const pages = ["D:\\NextJS\\E-Nool - Copy\\e-nool-frontend\\app\\Pages\\Userside\\myprofile\\page.jsx"];
 
     
 
@@ -308,7 +340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6282:
+/***/ 5644:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -316,8 +348,8 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4899));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6315));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3985));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1329));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2479))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2479));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1329))
 
 /***/ }),
 
@@ -367,17 +399,17 @@ const page = ()=>{
         className: "  top-[-500px] rounded-3xl ",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: " pt-10 pb-8 ml-32",
+                className: " container flex  justify-start ml-40 items-start",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: " flex mt-40",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            className: " ml-[200px] bg-[#01adad] rounded-full",
+                            className: "  bg-[#7CC9B5] rounded-full",
                             src: profile,
                             alt: "Profile-img"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: " ml-20 ",
+                            className: " ml-20 mt-10 ",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                                     className: " text-[#015464] text-3xl font-extrabold  ",
@@ -388,19 +420,24 @@ const page = ()=>{
                                     children: "@UserName"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: " mt-5",
+                                    className: " mt-10",
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            className: " bg-[#145464] p-3 px-4 text-white rounded-xl",
+                                            className: " bg-[#145464] p-3 px-4 text-white rounded-3xl",
                                             children: "Edit Profile"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            className: " ml-8 bg-[#01adad] p-3 px-4 text-white rounded-xl",
+                                            className: " ml-8 bg-[#01adad] p-3 px-4 text-white rounded-3xl",
                                             children: "Share Profile"
                                         })
                                     ]
                                 })
                             ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            className: " hidden lg:block absolute top-28 z-0 bottom-36 right-0 w-28 ",
+                            src: Lefe1/* default */.Z,
+                            alt: ""
                         })
                     ]
                 })
@@ -409,10 +446,10 @@ const page = ()=>{
                 className: " mt-8",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                        className: " w-[1660px] bg-[#14adad] text-sm bg-opacity-40 p-[1px]"
+                        className: " bg-[#14adad] text-sm bg-opacity-40 p-[1px]"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                        className: " mt-4 mb-4 ml-64 text-[#015464] text-sm font-bold",
+                        className: " mt-4 mb-4 ml-64 text-[#015464] text-sm font-extrabold",
                         children: "My List"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("hr", {
@@ -423,12 +460,12 @@ const page = ()=>{
                         children: "Currently Reading"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("hr", {
-                        className: " w-[1660px] bg-[#14adad] bg-opacity-40 p-[1px]"
+                        className: " bg-[#14adad] bg-opacity-40 p-[1px]"
                     })
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: " mb-[100px] mt-10 ml-64",
+                className: " container mb-[100px] mt-10 justify-start items-start ml-40 flex",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: " absolute top-[830px] ml-[-440px] w-[350px]",
@@ -444,7 +481,7 @@ const page = ()=>{
                                 alt: "book-img"
                             }),
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: " mt-28 ml-16",
+                                className: " mt-28 ml-16 flex flex-col justify-center ",
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                         className: " text-[#145464] text-2xl font-bold",
@@ -452,22 +489,22 @@ const page = ()=>{
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx(Staricon/* default */.ZP, {}),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: " text-[#14adad] text-sm mt-3",
+                                        className: " text-[#14adad] text-sm mt-",
                                         children: "by Scarlett St. Clair"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: " text-[13px] mt-3 text-[#145464] font-bold w-[700px]",
+                                        className: " text-[13px] mt-3 text-[#145464] font-bold max-w-md md:max-w-sm",
                                         children: "Describes what being a foster mom is really like, the effects of foster care on the whole family, and how the foster care system fails severely abused children."
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: " mt-8",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                className: " bg-[#145464] rounded-xl text-white px-8 py-2",
+                                                className: " bg-[#145464] rounded-3xl text-white px-8 py-2",
                                                 children: "Read"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                className: " bg-[#7CC9B5] rounded-xl text-white px-6 py-2 ml-10",
+                                                className: " bg-[#7CC9B5] rounded-3xl text-white px-6 py-2 ml-10",
                                                 children: "Write Review"
                                             })
                                         ]
@@ -528,7 +565,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [152,131,694,33,769], () => (__webpack_exec__(1741)));
+var __webpack_exports__ = __webpack_require__.X(0, [2697,4160,4694,3033,8769], () => (__webpack_exec__(1231)));
 module.exports = __webpack_exports__;
 
 })();
